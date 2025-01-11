@@ -29,10 +29,10 @@ Env.read_env(os.path.join(BASE_DIR, ".env"))
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('SECRET_KEY')
+SECRET_KEY = 'django-insecure-s-zd%&k4wqkzr32*5v*(ydpyd^i3i3-^(of!aa!20%qqta$jk7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DEBUG')
+DEBUG = True
 
 ALLOWED_HOSTS = [
     'localhost',
@@ -151,7 +151,7 @@ MEDIA_URL = '/media/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'accounts.User'
-SOCIAL_AUTH_PASSWORD = env('SOCIAL_AUTH_PASSWORD')
+SOCIAL_AUTH_PASSWORD = 'qwerty123456#/'
 
 # RESTFRAMEWORK SETTING
 
@@ -167,7 +167,7 @@ REST_FRAMEWORK = {
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = 'arsalannaziri0786@gmail.com'
-EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
+EMAIL_HOST_PASSWORD = 'esze glrh zxfx yxbb'
 EMAIL_USE_TLS = True
 
 # SIMPLEJWT SETTINGS
@@ -218,6 +218,6 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:4200",
 ]
 
-GOOGLE_CLIENT_ID = env('GOOGLE_WEB_CLIENT_ID')
-GEMINI_API_KEY = env('GEMINI_API_KEY')
-YOUTUBE_DEVELOPER_KEY = env('YOUTUBE_DEVELOPER_KEY')
+GOOGLE_CLIENT_ID = "118618584336-p8h5phsqo2nsjk4t81fi6jaibu22e1tt.apps.googleusercontent.com"
+GEMINI_API_KEY = "AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA"
+YOUTUBE_DEVELOPER_KEY = "AIzaSyBsvJiZ5xrobxTDJQRt0loeED77BnhWapw"
