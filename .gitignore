@@ -1,0 +1,6 @@
+include/
+lib/
+Scripts/
+media/
+pyenv.cfg
+db.sqlite3
