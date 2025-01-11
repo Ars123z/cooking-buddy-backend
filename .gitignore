@@ -2,5 +2,6 @@ include/
 lib/
 Scripts/
 media/
+.env
 pyenv.cfg
 db.sqlite3
