@@ -31,9 +31,10 @@ def get_method(id):
                 ["Preheat oven to 350F", "Mix flour and sugar", "Add eggs and mix well"]
                 """)
 
-            print(response.text)
+            print("there is the response" + response.text)
             return extract_ingredients_and_method(response.text)
-    except Exception:
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
         ingredients = []
         method = []
         return ingredients, method
