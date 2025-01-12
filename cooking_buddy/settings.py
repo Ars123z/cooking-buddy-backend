@@ -17,6 +17,9 @@ import sys
 import json
 import base64
 import os
+import logging 
+logger = logging.getLogger('django') 
+logger.error('This is a test error log message')
 
 
 env = Env(
