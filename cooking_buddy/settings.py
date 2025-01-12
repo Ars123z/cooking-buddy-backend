@@ -17,14 +17,7 @@ import sys
 import json
 import base64
 import os
-import logging
 
-logging.basicConfig(level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
-logging.debug('This is a debug message') 
-logging.info('This is an info message') 
-logging.warning('This is a warning message') 
-logging.error('This is an error message') 
-logging.critical('This is a critical message')
 
 env = Env(
     DEBUG=(bool, False),
@@ -279,3 +272,21 @@ GOOGLE_CLIENT_ID = "118618584336-p8h5phsqo2nsjk4t81fi6jaibu22e1tt.apps.googleuse
 GEMINI_API_KEY = "AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA"
 YOUTUBE_DEVELOPER_KEY = "AIzaSyBsvJiZ5xrobxTDJQRt0loeED77BnhWapw"
 
+# ================================================
+Logging = {
+    'version': 1,
+    'disable_existing_loggers': False,
+    'handlers': {
+        'console': {
+            'level': 'DEBUG',
+            'class': 'logging.StreamHandler',
+        },
+    },
+    'loggers': {
+        'django': {
+            'handlers': ['console'],
+            'level': 'DEBUG',
+            'propagate': True,
+        },
+    },
+}
