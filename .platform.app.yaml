@@ -69,6 +69,8 @@ hooks:
   # More information: https://docs.platform.sh/create-apps/hooks/hooks-comparison.html#build-hook
   build: |
     set -eu
+    mkdir -p logs
+    chmod 755 logs
 
     # Download the latest version of pip
     python3.10 -m pip install --upgrade pip
