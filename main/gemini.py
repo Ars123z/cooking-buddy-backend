@@ -34,7 +34,7 @@ def get_method(id):
             print("there is the response" + response.text)
             return extract_ingredients_and_method(response.text)
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        print(f"An unexpected error occurred: {e.message}")
         ingredients = []
         method = []
         return ingredients, method
