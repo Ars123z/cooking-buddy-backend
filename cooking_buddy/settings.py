@@ -64,8 +64,7 @@ ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
     "192.168.1.15",
-    'arsalan0786.pythonanywhere.com',
-    '.platformsh.site',
+    'cooking-buddy-backend-production.up.railway.app',
 ]
 
 # Application definition
