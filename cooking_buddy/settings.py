@@ -17,9 +17,25 @@ import sys
 import json
 import base64
 import os
-import logging 
-logger = logging.getLogger('django') 
-logger.error('This is a test error log message')
+
+BASE_DIR = Path(__file__).resolve().parent.parent
+
+LOGGING = {
+    "version": 1,  # the dictConfig format version
+    "disable_existing_loggers": False,  # retain the default loggers
+    "handlers": {
+        "file": {
+            "class": "logging.FileHandler",
+            "filename": Path.joinpath(BASE_DIR, "logs", "general.log"),
+        },
+    },
+        "loggers": {
+        "": {
+            "handlers": ["file"],
+        },
+    },
+}
+
 
 
 env = Env(
@@ -36,7 +52,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = 'django-insecure-s-zd%&k4wqkzr32*5v*(ydpyd^i3i3-^(of!aa!20%qqta$jk7'
+SECRET_KEY = 'django-insecure-s-zd%&k4wqkzr32*5v*(ydpyd^i3i3-^(of!aa!20%qqta$jk7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 
@@ -147,12 +163,12 @@ WSGI_APPLICATION = 'cooking_buddy.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 
 # Password validation
@@ -289,18 +305,16 @@ Logging = {
             'style': '{',
         },
     },
-    'handlers': {
-        'file': {
-            'level': 'ERROR',
-            'class': 'logging.FileHandler',
-            'filename': os.path.join(BASE_DIR, 'logs', 'django_errors.log'),
-            'formatter': 'verbose',
+    "handlers": {
+        "file": {
+            "class": "logging.FileHandler",
+            "filename": "general.log",
         },
     },
     'loggers': {
         'django': {
             'handlers': ['file'],
-            'level': 'ERROR',
+            'level': 'DEBUG',
             'propagate': True,
         },
     },

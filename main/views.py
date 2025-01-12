@@ -1,4 +1,5 @@
 from django.shortcuts import render
+import logging
 
 # Create your views here.
 from rest_framework.generics import GenericAPIView
@@ -12,10 +13,14 @@ from main.serializers import HistorySearchSerializer, PlayListSerializer, Recomm
 
 class SearchView(GenericAPIView):
     serializer_class = SearchSerializer
+    
 
     def get(self, request):
         serializer = self.serializer_class(data = request.query_params)
         print("Checking the serializer")
+        logger = logging.getLogger(__name__)
+        logger.debug("Payment system is not responding")
+        logger.debug("Checking the serializer")
         if serializer.is_valid():
             return Response(serializer.validated_data, status= status.HTTP_200_OK)
         return Response(serializer.errors, status= status.HTTP_400_BAD_REQUEST)
