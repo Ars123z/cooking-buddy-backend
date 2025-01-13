@@ -13,6 +13,7 @@ from rest_framework_simplejwt.tokens import RefreshToken, TokenError
 # for testing
 from django.core.mail import send_mail
 from django.conf import settings
+from .models import PasswordResetOtp
 
 
 class UserRegisterSerializer(serializers.ModelSerializer):
@@ -78,10 +79,10 @@ class PasswordResetRequestSerializer(serializers.Serializer):
         fields = ['email']
 
     def validate(self, attrs):
-        
         email = attrs.get('email')
         if User.objects.filter(email=email).exists():
             user= User.objects.get(email=email)
+            resetotp = PasswordResetOtp.objects.create(user=user)
             uidb64=urlsafe_base64_encode(smart_bytes(user.id))
             token = PasswordResetTokenGenerator().make_token(user)
             request=self.context.get('request')
@@ -89,24 +90,13 @@ class PasswordResetRequestSerializer(serializers.Serializer):
             relative_link =reverse('reset-password-confirm', kwargs={'uidb64':uidb64, 'token':token})
             abslink=f"http://{current_site}{relative_link}"
             # for testing
-            app_link =f"http://reset-password?uidb64=12345"
-            print(abslink)
-            email_body=f"Hi {user.first_name} use the link below to reset your password {abslink}"
+            email_body=f"Hi {user.first_name} use the otp below to reset your password {resetotp.otp}"
             data={
                 'email_body':email_body, 
                 'email_subject':"Reset your Password", 
                 'to_email':user.email
                 }
             send_normal_email(data)
-            send_mail(
-                subject="Password Reset",
-                message="",
-                from_email=settings.EMAIL_HOST_USER,
-                recipient_list=[user.email],
-                html_message=f"Click the link below to reset your password <a href='{app_link}'>Reset Password</a>"
-
-            )
-
         return super().validate(attrs)
 
     
@@ -138,7 +128,29 @@ class SetNewPasswordSerializer(serializers.Serializer):
         except Exception as e:
             return AuthenticationFailed("link is invalid or has expired")
 
+class SetNewPasswordWithOtpSerializer(serializers.Serializer):
+        password=serializers.CharField(max_length=100, min_length=6, write_only=True)
+        confirm_password=serializers.CharField(max_length=100, min_length=6, write_only=True)
+        token=serializers.CharField(min_length=3, write_only=True)
 
+        class Meta:
+            fields = ['password', 'confirm_password', 'token']
+
+        def validate(self, attrs):
+            try:
+                token=attrs.get('token')
+                password=attrs.get('password')
+                confirm_password=attrs.get('confirm_password')
+
+                otp=PasswordResetOtp.objects.get(otp=token)
+                user=otp.user
+                if password != confirm_password:
+                    raise AuthenticationFailed("passwords do not match")
+                user.set_password(password)
+                user.save()
+                return user
+            except Exception as e:
+                return AuthenticationFailed("link is invalid or has expired")
     
 class LogoutUserSerializer(serializers.Serializer):
     refresh_token=serializers.CharField()

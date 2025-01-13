@@ -9,3 +9,97 @@ Not Found: /api/v1/video/ingredient-method//
 Not Found: /api/v1/video/ingredient-method//
 Forbidden: /api/v1/history/
 Forbidden: /api/v1/playlists/
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /accounts/password-reset/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: accounts_passwordresetotp
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\views.py", line 67, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\serializers.py", line 429, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\serializers.py", line 85, in validate
+    resetotp = PasswordResetOtp.objects.create(user=user)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 658, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\models.py", line 62, in save
+    self.otp = self.generate_unique_otp()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\models.py", line 68, in generate_unique_otp
+    if not PasswordResetOtp.objects.filter(otp=otp).exists():
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 1241, in exists
+    return self.query.has_results(using=self.db)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\sql\query.py", line 566, in has_results
+    return compiler.has_results()
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\sql\compiler.py", line 1528, in has_results
+    return bool(self.execute_sql(SINGLE))
+                ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\sql\compiler.py", line 1560, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\backends\utils.py", line 102, in execute
+    return super().execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\backends\utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\backends\utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\backends\utils.py", line 89, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\backends\sqlite3\base.py", line 328, in execute
+    return super().execute(query, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.OperationalError: no such table: accounts_passwordresetotp
+Watching for file changes with StatReloader
+Not Found: /accounts/set-new-password-with-otp/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\urls.py changed, reloading.
+Watching for file changes with StatReloader

@@ -1,7 +1,7 @@
 from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
 from accounts.models import OneTimePassword
-from accounts.serializers import PasswordResetRequestSerializer,LogoutUserSerializer, UserRegisterSerializer, LoginSerializer, SetNewPasswordSerializer
+from accounts.serializers import PasswordResetRequestSerializer,LogoutUserSerializer, UserRegisterSerializer, LoginSerializer, SetNewPasswordSerializer, SetNewPasswordWithOtpSerializer
 from rest_framework import status
 from .utils import send_generated_otp_to_email
 from django.utils.http import urlsafe_base64_decode
@@ -87,6 +87,14 @@ class PasswordResetConfirm(GenericAPIView):
 
 class SetNewPasswordView(GenericAPIView):
     serializer_class=SetNewPasswordSerializer
+
+    def patch(self, request):
+        serializer=self.serializer_class(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        return Response({'success':True, 'message':"password reset is succesful"}, status=status.HTTP_200_OK)
+    
+class SetNewPasswordWithOtpView(GenericAPIView):
+    serializer_class=SetNewPasswordWithOtpSerializer
 
     def patch(self, request):
         serializer=self.serializer_class(data=request.data)

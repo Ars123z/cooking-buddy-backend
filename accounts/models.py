@@ -4,6 +4,7 @@ from django.utils.translation import gettext_lazy as _
 from rest_framework_simplejwt.tokens import RefreshToken
 from .managers import UserManager
 from django.contrib.auth import get_user_model
+import uuid
 
 
 # Create your models here.
@@ -50,3 +51,19 @@ class UserProfile(models.Model):
 class OneTimePassword(models.Model):
     user = models.OneToOneField(get_user_model(), on_delete=models.CASCADE)
     otp = models.CharField(max_length=6)
+
+
+class PasswordResetOtp(models.Model):
+    user = models.OneToOneField(get_user_model(), on_delete=models.CASCADE)
+    otp = models.CharField(max_length=6)
+
+    def save(self, *args, **kwargs):
+        if not self.otp:
+            self.otp = self.generate_unique_otp()
+        super().save(*args, **kwargs)
+
+    def generate_unique_otp(self):
+        while True:
+            otp = str(uuid.uuid4().int)[:8]
+            if not PasswordResetOtp.objects.filter(otp=otp).exists():
+                return otp
