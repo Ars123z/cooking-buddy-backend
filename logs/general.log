@@ -1,1 +1,11 @@
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Bad Request: /api/v1/update-watch-history/
+Not Found: /api/v1/video/ingredient-method//
+Bad Request: /api/v1/update-watch-history/
+Not Found: /api/v1/video/ingredient-method//
+Bad Request: /api/v1/update-watch-history/
+Not Found: /api/v1/video/ingredient-method//
+Not Found: /api/v1/video/ingredient-method//
+Forbidden: /api/v1/history/
+Forbidden: /api/v1/playlists/
