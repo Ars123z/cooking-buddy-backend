@@ -103,3 +103,288 @@ Watching for file changes with StatReloader
 Not Found: /accounts/set-new-password-with-otp/
 C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\urls.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Forbidden: /accounts/login/
+Not Found: /api/v1/history/
+Watching for file changes with StatReloader
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/video/ingredient-method//
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Not Found: /api/v1/history/
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Method Not Allowed: /social/google/
+Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /api/v1/video/ingredient-method//
+Not Found: /api/v1/history/
+Not Found: /api/v1/video/ingredient-method//
+Not Found: /api/v1/video/ingredient-method//
+Not Found: /api/v1/video/ingredient-method//
+Internal Server Error: /api/v1/video/ingredient-method/kZQ_yD_lo10/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\gemini.py", line 11, in get_method
+    list = YouTubeTranscriptApi.list_transcripts(id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\youtube_transcript_api\_api.py", line 71, in list_transcripts
+    return TranscriptListFetcher(http_client).fetch(video_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\youtube_transcript_api\_transcripts.py", line 49, in fetch
+    self._extract_captions_json(self._fetch_video_html(video_id), video_id),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\youtube_transcript_api\_transcripts.py", line 63, in _extract_captions_json
+    raise TranscriptsDisabled(video_id)
+youtube_transcript_api._errors.TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=kZQ_yD_lo10! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 231, in get
+    ingredient_list, method = get_method(instance.video_id)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\gemini.py", line 37, in get_method
+    print(f"An unexpected error occurred: {e.message}")
+                                           ^^^^^^^^^
+AttributeError: 'TranscriptsDisabled' object has no attribute 'message'
+Internal Server Error: /api/v1/video/ingredient-method/kZQ_yD_lo10/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\gemini.py", line 11, in get_method
+    list = YouTubeTranscriptApi.list_transcripts(id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\youtube_transcript_api\_api.py", line 71, in list_transcripts
+    return TranscriptListFetcher(http_client).fetch(video_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\youtube_transcript_api\_transcripts.py", line 49, in fetch
+    self._extract_captions_json(self._fetch_video_html(video_id), video_id),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\youtube_transcript_api\_transcripts.py", line 63, in _extract_captions_json
+    raise TranscriptsDisabled(video_id)
+youtube_transcript_api._errors.TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=kZQ_yD_lo10! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 231, in get
+    ingredient_list, method = get_method(instance.video_id)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\gemini.py", line 37, in get_method
+    print(f"An unexpected error occurred: {e.message}")
+                                           ^^^^^^^^^
+AttributeError: 'TranscriptsDisabled' object has no attribute 'message'
+Internal Server Error: /api/v1/video/ingredient-method/kZQ_yD_lo10/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\gemini.py", line 11, in get_method
+    list = YouTubeTranscriptApi.list_transcripts(id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\youtube_transcript_api\_api.py", line 71, in list_transcripts
+    return TranscriptListFetcher(http_client).fetch(video_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\youtube_transcript_api\_transcripts.py", line 49, in fetch
+    self._extract_captions_json(self._fetch_video_html(video_id), video_id),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\youtube_transcript_api\_transcripts.py", line 63, in _extract_captions_json
+    raise TranscriptsDisabled(video_id)
+youtube_transcript_api._errors.TranscriptsDisabled: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=kZQ_yD_lo10! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 231, in get
+    ingredient_list, method = get_method(instance.video_id)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\gemini.py", line 37, in get_method
+    print(f"An unexpected error occurred: {e.message}")
+                                           ^^^^^^^^^
+AttributeError: 'TranscriptsDisabled' object has no attribute 'message'
+Not Found: /api/v1/video/ingredient-method//
+Not Found: /api/v1/video/ingredient-method//
+Forbidden: /api/v1/search/
+Watching for file changes with StatReloader
+Not Found: /api/playlists/
+Forbidden: /api/v1/playlists/
+Not Found: /favicon.ico
+Not Found: /api/v1/7/
+Not Found: /api/v1/playlist/7/
+Forbidden: /api/v1/playlists/7/
+Forbidden: /api/v1/playlists/14/
+Forbidden: /api/v1/playlists/15/
+Not Found: /api/v1/playlists/4/
+Internal Server Error: /api/v1/playlists/14
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to 127.0.0.1:8000/api/v1/playlists/14/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Bad Request: /api/v1/playlists/14/
+Bad Request: /api/v1/playlists/14/
+Method Not Allowed: /api/v1/playlists/14/
+Bad Request: /api/v1/playlists/14/
+Bad Request: /api/v1/playlists/14/
+Method Not Allowed: /api/v1/playlists/14/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/v1/history/
+Forbidden: /api/v1/playlists/
+Internal Server Error: /api/v1/playlists/8
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\utils\deprecation.py", line 136, in __call__
+    response = self.process_response(request, response)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\middleware\common.py", line 108, in process_response
+    return self.response_redirect_class(self.get_full_path_with_slash(request))
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\middleware\common.py", line 87, in get_full_path_with_slash
+    raise RuntimeError(
+RuntimeError: You called this URL via PATCH, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining PATCH data. Change your form to point to 192.168.1.15:8000/api/v1/playlists/8/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+Bad Request: /api/v1/playlists/7/
+Forbidden: /api/v1/playlists/14/
+Watching for file changes with StatReloader
+Forbidden: /api/v1/playlists/14/
+Internal Server Error: /api/v1/playlists/14/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 122, in put
+    serializer.save()
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\serializers.py", line 207, in save
+    self.instance = self.update(self.instance, validated_data)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\serializers.py", line 224, in update
+    video = Video.objects.get(video_id=id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+Bad Request: /api/v1/playlists/7/
+Bad Request: /api/v1/playlists/14/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader

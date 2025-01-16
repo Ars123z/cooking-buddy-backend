@@ -174,12 +174,12 @@ class PlayListSerializer(serializers.ModelSerializer):
     Serializer for PlayList model with comprehensive validation and custom create/update methods
     """
     add_video_ids = serializers.ListField(
-        child=serializers.IntegerField(), 
+        child=serializers.CharField(), 
         write_only=True,
         required=False
         ) # Assuming video_id is an IntegerField
     remove_video_ids = serializers.ListField(
-        child=serializers.IntegerField(), 
+        child=serializers.CharField(), 
         write_only=True,
         required=False
         ) 
@@ -221,7 +221,7 @@ class PlayListSerializer(serializers.ModelSerializer):
         add_video_intances = []
         if add_video_ids is not None:
             for id in add_video_ids:
-                video = Video.objects.get(id=id)
+                video = Video.objects.get(video_id=id)
                 if video not in instance.videos.all():
                     add_video_intances.append(video)
             instance.videos.add(*add_video_intances)
@@ -229,7 +229,7 @@ class PlayListSerializer(serializers.ModelSerializer):
         
         if remove_video_ids is not None:
             for id in remove_video_ids:
-                video = Video.objects.get(id=id)
+                video = Video.objects.get(video_id=id)
                 if video in instance.videos.all():
                     instance.videos.remove(video)
             
