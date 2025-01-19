@@ -1,14 +1,15 @@
-from rest_framework.generics import GenericAPIView
+from rest_framework.generics import GenericAPIView, RetrieveUpdateAPIView
 from rest_framework.response import Response
 from accounts.models import OneTimePassword
-from accounts.serializers import PasswordResetRequestSerializer,LogoutUserSerializer, UserRegisterSerializer, LoginSerializer, SetNewPasswordSerializer, SetNewPasswordWithOtpSerializer
+from accounts.serializers import PasswordResetRequestSerializer,LogoutUserSerializer, UserRegisterSerializer, LoginSerializer, SetNewPasswordSerializer, SetNewPasswordWithOtpSerializer, UserProfileSerializer
 from rest_framework import status
 from .utils import send_generated_otp_to_email
 from django.utils.http import urlsafe_base64_decode
 from django.utils.encoding import smart_str, DjangoUnicodeDecodeError
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from rest_framework.permissions import IsAuthenticated
-from .models import User
+from .models import User, UserProfile
+from rest_framework.exceptions import NotFound
 # Create your views here.
 
 
@@ -122,3 +123,10 @@ class LogoutApiView(GenericAPIView):
         serializer.save()
         return Response(status=status.HTTP_204_NO_CONTENT)
 # Create your views here.
+
+class UserProfileView(RetrieveUpdateAPIView): 
+    serializer_class = UserProfileSerializer 
+    permission_classes = [IsAuthenticated]
+    def get_object(self): 
+        return UserProfile.objects.get(user=self.request.user)
+    

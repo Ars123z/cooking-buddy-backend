@@ -1,4 +1,4 @@
-from .models import User
+from .models import User, UserProfile
 from rest_framework import serializers
 from string import ascii_lowercase, ascii_uppercase
 from django.contrib.auth import authenticate
@@ -170,3 +170,10 @@ class LogoutUserSerializer(serializers.Serializer):
             token.blacklist()
         except TokenError:
             return self.fail('bad_token')
+        
+class UserProfileSerializer(serializers.ModelSerializer): 
+    
+    class Meta: 
+        model = UserProfile 
+        fields = ['user', 'region', 'language', 'subscription', 'subscription_validity_date']
+        read_only_fields = ['user']

@@ -16,6 +16,9 @@ class Video(models.Model):
     thumbnail = models.URLField(max_length=200)
     ingredient_list = models.JSONField()
     method = models.JSONField()
+    
+    def __str__(self): 
+        return self.title
 
 
 class PlayList(models.Model):
@@ -27,4 +30,11 @@ class PlayList(models.Model):
 class WatchHistory(models.Model):
     user = models.OneToOneField(get_user_model(), on_delete=models.CASCADE)
     videos = models.ManyToManyField(Video, related_name='watched_by_user')
+
+
+class Labels(models.Model):
+    name = models.CharField(max_length=255)
+    videos = models.ManyToManyField(Video, related_name='labels')
+    region = models.CharField(max_length=255)
+    last_updated = models.DateTimeField(auto_now=True)
 

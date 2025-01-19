@@ -6,7 +6,7 @@ from .views import (
         LoginUserView, 
         TestingAuthenticatedReq, 
         PasswordResetConfirm, 
-        PasswordResetRequestView,SetNewPasswordView, SetNewPasswordWithOtpView ,LogoutApiView)
+        PasswordResetRequestView,SetNewPasswordView, SetNewPasswordWithOtpView ,LogoutApiView, UserProfileView)
 from rest_framework_simplejwt.views import (TokenRefreshView,)
 
 urlpatterns = [
@@ -19,5 +19,6 @@ urlpatterns = [
     path('password-reset-confirm/<uidb64>/<token>/', PasswordResetConfirm.as_view(), name='reset-password-confirm'),
     path('set-new-password/', SetNewPasswordView.as_view(), name='set-new-password'),
     path('set-new-password-with-otp/', SetNewPasswordWithOtpView.as_view(), name='set-new-password-with-otp'),
-    path('logout/', LogoutApiView.as_view(), name='logout')
+    path('logout/', LogoutApiView.as_view(), name='logout'),
+    path('profile/', UserProfileView.as_view(), name='profile'),
     ]

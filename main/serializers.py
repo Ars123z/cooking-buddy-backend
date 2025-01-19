@@ -6,7 +6,7 @@ import random
 from django.conf import settings
 
 from main.gemini import get_method
-from .models import WatchHistory, PlayList
+from .models import WatchHistory, PlayList, Labels
 
 from main.models import Video
 
@@ -20,17 +20,17 @@ class SearchSerializer(serializers.Serializer):
                 q=search_string,
                 part='snippet',
                 type='video',
-                regionCode="pk",
+                regionCode="us",
                 videoDuration='medium',
                 relevanceLanguage='ur',
-                maxResults=5
+                maxResults=10
             )
 
             response = request.execute()
 
             response_list = []
             for obj in response['items']:
-                response_list.append({"video_id": obj['id']['videoId'], "title": obj['snippet']["title"], "description": obj['snippet']['description'], "thumbnail": obj['snippet']['thumbnails']['default']["url"], "channel_name": obj['snippet']["channelTitle"], "method": [], "ingredient_list": []})
+                response_list.append({"video_id": obj['id']['videoId'], "title": obj['snippet']["title"], "description": obj['snippet']['description'], "thumbnail": obj['snippet']['thumbnails']['high']["url"], "channel_name": obj['snippet']["channelTitle"], "method": [], "ingredient_list": []})
 
              # Save each video in the database using the serializer 
             for video_data in response_list: 
@@ -266,3 +266,12 @@ class UpdateWatchHistorySerializer(serializers.Serializer):
         history, created = WatchHistory.objects.get_or_create(user=user)
         history.videos.add(video)
         user.save()
+
+
+
+class LabelSerializer(serializers.ModelSerializer):
+
+    class Meta:
+        model = Labels
+        fields = ['id', 'name', 'videos', 'region', 'last_updated']
+        read_only_fields = ['last_updated', 'id',]

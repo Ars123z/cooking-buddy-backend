@@ -2,14 +2,14 @@ from django.shortcuts import render
 import logging
 
 # Create your views here.
-from rest_framework.generics import GenericAPIView
+from rest_framework.generics import GenericAPIView, ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
 
 from main.gemini import get_method
-from .models import PlayList, Video, WatchHistory
-from main.serializers import HistorySearchSerializer, PlayListSerializer, RecommendationSerializer, SearchSerializer, UpdateWatchHistorySerializer, VideoSerializer
+from .models import PlayList, Video, WatchHistory, Labels
+from main.serializers import HistorySearchSerializer, PlayListSerializer, RecommendationSerializer, SearchSerializer, UpdateWatchHistorySerializer, VideoSerializer, LabelSerializer
 
 class SearchView(GenericAPIView):
     serializer_class = SearchSerializer
@@ -189,7 +189,7 @@ class VideoView(GenericAPIView):
     def get(self, request, id):
         try:
             # Retrieve the video by its video_id
-            query = Video.objects.get(video_id=id)
+            query = Video.objects.get(id=id)
             
             # Serialize the video object
             serializer = self.serializer_class(query)
@@ -241,3 +241,18 @@ class IngredientMethodView(GenericAPIView):
             }, status=status.HTTP_404_NOT_FOUND)
         return Response({"ingredient_list": ingredient_list,
                          "method": method})
+   
+    
+class LabelListView(ListCreateAPIView): 
+    serializer_class = LabelSerializer 
+    def get_queryset(self): 
+        queryset = Labels.objects.all() 
+        region = self.request.query_params.get('region', None) 
+        if region is not None: 
+            queryset = queryset.filter(region=region) 
+        return queryset
+
+class LabelDetailView(RetrieveUpdateDestroyAPIView): 
+    queryset = Labels.objects.all() 
+    serializer_class = LabelSerializer 
+    lookup_field = 'pk'
