@@ -261,6 +261,10 @@ CORS_ALLOWED_ORIGINS = [
     'https://cooking-buddy-backend-production.up.railway.app'
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://cooking-buddy-backend-production.up.railway.app',
+]
+
 GOOGLE_CLIENT_ID = "118618584336-p8h5phsqo2nsjk4t81fi6jaibu22e1tt.apps.googleusercontent.com"
 GEMINI_API_KEY = "AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA"
 YOUTUBE_DEVELOPER_KEY = "AIzaSyBsvJiZ5xrobxTDJQRt0loeED77BnhWapw"
