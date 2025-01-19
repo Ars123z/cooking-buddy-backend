@@ -121,12 +121,27 @@ WSGI_APPLICATION = 'cooking_buddy.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'railway',
+        'USER': 'postgres',
+        'PASSWORD': 'EqvunyHHUrqbrHySbHyfTkQsdIqDpkwL',
+        'HOST': 'monorail.proxy.rlwy.net',
+        'PORT': 59109,
+        'OPTIONS': {
+            'sslmode': 'require',
+        },
     }
 }
+
 
 
 # Password validation
@@ -243,6 +258,7 @@ CORS_ALLOWED_ORIGINS = [
 
     "http://localhost:4200",
     "http://127.0.0.1:4200",
+    'https://cooking-buddy-backend-production.up.railway.app'
 ]
 
 GOOGLE_CLIENT_ID = "118618584336-p8h5phsqo2nsjk4t81fi6jaibu22e1tt.apps.googleusercontent.com"
