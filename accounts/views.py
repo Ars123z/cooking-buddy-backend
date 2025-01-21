@@ -127,6 +127,8 @@ class LogoutApiView(GenericAPIView):
 class UserProfileView(RetrieveUpdateAPIView): 
     serializer_class = UserProfileSerializer 
     permission_classes = [IsAuthenticated]
-    def get_object(self): 
+    
+    def get_object(self):
+        print(self.request.body) 
         return UserProfile.objects.get(user=self.request.user)
     
