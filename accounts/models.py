@@ -46,8 +46,8 @@ class User(AbstractBaseUser, PermissionsMixin):
     
 class UserProfile(models.Model):
     user = models.OneToOneField(get_user_model(), on_delete=models.CASCADE)
-    region = models.CharField(max_length=255)
-    language = models.CharField(max_length=255)
+    region = models.CharField(max_length=2, default="us")
+    language = models.CharField(max_length=2, default="en")
     subscription = models.BooleanField(default=False)
     subscription_validity_date = models.DateTimeField(null=True, blank=True)
 

@@ -28,6 +28,10 @@ def register_social_user(provider, email, first_name, last_name, picture):
                 'picture':picture,
                 'access_token':str(tokens.get('access_token')),
                 'refresh_token':str(tokens.get('refresh_token')),
+                'subscription':register_user.userprofile.subscription,
+                'subscription_validity_date':register_user.userprofile.subscription_validity_date,
+                'language':register_user.userprofile.language,
+                'region':register_user.userprofile.region
             }
         else:
             raise AuthenticationFailed(
@@ -53,4 +57,8 @@ def register_social_user(provider, email, first_name, last_name, picture):
             'picture':picture,
             "access_token":str(tokens.get('access_token')),
             "refresh_token":str(tokens.get('refresh_token')),
+            "subscription":login_user.userprofile.subscription,
+            "subscription_validity_date":"" if login_user.userprofile.subscription_validity_date == None else login_user.userprofile.subscription_validity_date,
+            "language":login_user.userprofile.language,
+            "region":login_user.userprofile.region
         }

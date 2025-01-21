@@ -1324,3 +1324,106 @@ Watching for file changes with StatReloader
 Forbidden: /api/v1/labels/
 C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\serializers.py changed, reloading.
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden: /accounts/login/
+Not Found: /favicon.ico
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\cooking_buddy\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /accounts/login/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\views.py", line 59, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\serializers.py", line 429, in run_validation
+    value = self.validate(value)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\serializers.py", line 82, in validate
+    "subscription_status": user.userprofile.subscription_status,
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'UserProfile' object has no attribute 'subscription_status'
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Internal Server Error: /social/google/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\social_accounts\views.py", line 14, in post
+    serializer.is_valid(raise_exception=True)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\serializers.py", line 227, in is_valid
+    self._validated_data = self.run_validation(self.initial_data)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\serializers.py", line 426, in run_validation
+    value = self.to_internal_value(data)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\serializers.py", line 485, in to_internal_value
+    validated_value = validate_method(validated_value)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\social_accounts\serializers.py", line 28, in validate_access_token
+    return register_social_user(provider, email, first_name, last_name, picture)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\social_accounts\helpers.py", line 31, in register_social_user
+    'subscription':register_user.user_profile.subscription,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'User' object has no attribute 'user_profile'
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\social_accounts\helpers.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\accounts\models.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\social_accounts\helpers.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\cooking_buddy\settings.py changed, reloading.
+Watching for file changes with StatReloader

@@ -40,6 +40,12 @@ class UserRegisterSerializer(serializers.ModelSerializer):
             password=validated_data.get('password')
             )
         return user
+    
+class UserProfileSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = UserProfile
+        fields = ['user', 'region', 'language', 'subscription', 'subscription_validity_date']
+        read_only_fields = ['user']
 
 class LoginSerializer(serializers.ModelSerializer):
     email = serializers.EmailField(max_length=155, min_length=6)
@@ -47,10 +53,11 @@ class LoginSerializer(serializers.ModelSerializer):
     full_name=serializers.CharField(max_length=255, read_only=True)
     access_token=serializers.CharField(max_length=255, read_only=True)
     refresh_token=serializers.CharField(max_length=255, read_only=True)
+    user_profile = UserProfileSerializer(read_only=True)
 
     class Meta:
         model = User
-        fields = ['email', 'password', 'full_name', 'access_token', 'refresh_token']
+        fields = ['email', 'password', 'full_name', 'access_token', 'refresh_token', 'user_profile']
 
     
 
@@ -68,7 +75,13 @@ class LoginSerializer(serializers.ModelSerializer):
             'email':user.email,
             'full_name':user.get_full_name,
             "access_token":str(tokens.get('access_token')),
-            "refresh_token":str(tokens.get('refresh_token'))
+            "refresh_token":str(tokens.get('refresh_token')),
+            "user_profile": { 
+                "region": user.userprofile.region, 
+                "language": user.userprofile.language, 
+                "subscription": user.userprofile.subscription, 
+                "subscription_validity_date": "" if user.userprofile.subscription_validity_date == None else user.userprofile.subscription_validity_date
+                }
         }
 
 
