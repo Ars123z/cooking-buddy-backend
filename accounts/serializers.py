@@ -42,10 +42,15 @@ class UserRegisterSerializer(serializers.ModelSerializer):
         return user
     
 class UserProfileSerializer(serializers.ModelSerializer):
+    subscription_validity_date = serializers.SerializerMethodField()
     class Meta:
         model = UserProfile
         fields = ['user', 'region', 'language', 'subscription', 'subscription_validity_date']
         read_only_fields = ['user']
+
+    def get_subscription_validity_date(self, obj):
+        # Return an empty string if the field is null, otherwise return the value
+        return obj.subscription_validity_date or ""
 
 class LoginSerializer(serializers.ModelSerializer):
     email = serializers.EmailField(max_length=155, min_length=6)
