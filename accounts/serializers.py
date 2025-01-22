@@ -48,9 +48,6 @@ class UserProfileSerializer(serializers.ModelSerializer):
         fields = ['user', 'region', 'language', 'subscription', 'subscription_validity_date']
         read_only_fields = ['user']
 
-    def get_subscription_validity_date(self, obj):
-        # Return an empty string if the field is null, otherwise return the value
-        return obj.subscription_validity_date or ""
 
 class LoginSerializer(serializers.ModelSerializer):
     email = serializers.EmailField(max_length=155, min_length=6)
@@ -85,7 +82,7 @@ class LoginSerializer(serializers.ModelSerializer):
                 "region": user.userprofile.region, 
                 "language": user.userprofile.language, 
                 "subscription": user.userprofile.subscription, 
-                "subscription_validity_date": "" if user.userprofile.subscription_validity_date == None else user.userprofile.subscription_validity_date
+                "subscription_validity_date": user.userprofile.subscription_validity_date
                 }
         }
 
