@@ -44,8 +44,7 @@ class UserRegisterSerializer(serializers.ModelSerializer):
 class UserProfileSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserProfile
-        fields = ['user', 'region', 'language', 'subscription', 'subscription_validity_date']
-        read_only_fields = ['user']
+        fields = ['region', 'language', 'subscription', 'subscription_validity_date']
 
 
 class LoginSerializer(serializers.ModelSerializer):
