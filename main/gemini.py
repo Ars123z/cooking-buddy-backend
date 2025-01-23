@@ -35,22 +35,22 @@ def get_method(id):
             print("there is the response" + response.text)
             return extract_ingredients_and_method(response.text)
     except TranscriptsDisabled as e:
-        print(f"An unexpected error occurred: {e.with_traceback}")
+        print(f"An unexpected error occurred: {e.with_traceback()}")
         ingredients = []
         method = []
         return ingredients, method
     except NoTranscriptFound as e:
-        print(f"An unexpected error occurred: {e.with_traceback}")
+        print(f"An unexpected error occurred: {e.with_traceback()}")
         ingredients = []
         method = []
         return ingredients, method
     except VideoUnavailable as e:
-        print(f"An unexpected error occurred: {e.with_traceback}")
+        print(f"An unexpected error occurred: {e.with_traceback()}")
         ingredients = []
         method = []
         return ingredients, method
     except TooManyRequests as e:
-        print(f"An unexpected error occurred: {e.with_traceback}")
+        print(f"An unexpected error occurred: {e.with_traceback()}")
         ingredients = []
         method = []
         return ingredients, method
