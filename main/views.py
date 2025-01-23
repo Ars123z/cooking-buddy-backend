@@ -16,7 +16,7 @@ class SearchView(GenericAPIView):
     
 
     def get(self, request):
-        serializer = self.serializer_class(data = request.query_params)
+        serializer = self.serializer_class(data = request.query_params, context= {"user": request.user})
         print("Checking the serializer")
         logger = logging.getLogger(__name__)
         logger.debug("Payment system is not responding")

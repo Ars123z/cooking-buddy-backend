@@ -13,14 +13,15 @@ from main.models import Video
 class SearchSerializer(serializers.Serializer):
     q = serializers.CharField(max_length=255)
 
-    def search(self, search_string):
+    def search(self, search_string, user):
+        region = user.user_profile.region
         try:
             youtube = build('youtube', 'v3', developerKey=settings.YOUTUBE_DEVELOPER_KEY)
             request = youtube.search().list(
                 q=search_string,
                 part='snippet',
                 type='video',
-                regionCode="us",
+                regionCode=region,
                 videoDuration='medium',
                 relevanceLanguage='ur',
                 maxResults=10
@@ -97,7 +98,8 @@ class SearchSerializer(serializers.Serializer):
         
     def validate(self, attrs):
         search_string = attrs.get('q')
-        results =self.search(search_string)
+        user = self.context.get('user')
+        results =self.search(search_string, user)
         return {'results': results}
     
 
