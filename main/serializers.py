@@ -14,7 +14,7 @@ class SearchSerializer(serializers.Serializer):
     q = serializers.CharField(max_length=255)
 
     def search(self, search_string, user):
-        region = user.user_profile.region
+        region = user.userprofile.region
         try:
             youtube = build('youtube', 'v3', developerKey=settings.YOUTUBE_DEVELOPER_KEY)
             request = youtube.search().list(
