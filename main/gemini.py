@@ -2,6 +2,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 from youtube_transcript_api.formatters import TextFormatter
 import google.generativeai as genai
 import re
+from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFound, VideoUnavailable, TooManyRequests, NotTranslatable, TranslationLanguageNotAvailable
 
 genai.configure(api_key="AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA")
 
@@ -33,8 +34,23 @@ def get_method(id):
 
             print("there is the response" + response.text)
             return extract_ingredients_and_method(response.text)
-    except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+    except TranscriptsDisabled as e:
+        print(f"An unexpected error occurred: {e.with_traceback}")
+        ingredients = []
+        method = []
+        return ingredients, method
+    except NoTranscriptFound as e:
+        print(f"An unexpected error occurred: {e.with_traceback}")
+        ingredients = []
+        method = []
+        return ingredients, method
+    except VideoUnavailable as e:
+        print(f"An unexpected error occurred: {e.with_traceback}")
+        ingredients = []
+        method = []
+        return ingredients, method
+    except TooManyRequests as e:
+        print(f"An unexpected error occurred: {e.with_traceback}")
         ingredients = []
         method = []
         return ingredients, method
