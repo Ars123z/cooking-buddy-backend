@@ -4,14 +4,14 @@ import re
 def translate_ingredients(text, lang):
     model = genai.GenerativeModel("gemini-1.5-flash")
     response = model.generate_content(f"""
-        {text} translate this to {lang} Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Use @ to enclose the tuples  like @(..,..)@ and , to separate them and use " to enclose ingredient and quantity and , to separate them.:
+        {text} translate this to {lang} (language iso 639-1 code) Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Use @ to enclose the tuples  like @(..,..)@ and , to separate them and use " to enclose ingredient and quantity and , to separate them.:
     """)
     return response.text
 
 def translate_method(text, lang):
     model = genai.GenerativeModel("gemini-1.5-flash")
     response = model.generate_content(f"""
-        {text} translate this to {lang} Format the method as a Python list of strings, where each string is a step.Ensure Clean and Extractable data:
+        {text} translate this to  {lang} (language iso 639-1 code) Format the method as a Python list of strings, where each string is a step.Ensure Clean and Extractable data:
     """)
     return response.text
 
