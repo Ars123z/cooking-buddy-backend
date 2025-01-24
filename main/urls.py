@@ -3,6 +3,7 @@ from . import views
 
 urlpatterns = [
     path('search/', views.SearchView.as_view(), name='general_search'),
+    path('video/ingredient-method/translate/', views.TranslateView.as_view(), name="translate"),
     path('video/ingredient-method/<str:id>/', views.IngredientMethodView.as_view(), name="ingredient_method"),
     path('video/<str:id>/', views.VideoView.as_view(), name='video'),
     path('history/search/', views.HistorySearchView.as_view(), name='history_search'),
@@ -13,5 +14,5 @@ urlpatterns = [
     path('playlists/<int:pk>/', views.PlayListDetailView.as_view(), name='playlist-detail'),
     path('labels/', views.LabelListView.as_view(), name='label-list'), 
     path('labels/<int:pk>/', views.LabelDetailView.as_view(), name="label-detail"),
-    # path('labels/<int:pk>/', views.LabelDetailView.as_view(), name='label-detail'),
+    
 ]

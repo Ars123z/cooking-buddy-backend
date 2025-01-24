@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from .translate import extract_ingredients, extract_method, translate_ingredients, translate_method
 import logging
 
 # Create your views here.
@@ -256,3 +256,22 @@ class LabelDetailView(RetrieveUpdateDestroyAPIView):
     queryset = Labels.objects.all() 
     serializer_class = LabelSerializer 
     lookup_field = 'pk'
+
+class TranslateView(GenericAPIView):
+
+    def post(self, request):
+        print("Incoming POST request data:", request.data)
+        data = request.data
+        id = data.get("id")
+        lang = data.get("lang")
+        video = Video.objects.get(video_id=id)
+        ingredients = video.ingredient_list
+        method = video.method
+        translated_ingredient_list = translate_ingredients(ingredients, lang)
+        extracted_ingredient_list = extract_ingredients(translated_ingredient_list)
+        translated_method = translate_method(method, lang)
+        extracted_method = extract_method(translated_method)
+        return Response({"ingredient_list": extracted_ingredient_list,
+                         "method": extracted_method})
+        # return Response({"ingredient_list": translated_ingredient_list,
+        #                  "method": translated_method})

@@ -1450,3 +1450,1167 @@ Watching for file changes with StatReloader
 C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\gemini.py changed, reloading.
 Watching for file changes with StatReloader
 Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v1/video/ingredient-method/NCn_TGQEmQg/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 228, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 228, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 228, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 228, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 228, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 228, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 228, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Watching for file changes with StatReloader
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Watching for file changes with StatReloader
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 229, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 229, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 229, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Forbidden: /api/v1/video/ingredient-method/translate/
+Forbidden: /api/v1/video/ingredient-method/translate/
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 229, in get
+    instance = Video.objects.get(video_id=id)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/v1/video/ingredient-method/translate/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/v1/video/ingredient-method/XrBvWYi7iOw/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 20, in extract_methods
+    methods = [step.strip().split('. ', 1)[1] for step in method_str.split('\n') if step.strip()]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 20, in <listcomp>
+    methods = [step.strip().split('. ', 1)[1] for step in method_str.split('\n') if step.strip()]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 20, in extract_methods
+    methods = [step.strip().split('. ', 1)[1] for step in method_str.split('\n') if step.strip()]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 20, in <listcomp>
+    methods = [step.strip().split('. ', 1)[1] for step in method_str.split('\n') if step.strip()]
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^
+IndexError: list index out of range
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/v1/video/ingredient-method/translate/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/v1/video/ingredient-method/04x6ooTJMT8/
+Forbidden: /api/v1/video/ingredient-method/04x6ooTJMT8/
+Forbidden: /api/v1/video/ingredient-method/04x6ooTJMT8/
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 271, in post
+    extracted_ingredient_list = extract_ingredients(translated_ingredient_list)
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 13, in extract_ingredients
+    ingredients_list = eval(ingredients_str)
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 1
+    ```
+    ^
+SyntaxError: invalid syntax
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Method Not Allowed: /api/v1/video/ingredient-method/7Yu083PhWi0/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/v1/video/ingredient-method/translate/
+Forbidden: /api/v1/video/ingredient-method/wuj3deK4TkY/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    'Invest in a dedicated commercial meat grinder'.'Select your cuts of beef (chuck roast and top sirloin are recommended)'.'Cut the meat into cubes and freeze for about 30 minutes.  Also freeze grinder parts that will contact meat'.'Grind the meat once with a coarse (3/8 inch) grinding plate'.'Grind the meat again with a medium (1/4 inch) grinding plate'.'Weigh out eight-ounce portions of ground meat and form into balls, handling minimally'.'Shape the meat balls into patties using a burger press'.'Optional: Add two tablespoons of beef tallow to a hot cast-iron griddle on a charcoal or gas grill'.'Cook the burger patties on the griddle'.'Assemble burgers with lettuce, tomato, onion, dressing, and real American cheese'.'Clean the meat grinder thoroughly with hot soapy water and a bottle brush (avoid dishwasher for aluminum parts)'
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    'Invest in a dedicated commercial meat grinder'.'Select your cuts of beef (chuck roast and top sirloin are recommended).' 'Cut the meat into cubes and freeze for about 30 minutes.  Also freeze grinder parts that will contact meat'.'Grind the meat once with a coarse (3/8 inch) grinding plate'.'Grind the meat again with a medium (1/4 inch) grinding plate'.'Weigh out eight-ounce portions of ground meat and form into balls, handling minimally'.'Shape the meat balls into patties using a burger press'.'Optional: Add two tablespoons of beef tallow to a hot cast-iron griddle on a charcoal or gas grill'.'Cook the burger patties on the griddle'.'Assemble burgers with lettuce, tomato, onion, dressing, and real American cheese'.'Clean the meat grinder thoroughly with hot soapy water and a bottle brush (avoid dishwasher for aluminum parts).'
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    'Invest in a dedicated commercial meat grinder'.'Select your cuts of beef (chuck roast and top sirloin are recommended)'.'Cut the meat into cubes and freeze for about 30 minutes.  Also freeze grinder parts that will contact meat'.'Grind the meat once with a coarse (3/8 inch) grinding plate'.'Grind the meat again with a medium (1/4 inch) grinding plate'.'Weigh out eight-ounce portions of ground meat and form into balls, handling minimally'.'Shape the meat balls into patties using a burger press'.'Optional: Add two tablespoons of beef tallow to a hot cast-iron griddle on a charcoal or gas grill'.'Cook the burger patties on the griddle'.'Assemble burgers with lettuce, tomato, onion, dressing, and real American cheese'.'Clean the meat grinder thoroughly with hot soapy water and a bottle brush (avoid dishwasher for aluminum parts)'
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    'Invest in a dedicated commercial meat grinder'.'Select your cuts of beef (chuck roast and top sirloin are recommended)'.'Cut the meat into cubes and freeze for about 30 minutes.  Also freeze grinder parts that will contact meat'.'Grind the meat once with a coarse (3/8 inch) grinding plate'.'Grind the meat again with a medium (1/4 inch) grinding plate'.'Weigh out eight-ounce portions of ground meat and form into balls, handling minimally'.'Shape the meat balls into patties using a burger press'.'Optional: Add two tablespoons of beef tallow to a hot cast-iron griddle on a charcoal or gas grill'.'Cook the burger patties on the griddle'.'Assemble burgers with lettuce, tomato, onion, dressing, and real American cheese'.'Clean the meat grinder thoroughly with hot soapy water and a bottle brush (avoid dishwasher for aluminum parts)'
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    'Invest in a dedicated commercial meat grinder'.'Select your cuts of beef (chuck roast and top sirloin are recommended)'. 'Cut the meat into cubes and freeze for about 30 minutes.  Also freeze grinder parts that will contact meat'.'Grind the meat once with a coarse (3/8 inch) grinding plate'.'Grind the meat again with a medium (1/4 inch) grinding plate'.'Weigh out eight-ounce portions of ground meat and form into balls, handling minimally'.'Shape the meat balls into patties using a burger press'.'Optional: Add two tablespoons of beef tallow to a hot cast-iron griddle on a charcoal or gas grill'.'Cook the burger patties on the griddle'.'Assemble burgers with lettuce, tomato, onion, dressing, and real American cheese'.'Clean the meat grinder thoroughly with hot soapy water and a bottle brush (avoid dishwasher for aluminum parts).'
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+Not Found: /api/v1/video/ingredient-method//
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    'Invest in a dedicated commercial meat grinder'.'Select your cuts of beef (chuck roast and top sirloin are recommended).''Cut the meat into cubes and freeze for about 30 minutes.  Also freeze grinder parts that will contact meat.''Grind the meat once with a coarse (3/8 inch) grinding plate.''Grind the meat again with a medium (1/4 inch) grinding plate.''Weigh out eight-ounce portions of ground meat and form into balls, handling minimally.''Shape the meat balls into patties using a burger press.''Optional: Add two tablespoons of beef tallow to a hot cast-iron griddle on a charcoal or gas grill.''Cook the burger patties on the griddle.''Assemble burgers with lettuce, tomato, onion, dressing, and real American cheese.''Clean the meat grinder thoroughly with hot soapy water and a bottle brush (avoid dishwasher for aluminum parts).'
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+Not Found: /api/v1/video/ingredient-method//
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 108, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 107, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 81, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 72, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 69, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Subscript object at 0x0000021F7B392650>
+Not Found: /api/v1/video/ingredient-method//
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 108, in literal_eval
+    return _convert(node_or_string)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 107, in _convert
+    return _convert_signed_num(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 81, in _convert_signed_num
+    return _convert_num(node)
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 72, in _convert_num
+    _raise_malformed_node(node)
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 69, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string on line 1: <ast.Subscript object at 0x0000021F7B4D1480>
+Not Found: /api/v1/video/ingredient-method//
+Not Found: /api/v1/video/ingredient-method//
+Not Found: /api/v1/video/ingredient-method//
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    'In a heavy pot or Dutch oven, fry the bacon until cooked through'.'Add the onions and cook over medium heat until golden brown'.'Add the bell peppers'.'Add the garlic and cook for another 2 minutes'.'Add the meat and cook for a minute'.'Stir in 4 tablespoons of sweet Hungarian paprika'.'remove from heat (paprika becomes bitter when roasted)'.'Add the tomato'.'Add the bay leaf, salt and black pepper'.'Add a little water so that the water does not cover the meat'.'Return the pot to the heat and let it boil'.'Reduce heat to low, cover, and simmer for 90 minutes'.'Add potatoes and water'.'Bring to a boil over high heat and then reduce the heat so that it simmers quickly'.'Cook for 15 minutes or until the potatoes are very soft'.'Add unsalted butter and warm milk'
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 36, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    'In a heavy pot or Dutch oven, fry the bacon until cooked through'.'Add the onions and cook over medium heat until golden brown'.'Add the bell peppers'.'Add the garlic and cook for another 2 minutes'.'Add the meat and cook for a minute'.'Stir in 4 tablespoons of sweet Hungarian paprika'.'remove from heat (paprika becomes bitter when roasted)'.'Add the tomato'.'Add the bay leaf, salt and black pepper'.'Add a little water so that the water does not cover the meat'.'Return the pot to the heat and let it boil'.'Reduce heat to low, cover, and simmer for 90 minutes'.'Add potatoes and water'.'Bring to a boil over high heat and then reduce the heat so that it simmers quickly'.'Cook for 15 minutes or until the potatoes are very soft'.'Add unsalted butter and warm milk'
+                                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+Not Found: /api/v1/video/ingredient-method//
+Not Found: /api/v1/video/ingredient-method//
+Forbidden: /api/v1/labels/
+Forbidden: /api/v1/video/ingredient-method/translate/
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 267, in post
+    video = Video.objects.get(video_id=id)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\db\models\query.py", line 637, in get
+    raise self.model.DoesNotExist(
+main.models.Video.DoesNotExist: Video matching query does not exist.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 52, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    ```python
+    ^
+SyntaxError: invalid syntax
+Internal Server Error: /api/v1/video/ingredient-method/translate/
+Traceback (most recent call last):
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\decorators\csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\django\views\generic\base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\Lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py", line 273, in post
+    extracted_method = extract_methods(translated_method)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py", line 52, in extract_methods
+    steps_list = ast.literal_eval(steps_string)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 62, in literal_eval
+    node_or_string = parse(node_or_string.lstrip(" \t"), mode='eval')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\arsal\AppData\Local\Programs\Python\Python311\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    ```python
+    ^
+SyntaxError: invalid syntax
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+Forbidden: /api/v1/video/ingredient-method/translate/
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\translate.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\arsal\OneDrive\Desktop\cooking_buddy_backend\main\views.py changed, reloading.
+Watching for file changes with StatReloader
