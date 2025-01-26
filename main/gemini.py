@@ -21,9 +21,9 @@ def get_method(id):
             text =TextFormatter().format_transcript(translated)
             model = genai.GenerativeModel("gemini-1.5-flash")
             response = model.generate_content(f"""
-                https://www.youtube.com/watch?v={id}
+            
 
-                Extract the ingredients and method. Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Format the method as a Python list of strings, where each string is a step.
+                Extract the ingredients and method from {text}. Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Format the method as a Python list of strings, where each string is a step.
 
                 For example:
 

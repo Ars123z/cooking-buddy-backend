@@ -37,6 +37,7 @@ class LabelAdminForm(forms.ModelForm):
 
 class VideoAdmin(admin.ModelAdmin):
     list_display = ('title',)
+    search_fields = ('title',)
 
 class LabelAdmin(admin.ModelAdmin):
     form = LabelAdminForm
