@@ -5,7 +5,7 @@ from googleapiclient.errors import HttpError
 import random
 from django.conf import settings
 
-from main.gemini import get_method
+from main.gemini import get_method, validate_search
 from .models import WatchHistory, PlayList, Labels
 
 from main.models import Video
@@ -14,38 +14,42 @@ class SearchSerializer(serializers.Serializer):
     q = serializers.CharField(max_length=255)
 
     def search(self, search_string, user):
-        region = user.userprofile.region
-        try:
-            youtube = build('youtube', 'v3', developerKey=settings.YOUTUBE_DEVELOPER_KEY)
-            request = youtube.search().list(
-                q=search_string,
-                part='snippet',
-                type='video',
-                regionCode=region,
-                videoDuration='medium',
-                relevanceLanguage='ur',
-                maxResults=10
-            )
+        if validate_search(search_string):
+            region = user.userprofile.region
+            try:
+                youtube = build('youtube', 'v3', developerKey=settings.YOUTUBE_DEVELOPER_KEY)
+                request = youtube.search().list(
+                    q=search_string,
+                    part='snippet',
+                    type='video',
+                    regionCode=region,
+                    videoDuration='medium',
+                    relevanceLanguage='en',
+                    maxResults=10
+                )
 
-            response = request.execute()
+                response = request.execute()
 
-            response_list = []
-            for obj in response['items']:
-                response_list.append({"video_id": obj['id']['videoId'], "title": obj['snippet']["title"], "description": obj['snippet']['description'], "thumbnail": obj['snippet']['thumbnails']['high']["url"], "channel_name": obj['snippet']["channelTitle"], "method": [], "ingredient_list": []})
+                response_list = []
+                for obj in response['items']:
+                    response_list.append({"video_id": obj['id']['videoId'], "title": obj['snippet']["title"], "description": obj['snippet']['description'], "thumbnail": obj['snippet']['thumbnails']['high']["url"], "channel_name": obj['snippet']["channelTitle"], "method": [], "ingredient_list": []})
 
-             # Save each video in the database using the serializer 
-            for video_data in response_list: 
-                serializer = VideoSerializer(data=video_data) 
-                if serializer.is_valid(): 
-                    try: 
-                        serializer.save() 
-                    except IntegrityError: 
-                        continue
-                else: 
-                    print(f"Invalid data for video ID {video_data['video_id']}: {serializer.errors}")
-            return response['items']
-        except HttpError as e:
-            raise serializers.ValidationError(f"An error occurred: {e}")
+                # Save each video in the database using the serializer 
+                for video_data in response_list: 
+                    serializer = VideoSerializer(data=video_data) 
+                    if serializer.is_valid(): 
+                        try: 
+                            serializer.save() 
+                        except IntegrityError: 
+                            continue
+                    else: 
+                        print(f"Invalid data for video ID {video_data['video_id']}: {serializer.errors}")
+                return response['items']
+            except HttpError as e:
+                raise serializers.ValidationError(f"An error occurred: {e}")
+        else:
+            raise serializers.ValidationError("Invalid search query.")
+
 
     # def search(self, search_string):
     #     try:

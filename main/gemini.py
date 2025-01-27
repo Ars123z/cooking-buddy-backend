@@ -113,3 +113,27 @@ def extract_ingredients_and_method(text):
     except Exception as e:
         print(f"An unexpected error occurred: {e}")
         return [], []
+
+
+def validate_search(search):
+    """
+    Validates the search query to ensure it is a valid recipe item.
+
+    Args:
+        search: The search query to validate.
+
+    Returns:
+        True if the search query is a valid YouTube video ID, False otherwise.
+    """
+    try:
+        model = genai.GenerativeModel("gemini-1.5-flash")
+        response = model.generate_content(f"""
+            Validate the search query "{search}" to ensure it is a food item. Return True if it is a possible food item, False otherwise also make sure true and false are always separate from the nearby words by a space.
+            """)
+        print("there is the response" + response.text)
+        return 'true' in response.text.lower()
+    except Exception as e:
+        print(f"An unexpected error occurred: {e}")
+        return False
+    
+    
