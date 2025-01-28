@@ -132,3 +132,32 @@ class UserProfileView(RetrieveUpdateAPIView):
         print(self.request.body) 
         return UserProfile.objects.get(user=self.request.user)
     
+
+class TermsAndConditions(GenericAPIView):
+    def get(self, request):
+        return Response({'message':'terms and conditions'}, status=status.HTTP_200_OK)
+    
+class PrivacyPolicy(GenericAPIView):
+    def get(self, request):
+        privacy_policy = {
+            "effective_date": "2025-01-27",
+            "introduction": "Welcome to [App Name]! We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, store, and protect your information when you use our cookery app.",
+            "information_we_collect": {
+                "email_address": "To communicate with you and provide account-related notifications.",
+                "name": "To personalize your experience within the app.",
+                "google_login_information": {
+                    "name": "Name provided by Google",
+                    "email": "Email provided by Google",
+                    "profile_picture": "Profile picture provided by Google"
+                }
+            },
+            "how_we_use_your_information": "The information we collect is used solely for the following purposes...",
+            "data_storage_and_security": "We take your privacy seriously...",
+            "information_sharing": "We do not share, sell, or disclose your personal information...",
+            "your_rights": "You have the right to access, update, or delete your personal information...",
+            "changes_to_privacy_policy": "We may update this Privacy Policy from time to time...",
+            "contact_us": {
+                "company_name": "CookVerse",
+                "contact_email": "arsalannaziri0786@gmail.com",
+                "contact_address": "1234 Old karimganj, Gaya, Bihar, India",}}
+        return Response(privacy_policy, status=status.HTTP_200_OK)

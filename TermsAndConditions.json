@@ -1,0 +1,41 @@
+{
+    "terms_and_conditions": {
+        "effective_date": "2025-01-27",
+        "introduction": "Welcome to CookVerse! By using our app, you agree to these terms and conditions.",
+        "account_registration": {
+            "requirement": "Users must register an account to access the app's features.",
+            "information_required": "Email address, name, and password.",
+            "google_login": "If you choose to log in using Google, we will collect your name, email, and profile picture provided by Google."
+        },
+        "user_conduct": {
+            "responsibility": "Users are responsible for maintaining the confidentiality of their account information.",
+            "prohibited_activities": [
+                "Any illegal activities.",
+                "Harassment or abuse of other users.",
+                "Sharing or distributing malicious software."
+            ]
+        },
+        "privacy_policy": {
+            "reference": "Your use of the app is also governed by our Privacy Policy, which can be accessed [here](#)."
+        },
+        "intellectual_property": {
+            "content_ownership": "All content within the app, including recipes and images, is owned by [App Name] unless otherwise stated.",
+            "user_submissions": "By submitting content, you grant [App Name] a license to use, display, and distribute it."
+        },
+        "disclaimer_of_warranties": {
+            "general_disclaimer": "The app is provided 'as is' without any warranties of any kind."
+        },
+        "limitation_of_liability": {
+            "general_limitation": "To the maximum extent permitted by law, [App Name] is not liable for any indirect, incidental, or consequential damages."
+        },
+        "changes_to_terms": {
+            "modification_rights": "[App Name] reserves the right to update or modify these terms at any time.",
+            "notification_method": "Users will be notified of any changes via email or in-app notifications."
+        },
+        "contact_information": {
+            "company_name": "[Your Company Name]",
+            "contact_email": "[Contact Email]",
+            "contact_address": "[Contact Address]"
+        }
+    }
+}
