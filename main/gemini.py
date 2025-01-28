@@ -67,7 +67,7 @@ genai.configure(api_key="AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA")
 
 def get_method(id):
     try:
-        transcript = YouTubeTranscriptApi.get_transcript(id, languages=["en"])
+        transcript = YouTubeTranscriptApi.get_transcript(id, languages=["en-GB", "en-US"])
         text =TextFormatter().format_transcript(transcript)
         model = genai.GenerativeModel("gemini-1.5-flash")
         response = model.generate_content(f"""
