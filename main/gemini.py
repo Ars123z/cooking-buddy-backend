@@ -11,28 +11,58 @@ genai.configure(api_key="AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA")
 
 def get_method(id):
     try:
-        list = YouTubeTranscriptApi.list_transcripts(video_id=id)
-        print(list)
-        transcript = list.find_transcript(['en', 'en-GB', 'en-US'])
-        print(transcript.language)
-        print(transcript.language_code)
-        print(transcript.translation_languages)
-        transcript = transcript.fetch()
+        transcript_list = YouTubeTranscriptApi.list_transcripts(video_id=id)
+        available_transcripts = {}
+        available_transcripts.update(transcript_list._generated_transcripts)
+        available_transcripts.update(transcript_list._manually_created_transcripts)
+        # print("============Available Transcripts=================")
+        # print(print(available_transcripts))
+        # print("============Generated Transcripts=================")
+        # print(print(transcript_list._generated_transcripts))
+        # print("============Manually Created Transcripts=================")
+        # print(print(transcript_list._manually_created_transcripts))
+        # print("============Available Languages=================")
+        # print(type(transcript_list._translation_languages))
+        starting_list = ['en', 'en-GB', 'en-US']
+        final_list = starting_list + list(available_transcripts.keys())
+        print("============Final List=================")
+        print(final_list)
+        transcript = transcript_list.find_transcript(final_list)
+        # print(transcript.language)
+        # print(transcript.language_code)
+        # print(transcript.translation_languages)
+
+        if transcript.language_code not in ['en', 'en-GB', 'en-US']:
+            if "en" in transcript.translation_languages:
+                transcript = transcript.translate('en').fetch()
+            elif "en-GB" in transcript.translation_languages:
+                transcript = transcript.translate('en-GB').fetch()
+            elif "en-US" in transcript.translation_languages:
+                transcript = transcript.translate('en-US').fetch()
+            else:
+                transcript = transcript.fetch()
+
+        else:
+            transcript = transcript.fetch()
+            print(transcript)
         text =TextFormatter().format_transcript(transcript)
+        print(text)
         model = genai.GenerativeModel("gemini-1.5-flash")
         response = model.generate_content(f"""
             
 
-                Extract the ingredients and method from {text}. Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Format the method as a Python list of strings, where each string is a step.
+                Extract the ingredients and method from {text}. Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Use @ to enclose the tuples  like @(..,..)@ and , to separate them and use " to enclose ingredient and quantity and , to separate them. Format the method as a Python list of strings, where each string is a step.enclose them with #
 
                 For example:
 
                 Ingredients:
-                [("flour", "2 cups"), ("sugar", "1 cup"), ("eggs", "2")]
+                [@("flour", "2 cups")@, @("sugar", "1 cup")@, @("eggs", "2")@]
 
                 Method:
-                ["Preheat oven to 350F", "Mix flour and sugar", "Add eggs and mix well"]
+                [#"Preheat oven to 350F"#, #"Mix flour and sugar"#, #"Add eggs and mix well"#]
                 """)
+        print(response.text)
+
         return extract_ingredients_and_method(response.text)
     except TranscriptsDisabled as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
@@ -63,58 +93,6 @@ def get_method(id):
         method = []
         return ingredients, method
 
-# def get_method(id):
-#     try:
-#         transcript = YouTubeTranscriptApi.get_transcript(id, languages=["en-GB", "en-US", "en"])
-#         text =TextFormatter().format_transcript(transcript)
-#         model = genai.GenerativeModel("gemini-1.5-flash")
-#         response = model.generate_content(f"""
-            
-
-#                 Extract the ingredients and method from {text}. Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Format the method as a Python list of strings, where each string is a step.
-
-#                 For example:
-
-#                 Ingredients:
-#                 [("flour", "2 cups"), ("sugar", "1 cup"), ("eggs", "2")]
-
-#                 Method:
-#                 ["Preheat oven to 350F", "Mix flour and sugar", "Add eggs and mix well"]
-#                 """)
-
-#         print("there is the response" + response.text)
-#         return extract_ingredients_and_method(response.text)
-#     except TranscriptsDisabled as e:
-#         exc_type, exc_value, exc_traceback = sys.exc_info()
-#         print("An unexpected error occurred:")
-#         traceback.print_exception(exc_type, exc_value, exc_traceback)
-#         ingredients = []
-#         method = []
-#         return ingredients, method
-#     except NoTranscriptFound as e:
-#         exc_type, exc_value, exc_traceback = sys.exc_info()
-#         print("An unexpected error occurred:")
-#         traceback.print_exception(exc_type, exc_value, exc_traceback)
-#         ingredients = []
-#         method = []
-#         return ingredients, method
-#     except VideoUnavailable as e:
-#         exc_type, exc_value, exc_traceback = sys.exc_info()
-#         print("An unexpected error occurred:")
-#         traceback.print_exception(exc_type, exc_value, exc_traceback)
-#         ingredients = []
-#         method = []
-#         return ingredients, method
-#     except TooManyRequests as e:
-#         exc_type, exc_value, exc_traceback = sys.exc_info()
-#         print("An unexpected error occurred:")
-#         traceback.print_exception(exc_type, exc_value, exc_traceback)
-#         ingredients = []
-#         method = []
-#         return ingredients, method
-
-
-
 
 def extract_ingredients_and_method(text):
     """
@@ -130,28 +108,18 @@ def extract_ingredients_and_method(text):
 
     try:
         # Extract ingredients
-        ingredients_match = re.search(r"ingredients\s*=\s*\[(.*?)\]", text, re.DOTALL)
-        if ingredients_match:
-            ingredients_str = ingredients_match.group(1)
-            # Improved parsing to handle various tuple formats
-            ingredients = eval(f"[{ingredients_str}]")
-            #check if it's a list of tuple, if not make it a list of tuple
-            if not all(isinstance(item, tuple) for item in ingredients):
-                ingredients = [tuple(item) if isinstance(item, list) else (item,) for item in ingredients]
-        else:
-            ingredients = []
+        ingredient_pattern = r'@\((.*?)\)@'
+        tuples = re.findall(ingredient_pattern, text)
+    
+        # Extract individual ingredients from each tuple
+        ingredients = [tuple(re.findall(r'"([^"]*)"', t)) for t in tuples]
+
 
         # Extract method
-        method_match = re.search(r"method\s*=\s*\[(.*?)\]", text, re.DOTALL)
-        if method_match:
-            method_str = method_match.group(1)
-            method = eval(f"[{method_str}]")
-            #check if it's a list of string, if not make it a list of string
-            method = [str(item) for item in method]
-        else:
-            method = []
+        pattern = r'#"(.*?)"#'
+        steps = re.findall(pattern, text)
 
-        return ingredients, method
+        return ingredients, steps
 
     except (SyntaxError, NameError, TypeError, ValueError) as e:
         print(f"Error parsing the text: {e}")

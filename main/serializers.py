@@ -24,7 +24,7 @@ class SearchSerializer(serializers.Serializer):
                     type='video',
                     regionCode=region,
                     videoDuration='medium',
-                    relevanceLanguage='en',
+                    relevanceLanguage='fr',
                     maxResults=10
                 )
 
