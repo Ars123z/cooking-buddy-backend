@@ -11,7 +11,7 @@ genai.configure(api_key="AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA")
 
 def get_method(id):
     try:
-        list = YouTubeTranscriptApi.list_transcripts(cideo_id=id)
+        list = YouTubeTranscriptApi.list_transcripts(video_id=id)
         available_language = []
         for obj in list:
             available_language.append(obj.language_code)
