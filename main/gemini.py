@@ -11,16 +11,18 @@ genai.configure(api_key="AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA")
 
 def get_method(id):
     try:
-        list = YouTubeTranscriptApi.list_transcripts(id)
+        list = YouTubeTranscriptApi.list_transcripts(cideo_id=id)
         available_language = []
         for obj in list:
             available_language.append(obj.language_code)
-            transcript_list = YouTubeTranscriptApi.list_transcripts(video_id=id)
-            transcript = transcript_list.find_transcript([available_language[0]])
-            translated = transcript.translate("en").fetch()
-            text =TextFormatter().format_transcript(translated)
-            model = genai.GenerativeModel("gemini-1.5-flash")
-            response = model.generate_content(f"""
+
+        transcript = list.find_transcript("en", "en-GB", "en-US", [available_language[0]])
+        if transcript.language_code == "en" or transcript.language_code == "en-GB" or transcript.language_code == "en-US":
+            transcript = transcript.fetch()
+        translated = transcript.translate("en").fetch()
+        text =TextFormatter().format_transcript(translated)
+        model = genai.GenerativeModel("gemini-1.5-flash")
+        response = model.generate_content(f"""
             
 
                 Extract the ingredients and method from {text}. Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Format the method as a Python list of strings, where each string is a step.
@@ -34,8 +36,8 @@ def get_method(id):
                 ["Preheat oven to 350F", "Mix flour and sugar", "Add eggs and mix well"]
                 """)
 
-            print("there is the response" + response.text)
-            return extract_ingredients_and_method(response.text)
+        print("there is the response" + response.text)
+        return extract_ingredients_and_method(response.text)
     except TranscriptsDisabled as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
         print("An unexpected error occurred:")
