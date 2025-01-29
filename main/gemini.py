@@ -16,7 +16,7 @@ def get_method(id):
         for obj in list:
             available_language.append(obj.language_code)
 
-        transcript = list.find_transcript("en", "en-GB", "en-US", [available_language[0]])
+        transcript = list.find_transcript(["en", "en-GB", "en-US", [available_language[0]]])
         if transcript.language_code == "en" or transcript.language_code == "en-GB" or transcript.language_code == "en-US":
             transcript = transcript.fetch()
         translated = transcript.translate("en").fetch()
