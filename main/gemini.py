@@ -17,9 +17,7 @@ def get_method(id):
             available_language.append(obj.language_code)
 
         transcript = list.find_transcript(["en", "en-GB", "en-US", [available_language[0]]])
-        if transcript.language_code == "en" or transcript.language_code == "en-GB" or transcript.language_code == "en-US":
-            transcript = transcript.fetch()
-        translated = transcript.translate("en").fetch()
+        translated = transcript.fetch()
         text =TextFormatter().format_transcript(translated)
         model = genai.GenerativeModel("gemini-1.5-flash")
         response = model.generate_content(f"""
