@@ -18,20 +18,21 @@ def get_method(id):
 
         transcript = list.find_transcript(["en", "en-GB", "en-US", [available_languages[0]]])
         translatable_languages = transcript.translatable_languages
-        if transcript.language_code == available_languages[0]:
-            for i in translatable_languages:
-                if i["language_code"] == "en":
-                    transcript = transcript.translate("en")
-                    break
-                elif i["language_code"] == "en-GB":
-                    transcript = transcript.translate("en-GB")
-                    break
-                elif i["language_code"] == "en-US":
-                    transcript = transcript.translate("en-US")
-                    break
-                else:
-                    transcript = transcript.translate(translatable_languages[0]["language_code"])
-                    break
+        print(translatable_languages)
+        # if transcript.language_code == available_languages[0]:
+        #     for i in translatable_languages:
+        #         if i["language_code"] == "en":
+        #             transcript = transcript.translate("en")
+        #             break
+        #         elif i["language_code"] == "en-GB":
+        #             transcript = transcript.translate("en-GB")
+        #             break
+        #         elif i["language_code"] == "en-US":
+        #             transcript = transcript.translate("en-US")
+        #             break
+        #         else:
+        #             transcript = transcript.translate(translatable_languages[0]["language_code"])
+        #             break
         transcript = transcript.fetch()
         text =TextFormatter().format_transcript(transcript)
         model = genai.GenerativeModel("gemini-1.5-flash")
