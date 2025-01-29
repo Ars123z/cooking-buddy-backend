@@ -1,0 +1,3020 @@
+{
+    "responseContext": {
+        "serviceTrackingParams": [
+            {
+                "service": "GFEEDBACK",
+                "params": [
+                    {
+                        "key": "ipcc",
+                        "value": "0"
+                    },
+                    {
+                        "key": "is_viewed_live",
+                        "value": "False"
+                    },
+                    {
+                        "key": "is_alc_surface",
+                        "value": "false"
+                    },
+                    {
+                        "key": "wh_paused",
+                        "value": "0"
+                    },
+                    {
+                        "key": "logged_in",
+                        "value": "0"
+                    },
+                    {
+                        "key": "e",
+                        "value": "23804281,23986026,24004644,24077241,24166867,24181174,24241378,24290153,24439361,24453989,24534951,24548629,24566687,24699899,39325854,39326986,39328397,51010235,51017346,51020570,51025415,51050361,51053689,51063643,51072748,51091058,51095478,51098299,51111738,51115184,51124104,51141472,51145218,51151423,51152050,51157411,51176511,51183909,51184990,51194137,51204329,51217504,51222382,51222973,51224489,51225397,51227037,51228850,51230478,51236019,51237842,51241028,51242448,51248734,51255676,51256074,51256084,51263449,51272458,51274583,51276557,51276565,51281227,51285052,51285717,51287196,51292055,51294322,51296439,51298020,51299710,51299724,51300176,51300241,51303432,51303667,51303669,51303789,51304155,51305839,51306259,51310742,51313109,51313765,51313767,51313802,51314158,51317678,51317787,51318845,51322669,51326932,51327636,51330194,51332896,51333879,51334605,51335364,51335392,51335928,51337186,51338524,51340662,51341974,51342752,51342857,51346046,51347325,51349880,51351446,51353231,51353393,51353454,51353498,51354114,51355417,51355679,51355912,51357477,51361727,51362455,51362643,51362857,51365256,51365401,51365459,51365462,51366024,51366423,51366620,51366864,51367993,51369233,51370095,51370274,51371294,51371521,51372971,51374438,51375168,51375519,51375719,51376050,51376330,51376516,51379274,51380894,51381276,51381857,51381974,51383169,51383428,51383747,51384888,51385023,51385397,51386140,51386539,51386565,51387070,51388800,51388998,51389629"
+                    },
+                    {
+                        "key": "visitor_data",
+                        "value": "CgtoVHJUT3NLTUx6TSiJguK8BjIKCgJJThIEGgAgbA%3D%3D"
+                    }
+                ]
+            },
+            {
+                "service": "CSI",
+                "params": [
+                    {
+                        "key": "yt_ad",
+                        "value": "1"
+                    },
+                    {
+                        "key": "c",
+                        "value": "WEB"
+                    },
+                    {
+                        "key": "cver",
+                        "value": "2.20250127.01.00"
+                    },
+                    {
+                        "key": "yt_li",
+                        "value": "0"
+                    },
+                    {
+                        "key": "GetPlayer_rid",
+                        "value": "0x3281042062b46ff8"
+                    }
+                ]
+            },
+            {
+                "service": "GUIDED_HELP",
+                "params": [
+                    {
+                        "key": "logged_in",
+                        "value": "0"
+                    }
+                ]
+            },
+            {
+                "service": "ECATCHER",
+                "params": [
+                    {
+                        "key": "client.version",
+                        "value": "2.20250127"
+                    },
+                    {
+                        "key": "client.name",
+                        "value": "WEB"
+                    }
+                ]
+            }
+        ],
+        "maxAgeSeconds": 0,
+        "mainAppWebResponseContext": {
+            "loggedOut": true,
+            "trackingParam": "kx_fmPxhoPZRr_tSIouBfWW0bGPMjU8zmNx-7wV4_LGY7pzRgkuMsNLBwOcCE59TDtslLKPQ-SS"
+        },
+        "webResponseContextExtensionData": {
+            "hasDecorated": true
+        }
+    },
+    "playabilityStatus": {
+        "status": "OK",
+        "playableInEmbed": true,
+        "miniplayer": {
+            "miniplayerRenderer": {
+                "playbackMode": "PLAYBACK_MODE_ALLOW"
+            }
+        },
+        "contextParams": "Q0FFU0FnZ0M="
+    },
+    "streamingData": {
+        "expiresInSeconds": "21540",
+        "formats": [
+            {
+                "itag": 18,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=18\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-Mw4aHcVXjHdmK2HbRcWyFhmdUWhRnr8JdPM7-blEeIR2h71TUs7_yk5j9CFadgbxQcBr8U9cHv\u0026spc=9kzgDcbKmfJSJdAV_GJTTMiO45UZYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Ov2Pi7g\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=lZ16TyEFu7hWrVIuMDolvv0Q\u0026rqh=1\u0026gir=yes\u0026clen=52247141\u0026ratebypass=yes\u0026dur=776.103\u0026lmt=1736402284087492\u0026mt=1738047409\u0026fvip=2\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5538534\u0026n=JA_hMR5AqxaITn8v\u0026sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt\u0026sig=AJfQdSswRQIhAK7_3VN1DMjaZOW76ApKnksgvSGUo4jCpTKJTzoFnQduAiAB07y1uMnQ_PB_dzS2CWzHImKk5yFezB7rrDCqWMstIg%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"avc1.42001E, mp4a.40.2\"",
+                "bitrate": 538601,
+                "width": 640,
+                "height": 360,
+                "lastModified": "1736402284087492",
+                "contentLength": "52247141",
+                "quality": "medium",
+                "fps": 24,
+                "qualityLabel": "360p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 538558,
+                "audioQuality": "AUDIO_QUALITY_LOW",
+                "approxDurationMs": "776103",
+                "audioSampleRate": "44100",
+                "audioChannels": 2
+            }
+        ],
+        "adaptiveFormats": [
+            {
+                "itag": 137,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=137\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=270960244\u0026dur=776.041\u0026lmt=1736405430710812\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIgKkctbQE8_RZf904324otBDMjlyG2x_0U5WvAatLC858CIQDe_pWO8iwhEcpKQu7lL5mRXBa5l5W6X9nQwqyO3DClUA%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"avc1.640028\"",
+                "bitrate": 4676298,
+                "width": 1920,
+                "height": 1080,
+                "initRange": {
+                    "start": "0",
+                    "end": "741"
+                },
+                "indexRange": {
+                    "start": "742",
+                    "end": "2465"
+                },
+                "lastModified": "1736405430710812",
+                "contentLength": "270960244",
+                "quality": "hd1080",
+                "fps": 24,
+                "qualityLabel": "1080p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 2793256,
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 248,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=248\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=193474891\u0026dur=776.041\u0026lmt=1736410662997232\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRAIgCV0tbWdow8VtKEtQNP-IQPQsWyf1wclsUae7RRqb-7QCIGVYYOPA96Agm1O0nAktAeiLiGmlY4naYiyfx_EV5WVN\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/webm; codecs=\"vp9\"",
+                "bitrate": 2534285,
+                "width": 1920,
+                "height": 1080,
+                "initRange": {
+                    "start": "0",
+                    "end": "219"
+                },
+                "indexRange": {
+                    "start": "220",
+                    "end": "2735"
+                },
+                "lastModified": "1736410662997232",
+                "contentLength": "193474891",
+                "quality": "hd1080",
+                "fps": 24,
+                "qualityLabel": "1080p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 1994481,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 399,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=399\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=130428703\u0026dur=776.041\u0026lmt=1736419860175473\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5537534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRAIgVCcZIPkPjwSXUCfut3HIvM12DF52YbLGNHvyBvqwWUgCIBha30uqGjyQfCdCQrPOi_ZaTPnKdLbkvBQLFxql99on\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"av01.0.08M.08\"",
+                "bitrate": 2625650,
+                "width": 1920,
+                "height": 1080,
+                "initRange": {
+                    "start": "0",
+                    "end": "699"
+                },
+                "indexRange": {
+                    "start": "700",
+                    "end": "2423"
+                },
+                "lastModified": "1736419860175473",
+                "contentLength": "130428703",
+                "quality": "hd1080",
+                "fps": 24,
+                "qualityLabel": "1080p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 1344554,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 136,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=136\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=50827662\u0026dur=776.041\u0026lmt=1736405312690633\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRAIgEMh4YXZzlz8TfGZrat8Q-cCzvIpx2pV_Z37f1QoZ5F8CIGAoYa4g7YGRWDfYSnDib-5LWciilKVmHvvu8aPPwdaF\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"avc1.4d401f\"",
+                "bitrate": 1677192,
+                "width": 1280,
+                "height": 720,
+                "initRange": {
+                    "start": "0",
+                    "end": "739"
+                },
+                "indexRange": {
+                    "start": "740",
+                    "end": "2463"
+                },
+                "lastModified": "1736405312690633",
+                "contentLength": "50827662",
+                "quality": "hd720",
+                "fps": 24,
+                "qualityLabel": "720p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 523968,
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 247,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=247\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=64223833\u0026dur=776.041\u0026lmt=1736409130138683\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRgIhAMImqQI5GpJQU64f15psBxp6QmIDwd4JAkcU6lbis2wLAiEAmgBSmsxr4niEjFUgdOs9bHG9detbF2zMLu9iqACyyWg%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/webm; codecs=\"vp9\"",
+                "bitrate": 1508394,
+                "width": 1280,
+                "height": 720,
+                "initRange": {
+                    "start": "0",
+                    "end": "219"
+                },
+                "indexRange": {
+                    "start": "220",
+                    "end": "2718"
+                },
+                "lastModified": "1736409130138683",
+                "contentLength": "64223833",
+                "quality": "hd720",
+                "fps": 24,
+                "qualityLabel": "720p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 662066,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 398,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=398\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=67429520\u0026dur=776.041\u0026lmt=1736406342736838\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5537534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRgIhAJrUh58EsUtbz4-Ljz_KywVSV0zcEobVMHdL-7kIrL6eAiEA8_oR25-sjoFV6IliGhkSPo9vHZF1kVk9JjKeNstG1eQ%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"av01.0.05M.08\"",
+                "bitrate": 1401898,
+                "width": 1280,
+                "height": 720,
+                "initRange": {
+                    "start": "0",
+                    "end": "699"
+                },
+                "indexRange": {
+                    "start": "700",
+                    "end": "2423"
+                },
+                "lastModified": "1736406342736838",
+                "contentLength": "67429520",
+                "quality": "hd720",
+                "fps": 24,
+                "qualityLabel": "720p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 695112,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 135,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=135\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=25833834\u0026dur=776.041\u0026lmt=1736405311083759\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIgTEwKXJEixti4E4nKFpXi3FYpxwcnD7dmuu1UDRAq9fkCIQDbrWhsL7q7cUb-pFrbp0lKt4OJU0nzS9eJxDr4yKpfrg%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"avc1.4d401e\"",
+                "bitrate": 880732,
+                "width": 854,
+                "height": 480,
+                "initRange": {
+                    "start": "0",
+                    "end": "740"
+                },
+                "indexRange": {
+                    "start": "741",
+                    "end": "2464"
+                },
+                "lastModified": "1736405311083759",
+                "contentLength": "25833834",
+                "quality": "large",
+                "fps": 24,
+                "qualityLabel": "480p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 266314,
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 244,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=244\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=35439189\u0026dur=776.041\u0026lmt=1736409131180716\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIgP6XUef99ZMKPq-koOEgXQwZT7laW4wl7NKaXpkycY8ICIQCLFiy2_pToLq0hkz5gZMB8pI1HQJohmEdSwzWq93Nzvw%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/webm; codecs=\"vp9\"",
+                "bitrate": 768988,
+                "width": 854,
+                "height": 480,
+                "initRange": {
+                    "start": "0",
+                    "end": "219"
+                },
+                "indexRange": {
+                    "start": "220",
+                    "end": "2689"
+                },
+                "lastModified": "1736409131180716",
+                "contentLength": "35439189",
+                "quality": "large",
+                "fps": 24,
+                "qualityLabel": "480p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 365333,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 397,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=397\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=35115588\u0026dur=776.041\u0026lmt=1736407215289886\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5537534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIhAMty5paLPzr6pQgxU6_zVEZVmP0qH8bIzfnkXWuKUALgAiAgH5Q3pdFugRkVheZK8mYG3HgHKFQZ9lXU2l7R1tMZLA%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"av01.0.04M.08\"",
+                "bitrate": 780296,
+                "width": 854,
+                "height": 480,
+                "initRange": {
+                    "start": "0",
+                    "end": "699"
+                },
+                "indexRange": {
+                    "start": "700",
+                    "end": "2423"
+                },
+                "lastModified": "1736407215289886",
+                "contentLength": "35115588",
+                "quality": "large",
+                "fps": 24,
+                "qualityLabel": "480p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 361997,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 134,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=134\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=16612097\u0026dur=776.041\u0026lmt=1736405333411726\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRgIhANuiDIRQEnmCKY6szMH0qaHEng8Rt49rBw7QCXXVQEQBAiEAqLOFB_gYUedg9wBrZYq4K3THCprdNGDEikHaC478MyM%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"avc1.4d401e\"",
+                "bitrate": 560829,
+                "width": 640,
+                "height": 360,
+                "initRange": {
+                    "start": "0",
+                    "end": "740"
+                },
+                "indexRange": {
+                    "start": "741",
+                    "end": "2464"
+                },
+                "lastModified": "1736405333411726",
+                "contentLength": "16612097",
+                "quality": "medium",
+                "fps": 24,
+                "qualityLabel": "360p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 171249,
+                "highReplication": true,
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 243,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=243\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=22319394\u0026dur=776.041\u0026lmt=1736409126392877\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIhALHc8MlkbRE3ELU7bAJOaRbpWQmH_f1uCB6tO5pzPeF0AiAUorPJBWpuHvXABCGqDSII56hZXZ5pQkgLO9mOtS8WJg%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/webm; codecs=\"vp9\"",
+                "bitrate": 413227,
+                "width": 640,
+                "height": 360,
+                "initRange": {
+                    "start": "0",
+                    "end": "219"
+                },
+                "indexRange": {
+                    "start": "220",
+                    "end": "2645"
+                },
+                "lastModified": "1736409126392877",
+                "contentLength": "22319394",
+                "quality": "medium",
+                "fps": 24,
+                "qualityLabel": "360p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 230084,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 396,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=396\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=19407558\u0026dur=776.041\u0026lmt=1736402272579486\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5537534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRAIgDQkRAiIg9qQrVZVUEZ4rWw6pBTKwrxQw-nqpkL9RWxICIGM-Y8RSpuSDyYtG5HO_WV4l6gtybSwB4EOj86j8-6ew\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"av01.0.01M.08\"",
+                "bitrate": 369665,
+                "width": 640,
+                "height": 360,
+                "initRange": {
+                    "start": "0",
+                    "end": "699"
+                },
+                "indexRange": {
+                    "start": "700",
+                    "end": "2423"
+                },
+                "lastModified": "1736402272579486",
+                "contentLength": "19407558",
+                "quality": "medium",
+                "fps": 24,
+                "qualityLabel": "360p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 200067,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 133,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=133\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=8403590\u0026dur=776.041\u0026lmt=1736406299819765\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRgIhAIqg1zfUjiV2aZbtxJDBu7Q0T3h0n-hTva40EdGmRQxaAiEAm6XlpqXi9EsBw-hmxdiOcnZUoqkEFIi49QEiyBuFInM%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"avc1.4d4015\"",
+                "bitrate": 223208,
+                "width": 426,
+                "height": 240,
+                "initRange": {
+                    "start": "0",
+                    "end": "739"
+                },
+                "indexRange": {
+                    "start": "740",
+                    "end": "2463"
+                },
+                "lastModified": "1736406299819765",
+                "contentLength": "8403590",
+                "quality": "small",
+                "fps": 24,
+                "qualityLabel": "240p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 86630,
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 242,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=242\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=11833659\u0026dur=776.041\u0026lmt=1736409137409562\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIgf2wt9VQo-hrqpbwdo-t1eL3eh7Xx6WM7WaPIAieSEIMCIQDmOJOxc6Aha3e_aIb1VVn8lQsI66eyeodWkGOAbktukw%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/webm; codecs=\"vp9\"",
+                "bitrate": 224633,
+                "width": 426,
+                "height": 240,
+                "initRange": {
+                    "start": "0",
+                    "end": "218"
+                },
+                "indexRange": {
+                    "start": "219",
+                    "end": "2607"
+                },
+                "lastModified": "1736409137409562",
+                "contentLength": "11833659",
+                "quality": "small",
+                "fps": 24,
+                "qualityLabel": "240p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 121990,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 395,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=395\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=10025257\u0026dur=776.041\u0026lmt=1736401397203376\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5537534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIgJgFtFncdkmQIFzoDCVVWnDA-H4gLbDuj5L6SCRHSeM0CIQChgABm03TUR2HWtpZuRWvjrQHbJGW5lN9gCJH1PQf0Ug%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"av01.0.00M.08\"",
+                "bitrate": 199007,
+                "width": 426,
+                "height": 240,
+                "initRange": {
+                    "start": "0",
+                    "end": "699"
+                },
+                "indexRange": {
+                    "start": "700",
+                    "end": "2423"
+                },
+                "lastModified": "1736401397203376",
+                "contentLength": "10025257",
+                "quality": "small",
+                "fps": 24,
+                "qualityLabel": "240p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 103347,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 160,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=160\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=4976003\u0026dur=776.041\u0026lmt=1736405311387837\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIgIh2y0_TutekVeATDFyL309UNU8GmsinMmF0iP2EXLmoCIQCS9sqPmmeEB_a2ejBIvbYKP5SFQAPFLVcTBhdFTDQBKA%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"avc1.4d400c\"",
+                "bitrate": 105065,
+                "width": 256,
+                "height": 144,
+                "initRange": {
+                    "start": "0",
+                    "end": "738"
+                },
+                "indexRange": {
+                    "start": "739",
+                    "end": "2462"
+                },
+                "lastModified": "1736405311387837",
+                "contentLength": "4976003",
+                "quality": "tiny",
+                "fps": 24,
+                "qualityLabel": "144p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 51296,
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 278,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=278\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=8538603\u0026dur=776.041\u0026lmt=1736409127750774\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5535534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIhALwLKMjgySEyxV25b0aRw95MkBF-GZjIksCLwX5a_5fRAiAbbfb4BOeF1YoelKaAuifDyyP464oS5VF_MZTexsbwMw%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/webm; codecs=\"vp9\"",
+                "bitrate": 96859,
+                "width": 256,
+                "height": 144,
+                "initRange": {
+                    "start": "0",
+                    "end": "218"
+                },
+                "indexRange": {
+                    "start": "219",
+                    "end": "2606"
+                },
+                "lastModified": "1736409127750774",
+                "contentLength": "8538603",
+                "quality": "tiny",
+                "fps": 24,
+                "qualityLabel": "144p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 88022,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 394,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=394\u0026aitags=133%2C134%2C135%2C136%2C137%2C160%2C242%2C243%2C244%2C247%2C248%2C278%2C394%2C395%2C396%2C397%2C398%2C399\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=video%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=5228531\u0026dur=776.041\u0026lmt=1736402281528224\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5537534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Caitags%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIgD-HAzTxKYq3nLXZ6nT44Y3ihJCKoNw0wuhJgo5ZhpvsCIQDRXN8OkJS0SC8SGYaWrL62JOiimwoU14O6VYj3UR26oQ%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "video/mp4; codecs=\"av01.0.00M.08\"",
+                "bitrate": 92769,
+                "width": 256,
+                "height": 144,
+                "initRange": {
+                    "start": "0",
+                    "end": "699"
+                },
+                "indexRange": {
+                    "start": "700",
+                    "end": "2423"
+                },
+                "lastModified": "1736402281528224",
+                "contentLength": "5228531",
+                "quality": "tiny",
+                "fps": 24,
+                "qualityLabel": "144p",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 53899,
+                "colorInfo": {
+                    "primaries": "COLOR_PRIMARIES_BT709",
+                    "transferCharacteristics": "COLOR_TRANSFER_CHARACTERISTICS_BT709",
+                    "matrixCoefficients": "COLOR_MATRIX_COEFFICIENTS_BT709"
+                },
+                "approxDurationMs": "776041"
+            },
+            {
+                "itag": 140,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=140\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=audio%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=12561294\u0026dur=776.103\u0026lmt=1736401282238241\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5532534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRAIgTxLl9HxRXxXWRjyikSyV4nFBBkIn4-jsGJIOo5ILKYgCIDQdoMHK8TQn5Q4mSS3Rp75oms-i1uBWSBJ7ESXLf1iD\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+                "bitrate": 131058,
+                "initRange": {
+                    "start": "0",
+                    "end": "722"
+                },
+                "indexRange": {
+                    "start": "723",
+                    "end": "1690"
+                },
+                "lastModified": "1736401282238241",
+                "contentLength": "12561294",
+                "quality": "tiny",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 129480,
+                "highReplication": true,
+                "audioQuality": "AUDIO_QUALITY_MEDIUM",
+                "approxDurationMs": "776103",
+                "audioSampleRate": "44100",
+                "audioChannels": 2,
+                "loudnessDb": 3.0600004
+            },
+            {
+                "itag": 140,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=140\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026xtags=drc%3D1\u0026mime=audio%2Fmp4\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=12561587\u0026dur=776.103\u0026lmt=1736401311718713\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5532534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRAIgSsHBONf-XZEqUdeWeQwozGfWCkD7yx-lwkhJvyUmilgCID-L1k2TjbIg-bCCQxQRaaYhlpTZ0HiNEm5L6o1Ur2xP\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "audio/mp4; codecs=\"mp4a.40.2\"",
+                "bitrate": 131057,
+                "initRange": {
+                    "start": "0",
+                    "end": "722"
+                },
+                "indexRange": {
+                    "start": "723",
+                    "end": "1690"
+                },
+                "lastModified": "1736401311718713",
+                "contentLength": "12561587",
+                "quality": "tiny",
+                "xtags": "CggKA2RyYxIBMQ",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 129483,
+                "highReplication": true,
+                "audioQuality": "AUDIO_QUALITY_MEDIUM",
+                "approxDurationMs": "776103",
+                "audioSampleRate": "44100",
+                "audioChannels": 2,
+                "loudnessDb": -1.6599998,
+                "isDrc": true
+            },
+            {
+                "itag": 249,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=249\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=audio%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=5063056\u0026dur=776.081\u0026lmt=1736401336002640\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5532534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRAIgYC87KmaLrMfsVOFQsN5X4JyDLYL0FKClSbRUZ1m3r-UCIAcsVSB3IXQc7KUXCdEpQSWV-MghU9hn1hfedaX_tRu-\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "audio/webm; codecs=\"opus\"",
+                "bitrate": 62036,
+                "initRange": {
+                    "start": "0",
+                    "end": "265"
+                },
+                "indexRange": {
+                    "start": "266",
+                    "end": "1588"
+                },
+                "lastModified": "1736401336002640",
+                "contentLength": "5063056",
+                "quality": "tiny",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 52191,
+                "audioQuality": "AUDIO_QUALITY_LOW",
+                "approxDurationMs": "776081",
+                "audioSampleRate": "48000",
+                "audioChannels": 2,
+                "loudnessDb": 3.0500002
+            },
+            {
+                "itag": 249,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=249\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026xtags=drc%3D1\u0026mime=audio%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=5053027\u0026dur=776.081\u0026lmt=1736401328937993\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5532534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRgIhAN0WOtfRiaZ0Vse8Qb7F_F6ymocWCoTAZ8z_CviDAGClAiEAqGpq6zYDCZguX7Ol-l1aWVnnRiwkxEC-_5r1sthRdvM%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "audio/webm; codecs=\"opus\"",
+                "bitrate": 61893,
+                "initRange": {
+                    "start": "0",
+                    "end": "265"
+                },
+                "indexRange": {
+                    "start": "266",
+                    "end": "1588"
+                },
+                "lastModified": "1736401328937993",
+                "contentLength": "5053027",
+                "quality": "tiny",
+                "xtags": "CggKA2RyYxIBMQ",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 52087,
+                "audioQuality": "AUDIO_QUALITY_LOW",
+                "approxDurationMs": "776081",
+                "audioSampleRate": "48000",
+                "audioChannels": 2,
+                "loudnessDb": -1.6599998,
+                "isDrc": true
+            },
+            {
+                "itag": 250,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=250\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=audio%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=6781462\u0026dur=776.081\u0026lmt=1736401319991076\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5532534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRgIhAKDc9Z0FX5vFgV9dp52WCVrXtzyjnIEVw3izesPjfWOaAiEA-muYYetzPWbtNe_1fAWzsBoN6HS012kE0p81-UOn4W8%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "audio/webm; codecs=\"opus\"",
+                "bitrate": 81022,
+                "initRange": {
+                    "start": "0",
+                    "end": "265"
+                },
+                "indexRange": {
+                    "start": "266",
+                    "end": "1588"
+                },
+                "lastModified": "1736401319991076",
+                "contentLength": "6781462",
+                "quality": "tiny",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 69904,
+                "audioQuality": "AUDIO_QUALITY_LOW",
+                "approxDurationMs": "776081",
+                "audioSampleRate": "48000",
+                "audioChannels": 2,
+                "loudnessDb": 3.0500002
+            },
+            {
+                "itag": 250,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=250\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026xtags=drc%3D1\u0026mime=audio%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=6785287\u0026dur=776.081\u0026lmt=1736401314345444\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5532534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRAIgO4d0K0HzBNjE_OqsHbCigNXfQDQIJjtUObX2cTEObZcCIDRvlvhDgenj6XkeRt0yfeqNlmPLrMm2teNUa2zB1mdc\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "audio/webm; codecs=\"opus\"",
+                "bitrate": 80860,
+                "initRange": {
+                    "start": "0",
+                    "end": "265"
+                },
+                "indexRange": {
+                    "start": "266",
+                    "end": "1588"
+                },
+                "lastModified": "1736401314345444",
+                "contentLength": "6785287",
+                "quality": "tiny",
+                "xtags": "CggKA2RyYxIBMQ",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 69944,
+                "audioQuality": "AUDIO_QUALITY_LOW",
+                "approxDurationMs": "776081",
+                "audioSampleRate": "48000",
+                "audioChannels": 2,
+                "loudnessDb": -1.6599998,
+                "isDrc": true
+            },
+            {
+                "itag": 251,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=251\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026mime=audio%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=13135739\u0026dur=776.081\u0026lmt=1736401290233929\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5532534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRAIgBD_XV_5k-O8lDTPwaiU5WqKUFx8fGLu0jDm8oQeQxTcCIBfp_XVb4yLhaEZ7b1wXPzEJgscbjigbmTubswLvhxT5\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "audio/webm; codecs=\"opus\"",
+                "bitrate": 159930,
+                "initRange": {
+                    "start": "0",
+                    "end": "265"
+                },
+                "indexRange": {
+                    "start": "266",
+                    "end": "1588"
+                },
+                "lastModified": "1736401290233929",
+                "contentLength": "13135739",
+                "quality": "tiny",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 135405,
+                "audioQuality": "AUDIO_QUALITY_MEDIUM",
+                "approxDurationMs": "776081",
+                "audioSampleRate": "48000",
+                "audioChannels": 2,
+                "loudnessDb": 3.0500002
+            },
+            {
+                "itag": 251,
+                "url": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026itag=251\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026bui=AY2Et-NlcPOSvU1ifdlb1lVcdYXgm6gwC4Z_uEmQ_dsZINVWJW_SETfh2TKKfsv5HbAFKZD3FWC4Cykr\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026vprv=1\u0026svpuc=1\u0026xtags=drc%3D1\u0026mime=audio%2Fwebm\u0026ns=CvWQ-RnKY5MkFJv1axRrA24Q\u0026rqh=1\u0026gir=yes\u0026clen=13133207\u0026dur=776.081\u0026lmt=1736401359966434\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026sefc=1\u0026txp=5532534\u0026n=pLBoASHQVFOiVzUw\u0026sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cxtags%2Cmime%2Cns%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt\u0026sig=AJfQdSswRQIgaYxlz2WT8z7FZgniiB5NiIaCCinZQefvAE5NVoQ7DCsCIQDak4ZcKpjQKjBa3upbqsKJkyqlZR-7G99b6rxHUrVDrg%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D",
+                "mimeType": "audio/webm; codecs=\"opus\"",
+                "bitrate": 160401,
+                "initRange": {
+                    "start": "0",
+                    "end": "265"
+                },
+                "indexRange": {
+                    "start": "266",
+                    "end": "1588"
+                },
+                "lastModified": "1736401359966434",
+                "contentLength": "13133207",
+                "quality": "tiny",
+                "xtags": "CggKA2RyYxIBMQ",
+                "projectionType": "RECTANGULAR",
+                "averageBitrate": 135379,
+                "audioQuality": "AUDIO_QUALITY_MEDIUM",
+                "approxDurationMs": "776081",
+                "audioSampleRate": "48000",
+                "audioChannels": 2,
+                "loudnessDb": -1.6599998,
+                "isDrc": true
+            }
+        ],
+        "serverAbrStreamingUrl": "https://rr4---sn-ci5gup-25ud.googlevideo.com/videoplayback?expire=1738069353\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026ip=182.64.179.18\u0026id=o-AAd58WdM-PaJBEbFbMtJaCGBY7svHgeayPOIrktOPJD4\u0026source=youtube\u0026requiressl=yes\u0026xpc=EgVo2aDSNQ%3D%3D\u0026met=1738047753%2C\u0026mh=xS\u0026mm=31%2C29\u0026mn=sn-ci5gup-25ud%2Csn-ci5gup-cvhk\u0026ms=au%2Crdu\u0026mv=m\u0026mvi=4\u0026pl=22\u0026rms=au%2Cau\u0026initcwndbps=563750\u0026spc=9kzgDcbJmfJSJdAV_GJTTMiO45UYYw1OUjPrUTWhV5Ymj63xXQFcfGfFS53Oj2Y\u0026svpuc=1\u0026ns=IAZeYxCxKbFzmfxekDi_B9oQ\u0026sabr=1\u0026rqh=1\u0026mt=1738047409\u0026fvip=2\u0026keepalive=yes\u0026fexp=51326932%2C51353498%2C51355912%2C51371294\u0026c=WEB\u0026n=qW7Ejghf1hoYpuQY\u0026sparams=expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Cspc%2Csvpuc%2Cns%2Csabr%2Crqh\u0026sig=AJfQdSswRQIgC4ZoEmPFmDLqBzFIGESjQ1MfqUe7GnxgSY9Tq2c72WECIQDPabToDXJd19nTYrdFhT93R211DwMz-pFFZvE9ApEsrA%3D%3D\u0026lsparams=met%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps\u0026lsig=AGluJ3MwRgIhALTCyDOWSa2_v36tE--B6zK1FMbbCBY9XzglPXTPC9ZiAiEA9ESBOloW5bVsw1dOOnaYfNpyC-L26tyYkyYcqJHDj24%3D"
+    },
+    "playerAds": [
+        {
+            "playerLegacyDesktopWatchAdsRenderer": {
+                "playerAdParams": {
+                    "showContentThumbnail": true,
+                    "enabledEngageTypes": "3,6,4,5,17,1"
+                },
+                "gutParams": {
+                    "tag": "\\4061\\ytpwmpu"
+                },
+                "showCompanion": true,
+                "showInstream": true,
+                "useGut": true
+            }
+        }
+    ],
+    "playbackTracking": {
+        "videostatsPlaybackUrl": {
+            "baseUrl": "https://s.youtube.com/api/stats/playback?cl=715394830\u0026docid=ZiwDIW726ic\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026fexp=\u0026ns=yt\u0026plid=AAYsvsbyWFd5v8vz\u0026el=detailpage\u0026len=777\u0026of=HfeVO-1z-HdJWQq4IiVtvw\u0026vm=CAEQARgEOjJBSHFpSlRLdFRPekRVMkVsLTNNX1dWR1hFdmtDM3VGdTVRVXhXNUNYOFRQMWozQk5jUWJMQUZVQTZSUk96Rk5tLUZBNnlhc0hXNVROam02WXVOT181bW1hU1BLeVh6ZUJ0UmFJV213ZXZ5eXpaVEZEZVdXZXNYZkhxVmJUeEF0Rg"
+        },
+        "videostatsDelayplayUrl": {
+            "baseUrl": "https://s.youtube.com/api/stats/delayplay?cl=715394830\u0026docid=ZiwDIW726ic\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026fexp=\u0026ns=yt\u0026plid=AAYsvsbyWFd5v8vz\u0026el=detailpage\u0026len=777\u0026of=HfeVO-1z-HdJWQq4IiVtvw\u0026vm=CAEQARgEOjJBSHFpSlRLdFRPekRVMkVsLTNNX1dWR1hFdmtDM3VGdTVRVXhXNUNYOFRQMWozQk5jUWJMQUZVQTZSUk96Rk5tLUZBNnlhc0hXNVROam02WXVOT181bW1hU1BLeVh6ZUJ0UmFJV213ZXZ5eXpaVEZEZVdXZXNYZkhxVmJUeEF0Rg"
+        },
+        "videostatsWatchtimeUrl": {
+            "baseUrl": "https://s.youtube.com/api/stats/watchtime?cl=715394830\u0026docid=ZiwDIW726ic\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026fexp=\u0026ns=yt\u0026plid=AAYsvsbyWFd5v8vz\u0026el=detailpage\u0026len=777\u0026of=HfeVO-1z-HdJWQq4IiVtvw\u0026vm=CAEQARgEOjJBSHFpSlRLdFRPekRVMkVsLTNNX1dWR1hFdmtDM3VGdTVRVXhXNUNYOFRQMWozQk5jUWJMQUZVQTZSUk96Rk5tLUZBNnlhc0hXNVROam02WXVOT181bW1hU1BLeVh6ZUJ0UmFJV213ZXZ5eXpaVEZEZVdXZXNYZkhxVmJUeEF0Rg"
+        },
+        "ptrackingUrl": {
+            "baseUrl": "https://www.youtube.com/ptracking?ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026oid=bZUryIbk8SB1L5TMo0Geog\u0026plid=AAYsvsbyWFd5v8vz\u0026pltype=content\u0026ptchn=zOVIHSg-GeenFlGHttWQwA\u0026ptk=youtube_single\u0026video_id=ZiwDIW726ic"
+        },
+        "qoeUrl": {
+            "baseUrl": "https://s.youtube.com/api/stats/qoe?cl=715394830\u0026docid=ZiwDIW726ic\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026el=detailpage\u0026event=streamingstats\u0026fexp=\u0026ns=yt\u0026plid=AAYsvsbyWFd5v8vz"
+        },
+        "atrUrl": {
+            "baseUrl": "https://s.youtube.com/api/stats/atr?c=WEB\u0026docid=ZiwDIW726ic\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026len=777\u0026ns=yt\u0026plid=AAYsvsbyWFd5v8vz\u0026ver=2\u0026vm=CAEQARgEOjJBSHFpSlRLdFRPekRVMkVsLTNNX1dWR1hFdmtDM3VGdTVRVXhXNUNYOFRQMWozQk5jUWJMQUZVQTZSUk96Rk5tLUZBNnlhc0hXNVROam02WXVOT181bW1hU1BLeVh6ZUJ0UmFJV213ZXZ5eXpaVEZEZVdXZXNYZkhxVmJUeEF0Rg",
+            "elapsedMediaTimeSeconds": 5
+        },
+        "videostatsScheduledFlushWalltimeSeconds": [
+            10,
+            20,
+            30
+        ],
+        "videostatsDefaultFlushIntervalSeconds": 40
+    },
+    "captions": {
+        "playerCaptionsTracklistRenderer": {
+            "captionTracks": [
+                {
+                    "baseUrl": "https://www.youtube.com/api/timedtext?v=ZiwDIW726ic\u0026ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026caps=asr\u0026opi=112496729\u0026xoaf=5\u0026hl=en-GB\u0026ip=0.0.0.0\u0026ipbits=0\u0026expire=1738072953\u0026sparams=ip,ipbits,expire,v,ei,caps,opi,xoaf\u0026signature=9C55D7C6D87703E61202A0986B0A14DA0DEB3A68.22B1C0DF3A553B186CEB732708C4CFF029BDF34D\u0026key=yt8\u0026kind=asr\u0026lang=hi",
+                    "name": {
+                        "simpleText": "Hindi (auto-generated)"
+                    },
+                    "vssId": "a.hi",
+                    "languageCode": "hi",
+                    "kind": "asr",
+                    "isTranslatable": true,
+                    "trackName": ""
+                }
+            ],
+            "audioTracks": [
+                {
+                    "captionTrackIndices": [
+                        0
+                    ]
+                }
+            ],
+            "translationLanguages": [
+                {
+                    "languageCode": "ab",
+                    "languageName": {
+                        "simpleText": "Abkhazian"
+                    }
+                },
+                {
+                    "languageCode": "aa",
+                    "languageName": {
+                        "simpleText": "Afar"
+                    }
+                },
+                {
+                    "languageCode": "af",
+                    "languageName": {
+                        "simpleText": "Afrikaans"
+                    }
+                },
+                {
+                    "languageCode": "ak",
+                    "languageName": {
+                        "simpleText": "Akan"
+                    }
+                },
+                {
+                    "languageCode": "sq",
+                    "languageName": {
+                        "simpleText": "Albanian"
+                    }
+                },
+                {
+                    "languageCode": "am",
+                    "languageName": {
+                        "simpleText": "Amharic"
+                    }
+                },
+                {
+                    "languageCode": "ar",
+                    "languageName": {
+                        "simpleText": "Arabic"
+                    }
+                },
+                {
+                    "languageCode": "hy",
+                    "languageName": {
+                        "simpleText": "Armenian"
+                    }
+                },
+                {
+                    "languageCode": "as",
+                    "languageName": {
+                        "simpleText": "Assamese"
+                    }
+                },
+                {
+                    "languageCode": "ay",
+                    "languageName": {
+                        "simpleText": "Aymara"
+                    }
+                },
+                {
+                    "languageCode": "az",
+                    "languageName": {
+                        "simpleText": "Azerbaijani"
+                    }
+                },
+                {
+                    "languageCode": "bn",
+                    "languageName": {
+                        "simpleText": "Bangla"
+                    }
+                },
+                {
+                    "languageCode": "ba",
+                    "languageName": {
+                        "simpleText": "Bashkir"
+                    }
+                },
+                {
+                    "languageCode": "eu",
+                    "languageName": {
+                        "simpleText": "Basque"
+                    }
+                },
+                {
+                    "languageCode": "be",
+                    "languageName": {
+                        "simpleText": "Belarusian"
+                    }
+                },
+                {
+                    "languageCode": "bho",
+                    "languageName": {
+                        "simpleText": "Bhojpuri"
+                    }
+                },
+                {
+                    "languageCode": "bs",
+                    "languageName": {
+                        "simpleText": "Bosnian"
+                    }
+                },
+                {
+                    "languageCode": "br",
+                    "languageName": {
+                        "simpleText": "Breton"
+                    }
+                },
+                {
+                    "languageCode": "bg",
+                    "languageName": {
+                        "simpleText": "Bulgarian"
+                    }
+                },
+                {
+                    "languageCode": "my",
+                    "languageName": {
+                        "simpleText": "Burmese"
+                    }
+                },
+                {
+                    "languageCode": "ca",
+                    "languageName": {
+                        "simpleText": "Catalan"
+                    }
+                },
+                {
+                    "languageCode": "ceb",
+                    "languageName": {
+                        "simpleText": "Cebuano"
+                    }
+                },
+                {
+                    "languageCode": "zh-Hans",
+                    "languageName": {
+                        "simpleText": "Chinese (Simplified)"
+                    }
+                },
+                {
+                    "languageCode": "zh-Hant",
+                    "languageName": {
+                        "simpleText": "Chinese (Traditional)"
+                    }
+                },
+                {
+                    "languageCode": "co",
+                    "languageName": {
+                        "simpleText": "Corsican"
+                    }
+                },
+                {
+                    "languageCode": "hr",
+                    "languageName": {
+                        "simpleText": "Croatian"
+                    }
+                },
+                {
+                    "languageCode": "cs",
+                    "languageName": {
+                        "simpleText": "Czech"
+                    }
+                },
+                {
+                    "languageCode": "da",
+                    "languageName": {
+                        "simpleText": "Danish"
+                    }
+                },
+                {
+                    "languageCode": "dv",
+                    "languageName": {
+                        "simpleText": "Divehi"
+                    }
+                },
+                {
+                    "languageCode": "nl",
+                    "languageName": {
+                        "simpleText": "Dutch"
+                    }
+                },
+                {
+                    "languageCode": "dz",
+                    "languageName": {
+                        "simpleText": "Dzongkha"
+                    }
+                },
+                {
+                    "languageCode": "en",
+                    "languageName": {
+                        "simpleText": "English"
+                    }
+                },
+                {
+                    "languageCode": "eo",
+                    "languageName": {
+                        "simpleText": "Esperanto"
+                    }
+                },
+                {
+                    "languageCode": "et",
+                    "languageName": {
+                        "simpleText": "Estonian"
+                    }
+                },
+                {
+                    "languageCode": "ee",
+                    "languageName": {
+                        "simpleText": "Ewe"
+                    }
+                },
+                {
+                    "languageCode": "fo",
+                    "languageName": {
+                        "simpleText": "Faroese"
+                    }
+                },
+                {
+                    "languageCode": "fj",
+                    "languageName": {
+                        "simpleText": "Fijian"
+                    }
+                },
+                {
+                    "languageCode": "fil",
+                    "languageName": {
+                        "simpleText": "Filipino"
+                    }
+                },
+                {
+                    "languageCode": "fi",
+                    "languageName": {
+                        "simpleText": "Finnish"
+                    }
+                },
+                {
+                    "languageCode": "fr",
+                    "languageName": {
+                        "simpleText": "French"
+                    }
+                },
+                {
+                    "languageCode": "gaa",
+                    "languageName": {
+                        "simpleText": "Ga"
+                    }
+                },
+                {
+                    "languageCode": "gl",
+                    "languageName": {
+                        "simpleText": "Galician"
+                    }
+                },
+                {
+                    "languageCode": "lg",
+                    "languageName": {
+                        "simpleText": "Ganda"
+                    }
+                },
+                {
+                    "languageCode": "ka",
+                    "languageName": {
+                        "simpleText": "Georgian"
+                    }
+                },
+                {
+                    "languageCode": "de",
+                    "languageName": {
+                        "simpleText": "German"
+                    }
+                },
+                {
+                    "languageCode": "el",
+                    "languageName": {
+                        "simpleText": "Greek"
+                    }
+                },
+                {
+                    "languageCode": "gn",
+                    "languageName": {
+                        "simpleText": "Guarani"
+                    }
+                },
+                {
+                    "languageCode": "gu",
+                    "languageName": {
+                        "simpleText": "Gujarati"
+                    }
+                },
+                {
+                    "languageCode": "ht",
+                    "languageName": {
+                        "simpleText": "Haitian Creole"
+                    }
+                },
+                {
+                    "languageCode": "ha",
+                    "languageName": {
+                        "simpleText": "Hausa"
+                    }
+                },
+                {
+                    "languageCode": "haw",
+                    "languageName": {
+                        "simpleText": "Hawaiian"
+                    }
+                },
+                {
+                    "languageCode": "iw",
+                    "languageName": {
+                        "simpleText": "Hebrew"
+                    }
+                },
+                {
+                    "languageCode": "hi",
+                    "languageName": {
+                        "simpleText": "Hindi"
+                    }
+                },
+                {
+                    "languageCode": "hmn",
+                    "languageName": {
+                        "simpleText": "Hmong"
+                    }
+                },
+                {
+                    "languageCode": "hu",
+                    "languageName": {
+                        "simpleText": "Hungarian"
+                    }
+                },
+                {
+                    "languageCode": "is",
+                    "languageName": {
+                        "simpleText": "Icelandic"
+                    }
+                },
+                {
+                    "languageCode": "ig",
+                    "languageName": {
+                        "simpleText": "Igbo"
+                    }
+                },
+                {
+                    "languageCode": "id",
+                    "languageName": {
+                        "simpleText": "Indonesian"
+                    }
+                },
+                {
+                    "languageCode": "iu",
+                    "languageName": {
+                        "simpleText": "Inuktitut"
+                    }
+                },
+                {
+                    "languageCode": "ga",
+                    "languageName": {
+                        "simpleText": "Irish"
+                    }
+                },
+                {
+                    "languageCode": "it",
+                    "languageName": {
+                        "simpleText": "Italian"
+                    }
+                },
+                {
+                    "languageCode": "ja",
+                    "languageName": {
+                        "simpleText": "Japanese"
+                    }
+                },
+                {
+                    "languageCode": "jv",
+                    "languageName": {
+                        "simpleText": "Javanese"
+                    }
+                },
+                {
+                    "languageCode": "kl",
+                    "languageName": {
+                        "simpleText": "Kalaallisut"
+                    }
+                },
+                {
+                    "languageCode": "kn",
+                    "languageName": {
+                        "simpleText": "Kannada"
+                    }
+                },
+                {
+                    "languageCode": "kk",
+                    "languageName": {
+                        "simpleText": "Kazakh"
+                    }
+                },
+                {
+                    "languageCode": "kha",
+                    "languageName": {
+                        "simpleText": "Khasi"
+                    }
+                },
+                {
+                    "languageCode": "km",
+                    "languageName": {
+                        "simpleText": "Khmer"
+                    }
+                },
+                {
+                    "languageCode": "rw",
+                    "languageName": {
+                        "simpleText": "Kinyarwanda"
+                    }
+                },
+                {
+                    "languageCode": "ko",
+                    "languageName": {
+                        "simpleText": "Korean"
+                    }
+                },
+                {
+                    "languageCode": "kri",
+                    "languageName": {
+                        "simpleText": "Krio"
+                    }
+                },
+                {
+                    "languageCode": "ku",
+                    "languageName": {
+                        "simpleText": "Kurdish"
+                    }
+                },
+                {
+                    "languageCode": "ky",
+                    "languageName": {
+                        "simpleText": "Kyrgyz"
+                    }
+                },
+                {
+                    "languageCode": "lo",
+                    "languageName": {
+                        "simpleText": "Lao"
+                    }
+                },
+                {
+                    "languageCode": "la",
+                    "languageName": {
+                        "simpleText": "Latin"
+                    }
+                },
+                {
+                    "languageCode": "lv",
+                    "languageName": {
+                        "simpleText": "Latvian"
+                    }
+                },
+                {
+                    "languageCode": "ln",
+                    "languageName": {
+                        "simpleText": "Lingala"
+                    }
+                },
+                {
+                    "languageCode": "lt",
+                    "languageName": {
+                        "simpleText": "Lithuanian"
+                    }
+                },
+                {
+                    "languageCode": "lua",
+                    "languageName": {
+                        "simpleText": "Luba-Lulua"
+                    }
+                },
+                {
+                    "languageCode": "luo",
+                    "languageName": {
+                        "simpleText": "Luo"
+                    }
+                },
+                {
+                    "languageCode": "lb",
+                    "languageName": {
+                        "simpleText": "Luxembourgish"
+                    }
+                },
+                {
+                    "languageCode": "mk",
+                    "languageName": {
+                        "simpleText": "Macedonian"
+                    }
+                },
+                {
+                    "languageCode": "mg",
+                    "languageName": {
+                        "simpleText": "Malagasy"
+                    }
+                },
+                {
+                    "languageCode": "ms",
+                    "languageName": {
+                        "simpleText": "Malay"
+                    }
+                },
+                {
+                    "languageCode": "ml",
+                    "languageName": {
+                        "simpleText": "Malayalam"
+                    }
+                },
+                {
+                    "languageCode": "mt",
+                    "languageName": {
+                        "simpleText": "Maltese"
+                    }
+                },
+                {
+                    "languageCode": "gv",
+                    "languageName": {
+                        "simpleText": "Manx"
+                    }
+                },
+                {
+                    "languageCode": "mi",
+                    "languageName": {
+                        "simpleText": "Māori"
+                    }
+                },
+                {
+                    "languageCode": "mr",
+                    "languageName": {
+                        "simpleText": "Marathi"
+                    }
+                },
+                {
+                    "languageCode": "mn",
+                    "languageName": {
+                        "simpleText": "Mongolian"
+                    }
+                },
+                {
+                    "languageCode": "mfe",
+                    "languageName": {
+                        "simpleText": "Morisyen"
+                    }
+                },
+                {
+                    "languageCode": "ne",
+                    "languageName": {
+                        "simpleText": "Nepali"
+                    }
+                },
+                {
+                    "languageCode": "new",
+                    "languageName": {
+                        "simpleText": "Newari"
+                    }
+                },
+                {
+                    "languageCode": "nso",
+                    "languageName": {
+                        "simpleText": "Northern Sotho"
+                    }
+                },
+                {
+                    "languageCode": "no",
+                    "languageName": {
+                        "simpleText": "Norwegian"
+                    }
+                },
+                {
+                    "languageCode": "ny",
+                    "languageName": {
+                        "simpleText": "Nyanja"
+                    }
+                },
+                {
+                    "languageCode": "oc",
+                    "languageName": {
+                        "simpleText": "Occitan"
+                    }
+                },
+                {
+                    "languageCode": "or",
+                    "languageName": {
+                        "simpleText": "Odia"
+                    }
+                },
+                {
+                    "languageCode": "om",
+                    "languageName": {
+                        "simpleText": "Oromo"
+                    }
+                },
+                {
+                    "languageCode": "os",
+                    "languageName": {
+                        "simpleText": "Ossetic"
+                    }
+                },
+                {
+                    "languageCode": "pam",
+                    "languageName": {
+                        "simpleText": "Pampanga"
+                    }
+                },
+                {
+                    "languageCode": "ps",
+                    "languageName": {
+                        "simpleText": "Pashto"
+                    }
+                },
+                {
+                    "languageCode": "fa",
+                    "languageName": {
+                        "simpleText": "Persian"
+                    }
+                },
+                {
+                    "languageCode": "pl",
+                    "languageName": {
+                        "simpleText": "Polish"
+                    }
+                },
+                {
+                    "languageCode": "pt",
+                    "languageName": {
+                        "simpleText": "Portuguese"
+                    }
+                },
+                {
+                    "languageCode": "pt-PT",
+                    "languageName": {
+                        "simpleText": "Portuguese (Portugal)"
+                    }
+                },
+                {
+                    "languageCode": "pa",
+                    "languageName": {
+                        "simpleText": "Punjabi"
+                    }
+                },
+                {
+                    "languageCode": "qu",
+                    "languageName": {
+                        "simpleText": "Quechua"
+                    }
+                },
+                {
+                    "languageCode": "ro",
+                    "languageName": {
+                        "simpleText": "Romanian"
+                    }
+                },
+                {
+                    "languageCode": "rn",
+                    "languageName": {
+                        "simpleText": "Rundi"
+                    }
+                },
+                {
+                    "languageCode": "ru",
+                    "languageName": {
+                        "simpleText": "Russian"
+                    }
+                },
+                {
+                    "languageCode": "sm",
+                    "languageName": {
+                        "simpleText": "Samoan"
+                    }
+                },
+                {
+                    "languageCode": "sg",
+                    "languageName": {
+                        "simpleText": "Sango"
+                    }
+                },
+                {
+                    "languageCode": "sa",
+                    "languageName": {
+                        "simpleText": "Sanskrit"
+                    }
+                },
+                {
+                    "languageCode": "gd",
+                    "languageName": {
+                        "simpleText": "Scottish Gaelic"
+                    }
+                },
+                {
+                    "languageCode": "sr",
+                    "languageName": {
+                        "simpleText": "Serbian"
+                    }
+                },
+                {
+                    "languageCode": "crs",
+                    "languageName": {
+                        "simpleText": "Seselwa Creole French"
+                    }
+                },
+                {
+                    "languageCode": "sn",
+                    "languageName": {
+                        "simpleText": "Shona"
+                    }
+                },
+                {
+                    "languageCode": "sd",
+                    "languageName": {
+                        "simpleText": "Sindhi"
+                    }
+                },
+                {
+                    "languageCode": "si",
+                    "languageName": {
+                        "simpleText": "Sinhala"
+                    }
+                },
+                {
+                    "languageCode": "sk",
+                    "languageName": {
+                        "simpleText": "Slovak"
+                    }
+                },
+                {
+                    "languageCode": "sl",
+                    "languageName": {
+                        "simpleText": "Slovenian"
+                    }
+                },
+                {
+                    "languageCode": "so",
+                    "languageName": {
+                        "simpleText": "Somali"
+                    }
+                },
+                {
+                    "languageCode": "st",
+                    "languageName": {
+                        "simpleText": "Southern Sotho"
+                    }
+                },
+                {
+                    "languageCode": "es",
+                    "languageName": {
+                        "simpleText": "Spanish"
+                    }
+                },
+                {
+                    "languageCode": "su",
+                    "languageName": {
+                        "simpleText": "Sundanese"
+                    }
+                },
+                {
+                    "languageCode": "sw",
+                    "languageName": {
+                        "simpleText": "Swahili"
+                    }
+                },
+                {
+                    "languageCode": "ss",
+                    "languageName": {
+                        "simpleText": "Swati"
+                    }
+                },
+                {
+                    "languageCode": "sv",
+                    "languageName": {
+                        "simpleText": "Swedish"
+                    }
+                },
+                {
+                    "languageCode": "tg",
+                    "languageName": {
+                        "simpleText": "Tajik"
+                    }
+                },
+                {
+                    "languageCode": "ta",
+                    "languageName": {
+                        "simpleText": "Tamil"
+                    }
+                },
+                {
+                    "languageCode": "tt",
+                    "languageName": {
+                        "simpleText": "Tatar"
+                    }
+                },
+                {
+                    "languageCode": "te",
+                    "languageName": {
+                        "simpleText": "Telugu"
+                    }
+                },
+                {
+                    "languageCode": "th",
+                    "languageName": {
+                        "simpleText": "Thai"
+                    }
+                },
+                {
+                    "languageCode": "bo",
+                    "languageName": {
+                        "simpleText": "Tibetan"
+                    }
+                },
+                {
+                    "languageCode": "ti",
+                    "languageName": {
+                        "simpleText": "Tigrinya"
+                    }
+                },
+                {
+                    "languageCode": "to",
+                    "languageName": {
+                        "simpleText": "Tongan"
+                    }
+                },
+                {
+                    "languageCode": "ts",
+                    "languageName": {
+                        "simpleText": "Tsonga"
+                    }
+                },
+                {
+                    "languageCode": "tn",
+                    "languageName": {
+                        "simpleText": "Tswana"
+                    }
+                },
+                {
+                    "languageCode": "tum",
+                    "languageName": {
+                        "simpleText": "Tumbuka"
+                    }
+                },
+                {
+                    "languageCode": "tr",
+                    "languageName": {
+                        "simpleText": "Turkish"
+                    }
+                },
+                {
+                    "languageCode": "tk",
+                    "languageName": {
+                        "simpleText": "Turkmen"
+                    }
+                },
+                {
+                    "languageCode": "uk",
+                    "languageName": {
+                        "simpleText": "Ukrainian"
+                    }
+                },
+                {
+                    "languageCode": "ur",
+                    "languageName": {
+                        "simpleText": "Urdu"
+                    }
+                },
+                {
+                    "languageCode": "ug",
+                    "languageName": {
+                        "simpleText": "Uyghur"
+                    }
+                },
+                {
+                    "languageCode": "uz",
+                    "languageName": {
+                        "simpleText": "Uzbek"
+                    }
+                },
+                {
+                    "languageCode": "ve",
+                    "languageName": {
+                        "simpleText": "Venda"
+                    }
+                },
+                {
+                    "languageCode": "vi",
+                    "languageName": {
+                        "simpleText": "Vietnamese"
+                    }
+                },
+                {
+                    "languageCode": "war",
+                    "languageName": {
+                        "simpleText": "Waray"
+                    }
+                },
+                {
+                    "languageCode": "cy",
+                    "languageName": {
+                        "simpleText": "Welsh"
+                    }
+                },
+                {
+                    "languageCode": "fy",
+                    "languageName": {
+                        "simpleText": "Western Frisian"
+                    }
+                },
+                {
+                    "languageCode": "wo",
+                    "languageName": {
+                        "simpleText": "Wolof"
+                    }
+                },
+                {
+                    "languageCode": "xh",
+                    "languageName": {
+                        "simpleText": "Xhosa"
+                    }
+                },
+                {
+                    "languageCode": "yi",
+                    "languageName": {
+                        "simpleText": "Yiddish"
+                    }
+                },
+                {
+                    "languageCode": "yo",
+                    "languageName": {
+                        "simpleText": "Yoruba"
+                    }
+                },
+                {
+                    "languageCode": "zu",
+                    "languageName": {
+                        "simpleText": "Zulu"
+                    }
+                }
+            ],
+            "defaultAudioTrackIndex": 0
+        }
+    },
+    "videoDetails": {
+        "videoId": "ZiwDIW726ic",
+        "title": "Muh Nahi Khol Sakta II INDIAN IN JAPAN II Rom Rom Ji",
+        "lengthSeconds": "776",
+        "keywords": [
+            "indiansinjapan",
+            "indianslivinginjapan",
+            "indiansworkinginjapan",
+            "indianinjapan",
+            "whatjapanesepeoplethinkofindia",
+            "japanesegirls",
+            "japaneseanime",
+            "lifeinjapan",
+            "जापानी",
+            "जापान",
+            "learnjapaneseinhindi",
+            "japaneseculturehindi",
+            "indiajapan",
+            "hindijapanese",
+            "japaneseanimeindia",
+            "animehindi",
+            "romromji",
+            "howtogotojapan",
+            "japanstudyworkvisa",
+            "indian job japan",
+            "Animejapan",
+            "japanese reaction to",
+            "japanesereaction",
+            "indianfoodchallenge",
+            "indian food challenge",
+            "जापानी खाना",
+            "जापानी लोग",
+            "lifestylevlog",
+            "vlogging",
+            "japanhindivlog",
+            "japanvillagelife"
+        ],
+        "channelId": "UCzOVIHSg-GeenFlGHttWQwA",
+        "isOwnerViewing": false,
+        "shortDescription": "II Rom rom ji II my name is Pawan Lohomord.\n\nI am  a Desi Indian living and working in Japan. I came to japan from Haryana India as a student on student visa for studying Japanese language in a Japanese language school in Shinjuku Tokyo then after that i got full time job in Osaka and got work visa for japan and working Full Time since then in Osaka JAPAN. I  just share my crazy and fun experiences here.\nThanks. \nSwaad Lo Mazze karo Stay healthy Stay Safe !!\n\nLearn Japanese With me :-\nRRJ Academy  https://www.instagram.com/rrjacademy/\n\nMy Instagram  https://www.instagram.com/lohomord/\n\nFor Business purposes please mail at teamromromji@gmail.com\n\nFor any questions or request please mail me at \npawan_lohomord89@yahoo.co.jp",
+        "isCrawlable": true,
+        "thumbnail": {
+            "thumbnails": [
+                {
+                    "url": "https://i.ytimg.com/vi/ZiwDIW726ic/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==\u0026rs=AOn4CLDRr3hmkqu8upDB7QQgygX0dPgH3A",
+                    "width": 168,
+                    "height": 94
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/ZiwDIW726ic/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==\u0026rs=AOn4CLBibPhCdDtRPObhceqtnEcTQU-y9A",
+                    "width": 196,
+                    "height": 110
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/ZiwDIW726ic/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=\u0026rs=AOn4CLCUdbP2HYUcBZVeChF3n-k6OP8OqQ",
+                    "width": 246,
+                    "height": 138
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/ZiwDIW726ic/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=\u0026rs=AOn4CLCLnUM1-LUoUzV6oSMVk_CuElzsHA",
+                    "width": 336,
+                    "height": 188
+                },
+                {
+                    "url": "https://i.ytimg.com/vi/ZiwDIW726ic/maxresdefault.jpg",
+                    "width": 1920,
+                    "height": 1080
+                }
+            ]
+        },
+        "allowRatings": true,
+        "viewCount": "192675",
+        "author": "Rom Rom Ji",
+        "isPrivate": false,
+        "isUnpluggedCorpus": false,
+        "isLiveContent": false
+    },
+    "annotations": [
+        {
+            "playerAnnotationsExpandedRenderer": {
+                "featuredChannel": {
+                    "startTimeMs": "0",
+                    "endTimeMs": "756000",
+                    "watermark": {
+                        "thumbnails": [
+                            {
+                                "url": "https://i.ytimg.com/an/zOVIHSg-GeenFlGHttWQwA/featured_channel.jpg?v=5b10edc2",
+                                "width": 40,
+                                "height": 40
+                            }
+                        ]
+                    },
+                    "trackingParams": "CA0Q8zciEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                    "navigationEndpoint": {
+                        "clickTrackingParams": "CA0Q8zciEwjI9Me37JeLAxXlitgFHfAhIvoyAml2",
+                        "commandMetadata": {
+                            "webCommandMetadata": {
+                                "url": "/channel/UCzOVIHSg-GeenFlGHttWQwA",
+                                "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                "rootVe": 3611,
+                                "apiUrl": "/youtubei/v1/browse"
+                            }
+                        },
+                        "browseEndpoint": {
+                            "browseId": "UCzOVIHSg-GeenFlGHttWQwA"
+                        }
+                    },
+                    "channelName": "Rom Rom Ji",
+                    "subscribeButton": {
+                        "subscribeButtonRenderer": {
+                            "buttonText": {
+                                "runs": [
+                                    {
+                                        "text": "SUBSCRIBE"
+                                    }
+                                ]
+                            },
+                            "subscribed": false,
+                            "enabled": true,
+                            "type": "FREE",
+                            "channelId": "UCzOVIHSg-GeenFlGHttWQwA",
+                            "showPreferences": false,
+                            "subscribedButtonText": {
+                                "runs": [
+                                    {
+                                        "text": "SUBSCRIBED"
+                                    }
+                                ]
+                            },
+                            "unsubscribedButtonText": {
+                                "runs": [
+                                    {
+                                        "text": "SUBSCRIBE"
+                                    }
+                                ]
+                            },
+                            "trackingParams": "CA4QmysiEwjI9Me37JeLAxXlitgFHfAhIvoyAml2",
+                            "unsubscribeButtonText": {
+                                "runs": [
+                                    {
+                                        "text": "UNSUBSCRIBE"
+                                    }
+                                ]
+                            },
+                            "serviceEndpoints": [
+                                {
+                                    "clickTrackingParams": "CA4QmysiEwjI9Me37JeLAxXlitgFHfAhIvoyAml2",
+                                    "commandMetadata": {
+                                        "webCommandMetadata": {
+                                            "sendPost": true,
+                                            "apiUrl": "/youtubei/v1/subscription/subscribe"
+                                        }
+                                    },
+                                    "subscribeEndpoint": {
+                                        "channelIds": [
+                                            "UCzOVIHSg-GeenFlGHttWQwA"
+                                        ],
+                                        "params": "EgIIBBgA"
+                                    }
+                                },
+                                {
+                                    "clickTrackingParams": "CA4QmysiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                    "commandMetadata": {
+                                        "webCommandMetadata": {
+                                            "sendPost": true
+                                        }
+                                    },
+                                    "signalServiceEndpoint": {
+                                        "signal": "CLIENT_SIGNAL",
+                                        "actions": [
+                                            {
+                                                "clickTrackingParams": "CA4QmysiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                                "openPopupAction": {
+                                                    "popup": {
+                                                        "confirmDialogRenderer": {
+                                                            "trackingParams": "CA8QxjgiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                                            "dialogMessages": [
+                                                                {
+                                                                    "runs": [
+                                                                        {
+                                                                            "text": "Unsubscribe from "
+                                                                        },
+                                                                        {
+                                                                            "text": "Rom Rom Ji"
+                                                                        },
+                                                                        {
+                                                                            "text": "?"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ],
+                                                            "confirmButton": {
+                                                                "buttonRenderer": {
+                                                                    "style": "STYLE_BLUE_TEXT",
+                                                                    "size": "SIZE_DEFAULT",
+                                                                    "isDisabled": false,
+                                                                    "text": {
+                                                                        "runs": [
+                                                                            {
+                                                                                "text": "Unsubscribe"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "serviceEndpoint": {
+                                                                        "clickTrackingParams": "CBEQ8FsiEwjI9Me37JeLAxXlitgFHfAhIvoyAml2",
+                                                                        "commandMetadata": {
+                                                                            "webCommandMetadata": {
+                                                                                "sendPost": true,
+                                                                                "apiUrl": "/youtubei/v1/subscription/unsubscribe"
+                                                                            }
+                                                                        },
+                                                                        "unsubscribeEndpoint": {
+                                                                            "channelIds": [
+                                                                                "UCzOVIHSg-GeenFlGHttWQwA"
+                                                                            ],
+                                                                            "params": "CgIIBBgA"
+                                                                        }
+                                                                    },
+                                                                    "accessibility": {
+                                                                        "label": "Unsubscribe"
+                                                                    },
+                                                                    "trackingParams": "CBEQ8FsiEwjI9Me37JeLAxXlitgFHfAhIvo="
+                                                                }
+                                                            },
+                                                            "cancelButton": {
+                                                                "buttonRenderer": {
+                                                                    "style": "STYLE_TEXT",
+                                                                    "size": "SIZE_DEFAULT",
+                                                                    "isDisabled": false,
+                                                                    "text": {
+                                                                        "runs": [
+                                                                            {
+                                                                                "text": "Cancel"
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    "accessibility": {
+                                                                        "label": "Cancel"
+                                                                    },
+                                                                    "trackingParams": "CBAQ8FsiEwjI9Me37JeLAxXlitgFHfAhIvo="
+                                                                }
+                                                            },
+                                                            "primaryIsCancel": false
+                                                        }
+                                                    },
+                                                    "popupType": "DIALOG"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ],
+                            "subscribeAccessibility": {
+                                "accessibilityData": {
+                                    "label": "Subscribe to Rom Rom Ji."
+                                }
+                            },
+                            "unsubscribeAccessibility": {
+                                "accessibilityData": {
+                                    "label": "Unsubscribe from Rom Rom Ji."
+                                }
+                            },
+                            "signInEndpoint": {
+                                "clickTrackingParams": "CA4QmysiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                "commandMetadata": {
+                                    "webCommandMetadata": {
+                                        "url": "https://accounts.google.com/ServiceLogin?service=youtube\u0026uilel=3\u0026passive=true\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCzOVIHSg-GeenFlGHttWQwA%26feature%3Div%26continue_action%3DQUFFLUhqbEw3cklEbkFidUNBOE1JVFpmaHY4VTRRQmZfUXxBQ3Jtc0ttR25xQ3JReVlfbHRWdXQyNTBKTkU5VlQ3TXJGLTZ2MzdONjhCX3NLRHIxZVMxbGRlZUxMWl9QSVloVEpiZUNhMkcwZmZocGF1XzNGUGJ0Wkh4c1VhN2tfdThBQkdicE9HY3VURlpMcWFhX1B6WjdiSndzcE9Cb2h0eW5aQTRUWEhsS0JyUUtHUUtXRi14aDNlTlhjczkzb2VVdmtEZUdLUnBEVEFfOXk1akNHemlYd0hOb1Z2T3dDVzY2WjA3Nzh5bGJ6X3Y%253D\u0026hl=en-GB"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "allowSwipeDismiss": true,
+                "annotationId": "8b665897-46c6-4e30-a605-27ca95d3de18"
+            }
+        }
+    ],
+    "playerConfig": {
+        "audioConfig": {
+            "loudnessDb": 3.0600004,
+            "perceptualLoudnessDb": -10.94,
+            "enablePerFormatLoudness": true
+        },
+        "streamSelectionConfig": {
+            "maxBitrate": "4510000"
+        },
+        "mediaCommonConfig": {
+            "dynamicReadaheadConfig": {
+                "maxReadAheadMediaTimeMs": 120000,
+                "minReadAheadMediaTimeMs": 15000,
+                "readAheadGrowthRateMs": 1000
+            },
+            "mediaUstreamerRequestConfig": {
+                "videoPlaybackUstreamerConfig": "CqQLCroHCAAlAACAPy0zM3M_NT0Klz9YAWgBchoKFm1mczJfY21mc193ZWJfdjNfMl8wMDMYAHiPTqABAagBAJACAbgCAMgCAdoC4AEQsOoBGIDd2wEgoJwBKKCcATCYdXCIJ4AB9AO4AQHgAQOQAgGYAgygAgHAAgHQAgLgAgHoAgSAAwKIA4gnmAMBqAMDwAMByAMB0AMB-AMBgAQBiAQBkAQBmAQBoAQBqAQByAQB0AQB2AQB4AQA6AQB-AQHgAV9iAUBsAUBuAUBwAUByAUB0AUB2AUB4AXQD-gFAfgF0A-ABgGQBgG4BgHABgHQBgHYBgHoBgHwBgH4BgGAB9APkAcBqAcBwAcByAcB0AcB2AcB8AcBgAgBkAgBnQgAAIC_oAjoB_i1keUMAfoCoQItAACgQjUAAKpCSAFlAACAQGjAcKgB0IYDsAHgA7gBAc0BAACAP_ABAf0BAACAP4UCmpkZP40CAACAP5UCAAACQpgCAbUCAACAP8AC4APSAhGw__________8BHjxGWlxdXtoCBTIwOjAw4AJ46ALoAvUCCtejO_0CzczMPYADAZADAZ0DCtcjPaADAbgDAcgDAdgDAeUDYkpEQO0DMsrzPvADAf0DZmaGP4UEAACAQJgEAdUEAAAgQegE8BDwBAHIBQGYBgGgBgGoBgG1Br03hjW9BjMzg0CQBwGwBwHABwHIBwHVBwCAnUPlBwCACUTwBwGACAGhCAAAAAAAAPC_qQgAAAAAAADwv7AI8AG4CAHYCPAB6AgBiAkBlQkAgJ1DggMAkAMBqAMBsAMD0AMB2AMBuAQBygQcChMIwKkHEJh1GOgHJQAAAAAoADAAEODUAxjQD9IEDwoICLAJELAJIAEgiCcoAdoEDQoGCPAuEPAuIPAuKAH4BAGQBQGoBQHQBQHYBQHoBQHwBQGIBgGYBgGoBoCAAsAGAcgGAdIGFAjoBxBkGg0IiCcVAAAAPx3NzEw_4AYBggcLFQAAgD8YZCCgjQaIBwGgBwG4BwHABwGACAGgCAGwCAG4CAHSCAYIARABGAGpCQAAAAAAAPC_sQkAAAAAAADwv8gJAdoJJGZZTnZpQVlwL0llWFhPaHZBSUp5NTIwMFAwUWRYZS81a2VlQeAJAbAKAYgLAZgLAcALAcgLAdALAdgLAeoLBIsGjAbwCwH4CwGQDAGoDJABsAwBuAwBwAwByAwB0AwB4AwBgA0BoA0B0A0B2A0B4A0BiA4BsA4B-A4BiA8B0A8BgBABoBABiBEBiKehygsBGAEgATIMCIkBEJzkiKeG6IoDMgwI-AEQ8JmC5pnoigMyDAiPAxDxtMmHvOiKAzIMCIgBEMmz5e6F6IoDMgwI9wEQu_iLi5ToigMyDAiOAxDGt_rZieiKAzIMCIcBEO-pg-6F6IoDMgwI9AEQrMXLi5ToigMyDAiNAxCe7IL6jOiKAzIMCIYBEI6P1viF6IoDMgwI8wEQrainiZToigMyDAiMAxCe35PF-ueKAzIMCIUBEPX9vsWJ6IoDMgwI8gEQmtzHjpToigMyDAiLAxCwg9-j9-eKAzIMCKABEL3xle6F6IoDMgwIlgIQ9pj6iZToigMyDAiKAxCg97XJ-ueKAzIMCIwBEKGO9uz254oDMhwIjAEQubr9-vbnigMaDkNnZ0tBMlJ5WXhJQk1RMgwI-QEQ0NDHhvfnigMyHAj5ARCJuJiD9-eKAxoOQ2dnS0EyUnlZeElCTVEyDAj6ARCkrvb-9ueKAzIcCPoBEOTjnfz254oDGg5DZ2dLQTJSeVl4SUJNUTIMCPsBEMmQ3vD254oDMhwI-wEQ4qH-kffnigMaDkNnZ0tBMlJ5WXhJQk1ROgBIAFIoGgJoaSgAMhhVQ3pPVklIU2ctR2VlbkZsR0h0dFdRd0E4AEAAWABgALABBZDL048OARJMAKtGWkYwRQIgT-h60B7svGnWGv_RcaATqB9g7cXoByhR4iEjW7j68YsCIQDFOzwqOYovtFJxRKUZTmvwMD00f6zX5H-ktbHQ7WtJjhoCZWk="
+            },
+            "useServerDrivenAbr": false,
+            "serverPlaybackStartConfig": {
+                "enable": true,
+                "playbackStartPolicy": {
+                    "startMinReadaheadPolicy": [
+                        {
+                            "minReadaheadMs": 1200
+                        }
+                    ]
+                }
+            }
+        },
+        "webPlayerConfig": {
+            "useCobaltTvosDash": true,
+            "webPlayerActionsPorting": {
+                "getSharePanelCommand": {
+                    "clickTrackingParams": "CAAQu2kiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                    "commandMetadata": {
+                        "webCommandMetadata": {
+                            "sendPost": true,
+                            "apiUrl": "/youtubei/v1/share/get_web_player_share_panel"
+                        }
+                    },
+                    "webPlayerShareEntityServiceEndpoint": {
+                        "serializedShareEntity": "CgtaaXdESVc3MjZpYw%3D%3D"
+                    }
+                },
+                "subscribeCommand": {
+                    "clickTrackingParams": "CAAQu2kiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                    "commandMetadata": {
+                        "webCommandMetadata": {
+                            "sendPost": true,
+                            "apiUrl": "/youtubei/v1/subscription/subscribe"
+                        }
+                    },
+                    "subscribeEndpoint": {
+                        "channelIds": [
+                            "UCzOVIHSg-GeenFlGHttWQwA"
+                        ],
+                        "params": "EgIIBxgA"
+                    }
+                },
+                "unsubscribeCommand": {
+                    "clickTrackingParams": "CAAQu2kiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                    "commandMetadata": {
+                        "webCommandMetadata": {
+                            "sendPost": true,
+                            "apiUrl": "/youtubei/v1/subscription/unsubscribe"
+                        }
+                    },
+                    "unsubscribeEndpoint": {
+                        "channelIds": [
+                            "UCzOVIHSg-GeenFlGHttWQwA"
+                        ],
+                        "params": "CgIIBxgA"
+                    }
+                },
+                "addToWatchLaterCommand": {
+                    "clickTrackingParams": "CAAQu2kiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                    "commandMetadata": {
+                        "webCommandMetadata": {
+                            "sendPost": true,
+                            "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                        }
+                    },
+                    "playlistEditEndpoint": {
+                        "playlistId": "WL",
+                        "actions": [
+                            {
+                                "addedVideoId": "ZiwDIW726ic",
+                                "action": "ACTION_ADD_VIDEO"
+                            }
+                        ]
+                    }
+                },
+                "removeFromWatchLaterCommand": {
+                    "clickTrackingParams": "CAAQu2kiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                    "commandMetadata": {
+                        "webCommandMetadata": {
+                            "sendPost": true,
+                            "apiUrl": "/youtubei/v1/browse/edit_playlist"
+                        }
+                    },
+                    "playlistEditEndpoint": {
+                        "playlistId": "WL",
+                        "actions": [
+                            {
+                                "action": "ACTION_REMOVE_VIDEO_BY_VIDEO_ID",
+                                "removedVideoId": "ZiwDIW726ic"
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "storyboards": {
+        "playerStoryboardSpecRenderer": {
+            "spec": "https://i.ytimg.com/sb/ZiwDIW726ic/storyboard3_L$L/$N.jpg?sqp=-oaymwGbA0g48quKqQOSA4gBAZUBAAAEQpgBMqABPKgBBLABELABDbABDLABELABFbABH7ABJrABLbABDrABDrABD7ABErABF7ABK7ABLLABKbABD7ABDrABELABFbABH7ABKrABMrABKbABD7ABEbABFLABGLABJrABPbABOLABLbABEbABFLABHrABKrABMbABS7ABR7ABNrABFbABHLABKbABLrABObABR7ABTbABP7ABJbABLrABN7ABPbABR7ABUrABUbABRbABM7ABQLABQrABQ7ABTLABRLABRrABQ7gBEbgBEbgBFbgBI7gBRLgBQ7gBQ7gBQ7gBEbgBE7gBFrgBL7gBQ7gBQ7gBQ7gBQ7gBFbgBFrgBKbgBQ7gBQ7gBQ7gBQ7gBQ7gBI7gBL7gBQ7gBQ7gBQ7gBQ7gBQ7gBQ7gBRLgBQ7gBQ7gBQ7gBQ7gBQ7gBQrgBQrgBQ7gBQ7gBQ7gBQ7gBQ7gBQrgBQrgBQrgBQ7gBQ7gBQ7gBQ7gBQrgBQrgBQrgBQrgBQ7gBQ7gBQ7gBQrgBQrgBQrgBQrgBQqLzl_8DBgiosvu7Bg==|48#27#100#10#10#0#default#rs$AOn4CLATpkRYXe8ukuX9tXmasWACwjQkeg|80#45#157#10#10#5000#M$M#rs$AOn4CLBb1h7Zdrk3A4zoXWa3GoGmlbh7Lw|160#90#157#5#5#5000#M$M#rs$AOn4CLBDhZFJROPkROc72HebQSzopGgwxw|320#180#157#3#3#5000#M$M#rs$AOn4CLAL06lrt5Pdg2Nb-k3r8fYvNG2kgQ",
+            "recommendedLevel": 2,
+            "highResolutionRecommendedLevel": 3
+        }
+    },
+    "microformat": {
+        "playerMicroformatRenderer": {
+            "thumbnail": {
+                "thumbnails": [
+                    {
+                        "url": "https://i.ytimg.com/vi/ZiwDIW726ic/maxresdefault.jpg",
+                        "width": 1280,
+                        "height": 720
+                    }
+                ]
+            },
+            "embed": {
+                "iframeUrl": "https://www.youtube.com/embed/ZiwDIW726ic",
+                "width": 1280,
+                "height": 720
+            },
+            "title": {
+                "simpleText": "Muh Nahi Khol Sakta II INDIAN IN JAPAN II Rom Rom Ji"
+            },
+            "description": {
+                "simpleText": "II Rom rom ji II my name is Pawan Lohomord.\n\nI am  a Desi Indian living and working in Japan. I came to japan from Haryana India as a student on student visa for studying Japanese language in a Japanese language school in Shinjuku Tokyo then after that i got full time job in Osaka and got work visa for japan and working Full Time since then in Osaka JAPAN. I  just share my crazy and fun experiences here.\nThanks. \nSwaad Lo Mazze karo Stay healthy Stay Safe !!\n\nLearn Japanese With me :-\nRRJ Academy  https://www.instagram.com/rrjacademy/\n\nMy Instagram  https://www.instagram.com/lohomord/\n\nFor Business purposes please mail at teamromromji@gmail.com\n\nFor any questions or request please mail me at \npawan_lohomord89@yahoo.co.jp"
+            },
+            "lengthSeconds": "777",
+            "ownerProfileUrl": "http://www.youtube.com/@RomRomJi",
+            "externalChannelId": "UCzOVIHSg-GeenFlGHttWQwA",
+            "isFamilySafe": true,
+            "availableCountries": [
+                "AD",
+                "AE",
+                "AF",
+                "AG",
+                "AI",
+                "AL",
+                "AM",
+                "AO",
+                "AQ",
+                "AR",
+                "AS",
+                "AT",
+                "AU",
+                "AW",
+                "AX",
+                "AZ",
+                "BA",
+                "BB",
+                "BD",
+                "BE",
+                "BF",
+                "BG",
+                "BH",
+                "BI",
+                "BJ",
+                "BL",
+                "BM",
+                "BN",
+                "BO",
+                "BQ",
+                "BR",
+                "BS",
+                "BT",
+                "BV",
+                "BW",
+                "BY",
+                "BZ",
+                "CA",
+                "CC",
+                "CD",
+                "CF",
+                "CG",
+                "CH",
+                "CI",
+                "CK",
+                "CL",
+                "CM",
+                "CN",
+                "CO",
+                "CR",
+                "CU",
+                "CV",
+                "CW",
+                "CX",
+                "CY",
+                "CZ",
+                "DE",
+                "DJ",
+                "DK",
+                "DM",
+                "DO",
+                "DZ",
+                "EC",
+                "EE",
+                "EG",
+                "EH",
+                "ER",
+                "ES",
+                "ET",
+                "FI",
+                "FJ",
+                "FK",
+                "FM",
+                "FO",
+                "FR",
+                "GA",
+                "GB",
+                "GD",
+                "GE",
+                "GF",
+                "GG",
+                "GH",
+                "GI",
+                "GL",
+                "GM",
+                "GN",
+                "GP",
+                "GQ",
+                "GR",
+                "GS",
+                "GT",
+                "GU",
+                "GW",
+                "GY",
+                "HK",
+                "HM",
+                "HN",
+                "HR",
+                "HT",
+                "HU",
+                "ID",
+                "IE",
+                "IL",
+                "IM",
+                "IN",
+                "IO",
+                "IQ",
+                "IR",
+                "IS",
+                "IT",
+                "JE",
+                "JM",
+                "JO",
+                "JP",
+                "KE",
+                "KG",
+                "KH",
+                "KI",
+                "KM",
+                "KN",
+                "KP",
+                "KR",
+                "KW",
+                "KY",
+                "KZ",
+                "LA",
+                "LB",
+                "LC",
+                "LI",
+                "LK",
+                "LR",
+                "LS",
+                "LT",
+                "LU",
+                "LV",
+                "LY",
+                "MA",
+                "MC",
+                "MD",
+                "ME",
+                "MF",
+                "MG",
+                "MH",
+                "MK",
+                "ML",
+                "MM",
+                "MN",
+                "MO",
+                "MP",
+                "MQ",
+                "MR",
+                "MS",
+                "MT",
+                "MU",
+                "MV",
+                "MW",
+                "MX",
+                "MY",
+                "MZ",
+                "NA",
+                "NC",
+                "NE",
+                "NF",
+                "NG",
+                "NI",
+                "NL",
+                "NO",
+                "NP",
+                "NR",
+                "NU",
+                "NZ",
+                "OM",
+                "PA",
+                "PE",
+                "PF",
+                "PG",
+                "PH",
+                "PK",
+                "PL",
+                "PM",
+                "PN",
+                "PR",
+                "PS",
+                "PT",
+                "PW",
+                "PY",
+                "QA",
+                "RE",
+                "RO",
+                "RS",
+                "RU",
+                "RW",
+                "SA",
+                "SB",
+                "SC",
+                "SD",
+                "SE",
+                "SG",
+                "SH",
+                "SI",
+                "SJ",
+                "SK",
+                "SL",
+                "SM",
+                "SN",
+                "SO",
+                "SR",
+                "SS",
+                "ST",
+                "SV",
+                "SX",
+                "SY",
+                "SZ",
+                "TC",
+                "TD",
+                "TF",
+                "TG",
+                "TH",
+                "TJ",
+                "TK",
+                "TL",
+                "TM",
+                "TN",
+                "TO",
+                "TR",
+                "TT",
+                "TV",
+                "TW",
+                "TZ",
+                "UA",
+                "UG",
+                "UM",
+                "US",
+                "UY",
+                "UZ",
+                "VA",
+                "VC",
+                "VE",
+                "VG",
+                "VI",
+                "VN",
+                "VU",
+                "WF",
+                "WS",
+                "YE",
+                "YT",
+                "ZA",
+                "ZM",
+                "ZW"
+            ],
+            "isUnlisted": false,
+            "hasYpcMetadata": false,
+            "viewCount": "192675",
+            "category": "People \u0026 Blogs",
+            "publishDate": "2025-01-08T12:09:37-08:00",
+            "ownerChannelName": "Rom Rom Ji",
+            "uploadDate": "2025-01-08T12:09:37-08:00",
+            "isShortsEligible": false
+        }
+    },
+    "cards": {
+        "cardCollectionRenderer": {
+            "cards": [
+                {
+                    "cardRenderer": {
+                        "teaser": {
+                            "simpleCardTeaserRenderer": {
+                                "message": {
+                                    "simpleText": "View corrections"
+                                },
+                                "trackingParams": "CAwQ0DYiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                "prominent": true,
+                                "logVisibilityUpdates": true,
+                                "onTapCommand": {
+                                    "clickTrackingParams": "CAwQ0DYiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                    "changeEngagementPanelVisibilityAction": {
+                                        "targetId": "engagement-panel-error-corrections",
+                                        "visibility": "ENGAGEMENT_PANEL_VISIBILITY_EXPANDED"
+                                    }
+                                }
+                            }
+                        },
+                        "cueRanges": [
+                            {
+                                "startCardActiveMs": "0",
+                                "endCardActiveMs": "5000",
+                                "teaserDurationMs": "6000",
+                                "iconAfterTeaserMs": "5000"
+                            }
+                        ],
+                        "trackingParams": "CAsQtZcBGAAiEwjI9Me37JeLAxXlitgFHfAhIvo="
+                    }
+                }
+            ],
+            "headerText": {
+                "simpleText": "From Rom Rom Ji"
+            },
+            "icon": {
+                "infoCardIconRenderer": {
+                    "trackingParams": "CAoQsJcBIhMIyPTHt-yXiwMV5YrYBR3wISL6"
+                }
+            },
+            "closeButton": {
+                "infoCardIconRenderer": {
+                    "trackingParams": "CAkQsZcBIhMIyPTHt-yXiwMV5YrYBR3wISL6"
+                }
+            },
+            "trackingParams": "CAgQwjciEwjI9Me37JeLAxXlitgFHfAhIvo=",
+            "allowTeaserDismiss": true,
+            "logIconVisibilityUpdates": true
+        }
+    },
+    "trackingParams": "CAAQu2kiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+    "endscreen": {
+        "endscreenRenderer": {
+            "elements": [
+                {
+                    "endscreenElementRenderer": {
+                        "style": "CHANNEL",
+                        "image": {
+                            "thumbnails": [
+                                {
+                                    "url": "https://yt3.ggpht.com/ytc/AIdro_m-DInzFjrBHARHjCb4RG09ZNKJoPfOuLY0TsyGxeUqPKs=s250-c-k-c0x00ffffff-no-rj",
+                                    "width": 250,
+                                    "height": 250
+                                },
+                                {
+                                    "url": "https://yt3.ggpht.com/ytc/AIdro_m-DInzFjrBHARHjCb4RG09ZNKJoPfOuLY0TsyGxeUqPKs=s400-c-k-c0x00ffffff-no-rj",
+                                    "width": 400,
+                                    "height": 400
+                                }
+                            ]
+                        },
+                        "icon": {
+                            "thumbnails": [
+                                {
+                                    "url": "https://www.gstatic.com/youtube/img/annotations/youtube.png"
+                                }
+                            ]
+                        },
+                        "left": 0.82280701,
+                        "width": 0.15438597,
+                        "top": 0.54906541,
+                        "aspectRatio": 1,
+                        "startMs": "759029",
+                        "endMs": "776041",
+                        "title": {
+                            "accessibility": {
+                                "accessibilityData": {
+                                    "label": "Rom Rom Ji, channel"
+                                }
+                            },
+                            "simpleText": "Rom Rom Ji"
+                        },
+                        "metadata": {
+                            "simpleText": "Rom Rom ji\nI am Pawan Lohomord a desi Indian living in japan. I share my crazy and fun experiences here.\n\nFor Business Enquiries only :- teamromromji@gmail.com\n"
+                        },
+                        "callToAction": {
+                            "simpleText": "VISIT CHANNEL"
+                        },
+                        "dismiss": {
+                            "simpleText": "CANCEL"
+                        },
+                        "endpoint": {
+                            "clickTrackingParams": "CAMQ-N4BGAAiEwjI9Me37JeLAxXlitgFHfAhIvoyDGl2LWVuZHNjcmVlbkin1Nv3luSAlmY=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/channel/UCzOVIHSg-GeenFlGHttWQwA",
+                                    "webPageType": "WEB_PAGE_TYPE_CHANNEL",
+                                    "rootVe": 3611,
+                                    "apiUrl": "/youtubei/v1/browse"
+                                }
+                            },
+                            "browseEndpoint": {
+                                "browseId": "UCzOVIHSg-GeenFlGHttWQwA"
+                            }
+                        },
+                        "hovercardButton": {
+                            "subscribeButtonRenderer": {
+                                "buttonText": {
+                                    "runs": [
+                                        {
+                                            "text": "SUBSCRIBE"
+                                        }
+                                    ]
+                                },
+                                "subscribed": false,
+                                "enabled": true,
+                                "type": "FREE",
+                                "channelId": "UCzOVIHSg-GeenFlGHttWQwA",
+                                "showPreferences": false,
+                                "subscribedButtonText": {
+                                    "runs": [
+                                        {
+                                            "text": "SUBSCRIBED"
+                                        }
+                                    ]
+                                },
+                                "unsubscribedButtonText": {
+                                    "runs": [
+                                        {
+                                            "text": "SUBSCRIBE"
+                                        }
+                                    ]
+                                },
+                                "trackingParams": "CAQQmysiEwjI9Me37JeLAxXlitgFHfAhIvoyDGl2LWVuZHNjcmVlbg==",
+                                "unsubscribeButtonText": {
+                                    "runs": [
+                                        {
+                                            "text": "UNSUBSCRIBE"
+                                        }
+                                    ]
+                                },
+                                "serviceEndpoints": [
+                                    {
+                                        "clickTrackingParams": "CAQQmysiEwjI9Me37JeLAxXlitgFHfAhIvoyDGl2LWVuZHNjcmVlbg==",
+                                        "commandMetadata": {
+                                            "webCommandMetadata": {
+                                                "sendPost": true,
+                                                "apiUrl": "/youtubei/v1/subscription/subscribe"
+                                            }
+                                        },
+                                        "subscribeEndpoint": {
+                                            "channelIds": [
+                                                "UCzOVIHSg-GeenFlGHttWQwA"
+                                            ],
+                                            "params": "EgIIBBgA"
+                                        }
+                                    },
+                                    {
+                                        "clickTrackingParams": "CAQQmysiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                        "commandMetadata": {
+                                            "webCommandMetadata": {
+                                                "sendPost": true
+                                            }
+                                        },
+                                        "signalServiceEndpoint": {
+                                            "signal": "CLIENT_SIGNAL",
+                                            "actions": [
+                                                {
+                                                    "clickTrackingParams": "CAQQmysiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                                    "openPopupAction": {
+                                                        "popup": {
+                                                            "confirmDialogRenderer": {
+                                                                "trackingParams": "CAUQxjgiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                                                "dialogMessages": [
+                                                                    {
+                                                                        "runs": [
+                                                                            {
+                                                                                "text": "Unsubscribe from "
+                                                                            },
+                                                                            {
+                                                                                "text": "Rom Rom Ji"
+                                                                            },
+                                                                            {
+                                                                                "text": "?"
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ],
+                                                                "confirmButton": {
+                                                                    "buttonRenderer": {
+                                                                        "style": "STYLE_BLUE_TEXT",
+                                                                        "size": "SIZE_DEFAULT",
+                                                                        "isDisabled": false,
+                                                                        "text": {
+                                                                            "runs": [
+                                                                                {
+                                                                                    "text": "Unsubscribe"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "serviceEndpoint": {
+                                                                            "clickTrackingParams": "CAcQ8FsiEwjI9Me37JeLAxXlitgFHfAhIvoyDGl2LWVuZHNjcmVlbg==",
+                                                                            "commandMetadata": {
+                                                                                "webCommandMetadata": {
+                                                                                    "sendPost": true,
+                                                                                    "apiUrl": "/youtubei/v1/subscription/unsubscribe"
+                                                                                }
+                                                                            },
+                                                                            "unsubscribeEndpoint": {
+                                                                                "channelIds": [
+                                                                                    "UCzOVIHSg-GeenFlGHttWQwA"
+                                                                                ],
+                                                                                "params": "CgIIBBgA"
+                                                                            }
+                                                                        },
+                                                                        "accessibility": {
+                                                                            "label": "Unsubscribe"
+                                                                        },
+                                                                        "trackingParams": "CAcQ8FsiEwjI9Me37JeLAxXlitgFHfAhIvo="
+                                                                    }
+                                                                },
+                                                                "cancelButton": {
+                                                                    "buttonRenderer": {
+                                                                        "style": "STYLE_TEXT",
+                                                                        "size": "SIZE_DEFAULT",
+                                                                        "isDisabled": false,
+                                                                        "text": {
+                                                                            "runs": [
+                                                                                {
+                                                                                    "text": "Cancel"
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "accessibility": {
+                                                                            "label": "Cancel"
+                                                                        },
+                                                                        "trackingParams": "CAYQ8FsiEwjI9Me37JeLAxXlitgFHfAhIvo="
+                                                                    }
+                                                                },
+                                                                "primaryIsCancel": false
+                                                            }
+                                                        },
+                                                        "popupType": "DIALOG"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ],
+                                "subscribeAccessibility": {
+                                    "accessibilityData": {
+                                        "label": "Subscribe to Rom Rom Ji."
+                                    }
+                                },
+                                "unsubscribeAccessibility": {
+                                    "accessibilityData": {
+                                        "label": "Unsubscribe from Rom Rom Ji."
+                                    }
+                                },
+                                "signInEndpoint": {
+                                    "clickTrackingParams": "CAQQmysiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                                    "commandMetadata": {
+                                        "webCommandMetadata": {
+                                            "url": "https://accounts.google.com/ServiceLogin?service=youtube\u0026uilel=3\u0026passive=true\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den-GB%26next%3Dhttps%253A%252F%252Fwww.youtube.com%252Fchannel%252FUCzOVIHSg-GeenFlGHttWQwA%26feature%3Div-endscreen%26continue_action%3DQUFFLUhqbXFrWUJJYXIzUk40bTFPM0xBWThYNnd0QUVXUXxBQ3Jtc0tucFFSN0k0R0xKS1lyczlXTXJpT1NvRlFMV1c4UUpHTXhHeDNOTFdCQ1duYm00UmVmVXMyeWNaQjBQNHFBLXJoQWItbW1lVmZHNnhoYk5FTFFWcTEydDhVYVBUenVDQXMwUWRUTWw0X04tSE9fWnczN1RmeVVBbWVZUWwtX1lNQ3hlN0tOeWhfYWpLSjJxMDFVQ1BXdVRhcXJNS3lKZFpfc1lLcXI3d3lxbGJHWHpwSU5PM3lDRi12Zlh4cFVuM2hkMXNIeGY%253D\u0026hl=en-GB"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "trackingParams": "CAMQ-N4BGAAiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                        "isSubscribe": true,
+                        "id": "9389868344493500051"
+                    }
+                },
+                {
+                    "endscreenElementRenderer": {
+                        "style": "VIDEO",
+                        "image": {
+                            "thumbnails": [
+                                {
+                                    "url": "https://i.ytimg.com/vi/8QRurrK15LA/hqdefault.jpg?sqp=-oaymwEiCKgBEF5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==\u0026rs=AOn4CLDq8NPRmo3DQW7HqUE7XGxduZBtJA",
+                                    "width": 168,
+                                    "height": 94
+                                },
+                                {
+                                    "url": "https://i.ytimg.com/vi/8QRurrK15LA/hqdefault.jpg?sqp=-oaymwEiCMQBEG5IWvKriqkDFQgBFQAAAAAYASUAAMhCPQCAokN4AQ==\u0026rs=AOn4CLAw0WQaVKMMW6qMCpIA8P5n8uP4-g",
+                                    "width": 196,
+                                    "height": 110
+                                },
+                                {
+                                    "url": "https://i.ytimg.com/vi/8QRurrK15LA/hqdefault.jpg?sqp=-oaymwEjCPYBEIoBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=\u0026rs=AOn4CLDGaZNXUg6qdkyfs7wac_TUrYt2TQ",
+                                    "width": 246,
+                                    "height": 138
+                                },
+                                {
+                                    "url": "https://i.ytimg.com/vi/8QRurrK15LA/hqdefault.jpg?sqp=-oaymwEjCNACELwBSFryq4qpAxUIARUAAAAAGAElAADIQj0AgKJDeAE=\u0026rs=AOn4CLDjLp1LDmGyOAsz3yEUsYNjbm0g3Q",
+                                    "width": 336,
+                                    "height": 188
+                                },
+                                {
+                                    "url": "https://i.ytimg.com/vi/8QRurrK15LA/maxresdefault.jpg",
+                                    "width": 1920,
+                                    "height": 1080
+                                }
+                            ]
+                        },
+                        "left": 0.022807017,
+                        "width": 0.32280701,
+                        "top": 0.52492213,
+                        "aspectRatio": 1.7777778,
+                        "startMs": "762123",
+                        "endMs": "776041",
+                        "title": {
+                            "accessibility": {
+                                "accessibilityData": {
+                                    "label": "I went to JAPAN ADULT FESTIVAL II INDIAN IN JAPAN II Rom Rom Ji, video"
+                                }
+                            },
+                            "simpleText": "I went to JAPAN ADULT FESTIVAL II INDIAN IN JAPAN II Rom Rom Ji"
+                        },
+                        "metadata": {
+                            "simpleText": "82,333 views"
+                        },
+                        "endpoint": {
+                            "clickTrackingParams": "CAIQ8t4BGAEiEwjI9Me37JeLAxXlitgFHfAhIvoyDGl2LWVuZHNjcmVlbkin1Nv3luSAlmaaAQMQu2k=",
+                            "commandMetadata": {
+                                "webCommandMetadata": {
+                                    "url": "/watch?v=8QRurrK15LA",
+                                    "webPageType": "WEB_PAGE_TYPE_WATCH",
+                                    "rootVe": 3832
+                                },
+                                "interactionLoggingCommandMetadata": {
+                                    "loggingExpectations": {
+                                        "screenCreatedLoggingExpectations": {
+                                            "expectedParentScreens": [
+                                                {
+                                                    "screenVeType": 3832
+                                                }
+                                            ]
+                                        }
+                                    }
+                                }
+                            },
+                            "watchEndpoint": {
+                                "videoId": "8QRurrK15LA",
+                                "watchEndpointSupportedOnesieConfig": {
+                                    "html5PlaybackOnesieConfig": {
+                                        "commonConfig": {
+                                            "url": "https://rr5---sn-ci5gup-25ud.googlevideo.com/initplayback?source=youtube\u0026oeis=1\u0026c=WEB\u0026oad=3200\u0026ovd=3200\u0026oaad=11000\u0026oavd=11000\u0026ocs=700\u0026oewis=1\u0026oputc=1\u0026ofpcc=1\u0026msp=1\u0026odepv=1\u0026id=f1046eaeb2b5e4b0\u0026ip=182.64.179.18\u0026initcwndbps=563750\u0026mt=1738047409\u0026oweuc="
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "trackingParams": "CAIQ8t4BGAEiEwjI9Me37JeLAxXlitgFHfAhIvo=",
+                        "id": "9389868344493501650",
+                        "thumbnailOverlays": [
+                            {
+                                "thumbnailOverlayTimeStatusRenderer": {
+                                    "text": {
+                                        "accessibility": {
+                                            "accessibilityData": {
+                                                "label": "10 minutes, 16 seconds"
+                                            }
+                                        },
+                                        "simpleText": "10:16"
+                                    },
+                                    "style": "DEFAULT"
+                                }
+                            }
+                        ]
+                    }
+                }
+            ],
+            "startMs": "759029",
+            "trackingParams": "CAEQ794BIhMIyPTHt-yXiwMV5YrYBR3wISL6"
+        }
+    },
+    "adPlacements": [
+        {
+            "adPlacementRenderer": {
+                "config": {
+                    "adPlacementConfig": {
+                        "kind": "AD_PLACEMENT_KIND_START",
+                        "adTimeOffset": {
+                            "offsetStartMilliseconds": "0",
+                            "offsetEndMilliseconds": "-1"
+                        },
+                        "hideCueRangeMarker": true
+                    }
+                },
+                "renderer": {
+                    "clientForecastingAdRenderer": {}
+                },
+                "adSlotLoggingData": {
+                    "serializedSlotAdServingDataEntry": "ChMI1JzKt-yXiwMV6J7YBR3byRx4GhJiEGRBdlR6WjdKNmpmbTJaNkw="
+                }
+            }
+        },
+        {
+            "adPlacementRenderer": {
+                "config": {
+                    "adPlacementConfig": {
+                        "kind": "AD_PLACEMENT_KIND_MILLISECONDS",
+                        "adTimeOffset": {
+                            "offsetStartMilliseconds": "115000",
+                            "offsetEndMilliseconds": "557549"
+                        },
+                        "hideCueRangeMarker": true
+                    }
+                },
+                "renderer": {
+                    "adBreakServiceRenderer": {
+                        "prefetchMilliseconds": "10000",
+                        "getAdBreakUrl": "https://www.youtube.com/get_midroll_info?ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026m_pos=115\u0026token=AOmNmeUYxrZZL7WX8xJKK5XEgCEJAPCIhKqMUltkxBAtzVT7obsrqJVPwveRIv_r1ItC2-Al8CAEznL8GU2qftw9Bjoi8WhzLA3hGSDkKvvcJtZm4K_d7ZO5709lNgzL2Dy2624LzouyfTieumO5d9nrT9mpXotahOfOfSj6YND0u5iD5hwm3AIpvIzsVQ-0vBSEArc22ZtFvXCQMtW3TuWOcdlwLVitA-U2v9ixIh1G52JUAAo54WzHZaiOvY5Y7Zz1XsLT_TVDWKDsjSty_lH67gRKiPRw4R4dmMtRdx0VGvEPGAxrmI6kU9u92bSsy4ft6Ti5PO--SylJUdC6R-nK8uyouL58ig\u0026index=1\u0026cpn=[CPN]\u0026lact=[LACT]\u0026vis=[VIS]\u0026ad_block=[AD_BLOCK]\u0026tsla=[TSLA]\u0026bid=[BISCOTTI_ID]\u0026dt=[DT]\u0026flash=[FLASH]\u0026frm=[FRM]\u0026ca_type=[CA_TYPE]\u0026u_tz=[U_TZ]\u0026u_his=[U_HIS]\u0026u_java=[U_JAVA]\u0026u_h=[U_H]\u0026u_w=[U_W]\u0026u_ah=[U_AH]\u0026u_aw=[U_AW]\u0026u_cd=[U_CD]\u0026u_nplug=[U_NPLUG]\u0026u_nmime=[U_NMIME]\u0026p_w=[P_W]\u0026p_h=[P_H]\u0026c=WEB\u0026cver=2.20250127.01.00\u0026m_pos_ms=115000"
+                    }
+                },
+                "adSlotLoggingData": {
+                    "serializedSlotAdServingDataEntry": "ChMI1JzKt-yXiwMV6J7YBR3byRx4GhgYuIIHWANiEHNDa2U1TjAxZkhRU2FLeTg="
+                }
+            }
+        },
+        {
+            "adPlacementRenderer": {
+                "config": {
+                    "adPlacementConfig": {
+                        "kind": "AD_PLACEMENT_KIND_MILLISECONDS",
+                        "adTimeOffset": {
+                            "offsetStartMilliseconds": "557549",
+                            "offsetEndMilliseconds": "-1"
+                        },
+                        "hideCueRangeMarker": true
+                    }
+                },
+                "renderer": {
+                    "adBreakServiceRenderer": {
+                        "prefetchMilliseconds": "10000",
+                        "getAdBreakUrl": "https://www.youtube.com/get_midroll_info?ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026m_pos=557\u0026token=AOmNmeWIvFVeZg1kdHbxQoauO00vl_vQa_ei-q-RIVplrSlduo62KaB_ojZytwmhH8-WmQXciMMles_19WXeYqffcFnebcT5p7kNWzZ_jM1CaKB2MsMfkoEAZ70kEI-HX7u-8Vg4pUoZHss7TWOxov0kgFzBunyvYcN4E862bGDhyZ3cmdLv8C3RU4Ky6cbgZXiilOckoOg9YOBnvJfAA7i5udVVb74D49iOlIq9HyF4TkNIQyjDyZvzIf-6EFkzhfpdO0jdpzJvvuFancITq7OIOTpg6YXem4D_KTfeWZXGjYyULK4skyjbXRJSf-QdQdk0GvZBcHI6An494wTqUeuF1KTItrJBGg\u0026index=2\u0026cpn=[CPN]\u0026lact=[LACT]\u0026vis=[VIS]\u0026ad_block=[AD_BLOCK]\u0026tsla=[TSLA]\u0026bid=[BISCOTTI_ID]\u0026dt=[DT]\u0026flash=[FLASH]\u0026frm=[FRM]\u0026ca_type=[CA_TYPE]\u0026u_tz=[U_TZ]\u0026u_his=[U_HIS]\u0026u_java=[U_JAVA]\u0026u_h=[U_H]\u0026u_w=[U_W]\u0026u_ah=[U_AH]\u0026u_aw=[U_AW]\u0026u_cd=[U_CD]\u0026u_nplug=[U_NPLUG]\u0026u_nmime=[U_NMIME]\u0026p_w=[P_W]\u0026p_h=[P_H]\u0026c=WEB\u0026cver=2.20250127.01.00\u0026m_pos_ms=557549"
+                    }
+                },
+                "adSlotLoggingData": {
+                    "serializedSlotAdServingDataEntry": "ChMI1JzKt-yXiwMV6J7YBR3byRx4GhgY7YMiWAViEFpEQ1JadkVNWUVvYkJMOFU="
+                }
+            }
+        },
+        {
+            "adPlacementRenderer": {
+                "config": {
+                    "adPlacementConfig": {
+                        "kind": "AD_PLACEMENT_KIND_END",
+                        "adTimeOffset": {
+                            "offsetStartMilliseconds": "-1",
+                            "offsetEndMilliseconds": "-1"
+                        },
+                        "hideCueRangeMarker": true
+                    }
+                },
+                "renderer": {
+                    "adBreakServiceRenderer": {
+                        "prefetchMilliseconds": "10000",
+                        "getAdBreakUrl": "https://www.youtube.com/get_midroll_info?ei=CYGYZ4jMGeWV4t4P8MOI0Q8\u0026m_pos=-1\u0026token=AOmNmeUAPwdxvXXh98NVHfwq_05_KHVc4CE5g2FvuuVwlJQv-k7eIpnMSbC81-SWeudJUFxfdb8g4M5xSCrByl4SUOjocCYIIsxYDDhum-NvgQuhjzOHsw1x8_ogvZup6s6-uj8CCD9ZXHH3kN6oB61RRUlSYfb96tWTlo6nphQvMr8qYFUVkAwFXN5TGlzNEaF-ilXSjJgT5XS5OBh_IWvasZYAlFRgS4XEVl8n4XrpyjW7CeVbaWmTo_HgmVxToYGbyFhbV1LbRHOyYG68koAjkqE_g0Q2B9RYUN0e4ozn8IjPhkYbHyqUqd0UDpNh0CC1jI14h3p7smcHjXMrwovmkwpslixD7Q\u0026index=3\u0026cpn=[CPN]\u0026lact=[LACT]\u0026vis=[VIS]\u0026ad_block=[AD_BLOCK]\u0026tsla=[TSLA]\u0026bid=[BISCOTTI_ID]\u0026dt=[DT]\u0026flash=[FLASH]\u0026frm=[FRM]\u0026ca_type=[CA_TYPE]\u0026u_tz=[U_TZ]\u0026u_his=[U_HIS]\u0026u_java=[U_JAVA]\u0026u_h=[U_H]\u0026u_w=[U_W]\u0026u_ah=[U_AH]\u0026u_aw=[U_AW]\u0026u_cd=[U_CD]\u0026u_nplug=[U_NPLUG]\u0026u_nmime=[U_NMIME]\u0026p_w=[P_W]\u0026p_h=[P_H]\u0026c=WEB\u0026cver=2.20250127.01.00\u0026m_pos_ms=-1"
+                    }
+                },
+                "adSlotLoggingData": {
+                    "serializedSlotAdServingDataEntry": "ChMI1JzKt-yXiwMV6J7YBR3byRx4Gh8Y____________AVgGYhBJc25TMWlRNTZTbW1BUVEy"
+                }
+            }
+        }
+    ],
+    "adBreakHeartbeatParams": "Q0FBJTNE",
+    "frameworkUpdates": {
+        "entityBatchUpdate": {
+            "mutations": [
+                {
+                    "entityKey": "Eg0KC1ppd0RJVzcyNmljIPYBKAE%3D",
+                    "type": "ENTITY_MUTATION_TYPE_REPLACE",
+                    "payload": {
+                        "offlineabilityEntity": {
+                            "key": "Eg0KC1ppd0RJVzcyNmljIPYBKAE%3D",
+                            "addToOfflineButtonState": "ADD_TO_OFFLINE_BUTTON_STATE_UNKNOWN"
+                        }
+                    }
+                }
+            ],
+            "timestamp": {
+                "seconds": "1738047753",
+                "nanos": 500393353
+            }
+        }
+    }
+}
