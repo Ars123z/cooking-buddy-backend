@@ -17,8 +17,8 @@ def get_method(id):
             available_languages.append(obj.language_code)
 
         transcript = list.find_transcript(["en", "en-GB", "en-US", "fr", "de", "es", "it", "pt", "ru", "zh-Hans", "ja", "ko", "hi", "ar", "tr", "vi", "th", "id", "ms", "fil", "bn", "mr", "gu", "kn", "ta", "te", "ml", "si", "hu", "nl", "no", "pl", "fi", "sv", "da", "is", "cs", "sk", "ro", "bg", "uk", "el", "sq", "hr", "sr", "sl", "et", "lv", "lt", "hy", "mt", "sq", "bs", "mk", "mt", "sq", "bs", "mk", "af", "xh", "zu", "nso", "st", "tn", "ss", "ve", "nr", "sw", "rw", "lg", "ko", "ja"])
-        translatable_languages = transcript.translatable_languages
-        print(f"translatable_languages ${translatable_languages}")
+        translation_languages = transcript.translation_languages
+        print(f"translatable_languages ${translation_languages}")
         print(f"available_languages ${available_languages}")
         # if transcript.language_code == available_languages[0]:
         #     for i in translatable_languages:
