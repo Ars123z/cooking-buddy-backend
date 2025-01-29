@@ -53,7 +53,7 @@ def get_method(id):
         response = model.generate_content(f"""
             
 
-                Extract the ingredients and method from {text}. Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Use @ to enclose the tuples  like @(..,..)@ and , to separate them and use " to enclose ingredient and quantity and , to separate them. Format the method as a Python list of strings, where each string is a step.
+                Extract the ingredients and method from {text}. Format the ingredients as a Python list of tuples, where each tuple is (ingredient_name, quantity). Use @ to enclose the tuples  like @(..,..)@ and , to separate them and use " to enclose ingredient and quantity and , to separate them. Format the method as a Python list of strings, where each string is a step.Alway use # to enclose the steps like #..# and , to separate them.
 
                 For example:
 
@@ -118,7 +118,7 @@ def extract_ingredients_and_method(text):
 
 
         # Extract method
-        pattern = r'"(.*?)"'
+        pattern = r'#"(.*?)"#'
         steps = re.findall(pattern, text)
 
         return ingredients, steps
