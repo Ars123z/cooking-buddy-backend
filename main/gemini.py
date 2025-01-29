@@ -12,28 +12,9 @@ genai.configure(api_key="AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA")
 def get_method(id):
     try:
         list = YouTubeTranscriptApi.list_transcripts(video_id=id)
-        available_languages = []
-        for obj in list:
-            available_languages.append(obj.language_code)
-
-        transcript = list.find_transcript(["en", "en-GB", "en-US", "fr", "de", "es", "it", "pt", "ru", "zh-Hans", "ja", "ko", "hi", "ar", "tr", "vi", "th", "id", "ms", "fil", "bn", "mr", "gu", "kn", "ta", "te", "ml", "si", "hu", "nl", "no", "pl", "fi", "sv", "da", "is", "cs", "sk", "ro", "bg", "uk", "el", "sq", "hr", "sr", "sl", "et", "lv", "lt", "hy", "mt", "sq", "bs", "mk", "mt", "sq", "bs", "mk", "af", "xh", "zu", "nso", "st", "tn", "ss", "ve", "nr", "sw", "rw", "lg", "ko", "ja"])
-        translation_languages = transcript.translation_languages
-        print(f"translatable_languages ${translation_languages}")
-        print(f"available_languages ${available_languages}")
-        # if transcript.language_code == available_languages[0]:
-        #     for i in translatable_languages:
-        #         if i["language_code"] == "en":
-        #             transcript = transcript.translate("en")
-        #             break
-        #         elif i["language_code"] == "en-GB":
-        #             transcript = transcript.translate("en-GB")
-        #             break
-        #         elif i["language_code"] == "en-US":
-        #             transcript = transcript.translate("en-US")
-        #             break
-        #         else:
-        #             transcript = transcript.translate(translatable_languages[0]["language_code"])
-        #             break
+        transcript = list.find_transcript(['en', 'en-GB', 'en-US'])
+        print(transcript.available_languages)
+        print(transcript.translation_languages)
         transcript = transcript.fetch()
         text =TextFormatter().format_transcript(transcript)
         model = genai.GenerativeModel("gemini-1.5-flash")
