@@ -24,8 +24,7 @@ def get_method(id):
         print("============Available Languages=================")
         print(type(transcript_list._translation_languages))
         starting_list = ['en', 'en-GB', 'en-US', 'en-IN']
-        final_list = starting_list + list(transcript_list._manually_created_transcripts.keys()) 
-        + list(transcript_list._generated_transcripts.keys())
+        final_list = starting_list + list(transcript_list._manually_created_transcripts.keys()) + list(transcript_list._generated_transcripts.keys())
         print("============Final List=================")
         print(final_list)
         transcript = transcript_list.find_transcript(final_list)
