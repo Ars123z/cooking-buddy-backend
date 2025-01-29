@@ -12,6 +12,7 @@ genai.configure(api_key="AIzaSyBAFeFgmjem2W-VFQeIYP-orMwDza_EOqA")
 def get_method(id):
     try:
         list = YouTubeTranscriptApi.list_transcripts(video_id=id)
+        print(list)
         transcript = list.find_transcript(['en', 'en-GB', 'en-US'])
         print(transcript.language)
         print(transcript.language_code)
