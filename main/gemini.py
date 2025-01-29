@@ -16,9 +16,10 @@ def get_method(id):
         for obj in list:
             available_languages.append(obj.language_code)
 
-        transcript = list.find_transcript(["en", "en-GB", "en-US", [available_languages[0]]])
+        transcript = list.find_transcript(["en", "en-GB", "en-US"])
         translatable_languages = transcript.translatable_languages
-        print(translatable_languages)
+        print(f"translatable_languages ${translatable_languages}")
+        print(f"available_languages ${available_languages}")
         # if transcript.language_code == available_languages[0]:
         #     for i in translatable_languages:
         #         if i["language_code"] == "en":
