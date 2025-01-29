@@ -13,7 +13,8 @@ def get_method(id):
     try:
         list = YouTubeTranscriptApi.list_transcripts(video_id=id)
         transcript = list.find_transcript(['en', 'en-GB', 'en-US'])
-        print(transcript.available_languages)
+        print(transcript.language)
+        print(transcript.language_code)
         print(transcript.translation_languages)
         transcript = transcript.fetch()
         text =TextFormatter().format_transcript(transcript)
