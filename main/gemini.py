@@ -23,7 +23,7 @@ def get_method(id):
         # print(print(transcript_list._manually_created_transcripts))
         # print("============Available Languages=================")
         # print(type(transcript_list._translation_languages))
-        starting_list = ['en', 'en-GB', 'en-US']
+        starting_list = ['en', 'en-GB', 'en-US', 'en-IN']
         final_list = starting_list + list(available_transcripts.keys())
         print("============Final List=================")
         print(final_list)
@@ -39,6 +39,8 @@ def get_method(id):
                 transcript = transcript.translate('en-GB').fetch()
             elif "en-US" in transcript.translation_languages:
                 transcript = transcript.translate('en-US').fetch()
+            elif "en-IN" in transcript.translation_languages:
+                transcript = transcript.translate('en-IN').fetch()
             else:
                 transcript = transcript.fetch()
 
