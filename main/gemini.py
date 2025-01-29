@@ -32,8 +32,6 @@ def get_method(id):
                 Method:
                 ["Preheat oven to 350F", "Mix flour and sugar", "Add eggs and mix well"]
                 """)
-
-        print("there is the response" + response.text)
         return extract_ingredients_and_method(response.text)
     except TranscriptsDisabled as e:
         exc_type, exc_value, exc_traceback = sys.exc_info()
