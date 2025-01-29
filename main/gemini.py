@@ -32,7 +32,7 @@ def get_method(id):
         # print(transcript.language_code)
         # print(transcript.translation_languages)
 
-        if transcript.language_code not in ['en', 'en-GB', 'en-US']:
+        if transcript.language_code not in ['en', 'en-GB', 'en-US', 'en-IN']:
             if "en" in transcript.translation_languages:
                 transcript = transcript.translate('en').fetch()
             elif "en-GB" in transcript.translation_languages:
