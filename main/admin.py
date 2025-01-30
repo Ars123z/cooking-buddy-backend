@@ -3,11 +3,11 @@ from django.db import models
 from django.contrib.admin.widgets import FilteredSelectMultiple
 from django import forms
 
-from main.models import PlayList, Video, WatchHistory, Labels
+from main.models import Video, WatchHistory, Labels
 
 # Register your models here.
 
-admin.site.register(PlayList)
+# admin.site.register(PlayList)
 admin.site.register(WatchHistory)
 
 class VideoFilteredSelectMultiple(FilteredSelectMultiple): 

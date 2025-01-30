@@ -4,6 +4,7 @@ from googleapiclient.discovery import build
 from googleapiclient.errors import HttpError
 import random
 from django.conf import settings
+from django.utils import timezone
 
 from main.gemini import get_method, validate_search
 from .models import WatchHistory, PlayList, Labels
@@ -32,7 +33,7 @@ class SearchSerializer(serializers.Serializer):
 
                 response_list = []
                 for obj in response['items']:
-                    response_list.append({"video_id": obj['id']['videoId'], "title": obj['snippet']["title"], "description": obj['snippet']['description'], "thumbnail": obj['snippet']['thumbnails']['high']["url"], "channel_name": obj['snippet']["channelTitle"], "method": [], "ingredient_list": []})
+                    response_list.append({"video_id": obj['id']['videoId'], "title": obj['snippet']["title"], "description": obj['snippet']['description'], "thumbnail": obj['snippet']['thumbnails']['high']["url"], "channel_name": obj['snippet']["channelTitle"], "method": [], "ingredient_list": [], "last_fetched": timezone.now()})
 
                 # Save each video in the database using the serializer 
                 for video_data in response_list: 
@@ -113,7 +114,7 @@ class VideoSerializer(serializers.ModelSerializer):
     method = serializers.JSONField(default={})
     class Meta: 
         model = Video 
-        fields = ['id', 'video_id', 'title', 'description', 'channel_name', 'thumbnail', 'ingredient_list', 'method']
+        fields = ['id', 'video_id', 'title', 'description', 'channel_name', 'thumbnail', 'ingredient_list', 'method', 'last_fetched']
 
     def create(self, validated_data):
         """
@@ -152,104 +153,104 @@ class HistorySearchSerializer(serializers.Serializer):
             return {'results': e}
                 
 
-class RecommendationSerializer(serializers.Serializer):
+# class RecommendationSerializer(serializers.Serializer):
     
-    def build_recommendation(self):
-        user = self.context.get('user')
-        result = []
-        try:
-            history = WatchHistory.objects.get(user=user)
-            videos = list(history.videos.all())
-            random_videos = random.sample(videos, min(len(videos), 10))
-            for video in random_videos:
-                title = video.title
-                response= SearchSerializer().search(search_string=title)
-                result.append(list(response))
-            return result
-        except WatchHistory.DoesNotExist: 
-            return {"result": "no history created yet"}
+#     def build_recommendation(self):
+#         user = self.context.get('user')
+#         result = []
+#         try:
+#             history = WatchHistory.objects.get(user=user)
+#             videos = list(history.videos.all())
+#             random_videos = random.sample(videos, min(len(videos), 10))
+#             for video in random_videos:
+#                 title = video.title
+#                 response= SearchSerializer().search(search_string=title)
+#                 result.append(list(response))
+#             return result
+#         except WatchHistory.DoesNotExist: 
+#             return {"result": "no history created yet"}
 
     
 
-    def validate(self, attrs):
-        results = self.build_recommendation()
-        return {'results': results}
+    # def validate(self, attrs):
+    #     results = self.build_recommendation()
+    #     return {'results': results}
 
-class PlayListSerializer(serializers.ModelSerializer):
-    """
-    Serializer for PlayList model with comprehensive validation and custom create/update methods
-    """
-    add_video_ids = serializers.ListField(
-        child=serializers.CharField(), 
-        write_only=True,
-        required=False
-        ) # Assuming video_id is an IntegerField
-    remove_video_ids = serializers.ListField(
-        child=serializers.CharField(), 
-        write_only=True,
-        required=False
-        ) 
-    class Meta:
-        model = PlayList
-        fields = ['id', 'name', 'videos', 'user',
-                  'add_video_ids', 'remove_video_ids']
-        read_only_fields = ['user', 'videos']  # Prevent user manipulation from request data
+# class PlayListSerializer(serializers.ModelSerializer):
+#     """
+#     Serializer for PlayList model with comprehensive validation and custom create/update methods
+#     """
+#     add_video_ids = serializers.ListField(
+#         child=serializers.CharField(), 
+#         write_only=True,
+#         required=False
+#         ) # Assuming video_id is an IntegerField
+#     remove_video_ids = serializers.ListField(
+#         child=serializers.CharField(), 
+#         write_only=True,
+#         required=False
+#         ) 
+#     class Meta:
+#         model = PlayList
+#         fields = ['id', 'name', 'videos', 'user',
+#                   'add_video_ids', 'remove_video_ids']
+#         read_only_fields = ['user', 'videos']  # Prevent user manipulation from request data
 
-    def create(self, validated_data):
-        """
-        Custom create method to ensure the playlist is associated with the current user
-        """
-
-        
-        # Get the user from context (passed from the view)
-        user = self.context.get('user')
-        video_ids = validated_data.pop('video_ids', [])
-        
-        # Create playlist for the current user
-        playlist = PlayList.objects.create(user=user, **validated_data)
-
-        return playlist
-
-    def update(self, instance, validated_data):
-        """
-        Custom update method to append new videos to existing playlist
-        """
-        # Extract video_ids if provided
-        add_video_ids = validated_data.pop('add_video_ids', None)
-        remove_video_ids = validated_data.pop('remove_video_ids', None)
-        
-        # Update playlist basic info
-        for attr, value in validated_data.items():
-            setattr(instance, attr, value)
-        instance.save()
-
-        # Handle videos
-        add_video_intances = []
-        if add_video_ids is not None:
-            for id in add_video_ids:
-                video = Video.objects.get(video_id=id)
-                if video not in instance.videos.all():
-                    add_video_intances.append(video)
-            instance.videos.add(*add_video_intances)
+#     def create(self, validated_data):
+#         """
+#         Custom create method to ensure the playlist is associated with the current user
+#         """
 
         
-        if remove_video_ids is not None:
-            for id in remove_video_ids:
-                video = Video.objects.get(video_id=id)
-                if video in instance.videos.all():
-                    instance.videos.remove(video)
+#         # Get the user from context (passed from the view)
+#         user = self.context.get('user')
+#         video_ids = validated_data.pop('video_ids', [])
+        
+#         # Create playlist for the current user
+#         playlist = PlayList.objects.create(user=user, **validated_data)
+
+#         return playlist
+
+#     def update(self, instance, validated_data):
+#         """
+#         Custom update method to append new videos to existing playlist
+#         """
+#         # Extract video_ids if provided
+#         add_video_ids = validated_data.pop('add_video_ids', None)
+#         remove_video_ids = validated_data.pop('remove_video_ids', None)
+        
+#         # Update playlist basic info
+#         for attr, value in validated_data.items():
+#             setattr(instance, attr, value)
+#         instance.save()
+
+#         # Handle videos
+#         add_video_intances = []
+#         if add_video_ids is not None:
+#             for id in add_video_ids:
+#                 video = Video.objects.get(video_id=id)
+#                 if video not in instance.videos.all():
+#                     add_video_intances.append(video)
+#             instance.videos.add(*add_video_intances)
+
+        
+#         if remove_video_ids is not None:
+#             for id in remove_video_ids:
+#                 video = Video.objects.get(video_id=id)
+#                 if video in instance.videos.all():
+#                     instance.videos.remove(video)
             
-        instance.save()
-        return instance
+#         instance.save()
+#         return instance
 
     
-    def to_representation(self, instance):
-        """
-        Custom representation to ensure videos are serialized as full objects
-        """
-        representation = super().to_representation(instance)
-        # Ensure videos are fully serialized
-        representation['videos'] = VideoSerializer(instance.videos.all(), many=True).data
+#     def to_representation(self, instance):
+#         """
+#         Custom representation to ensure videos are serialized as full objects
+#         """
+#         representation = super().to_representation(instance)
+#         # Ensure videos are fully serialized
+#         representation['videos'] = VideoSerializer(instance.videos.all(), many=True).data
         return representation
     
 

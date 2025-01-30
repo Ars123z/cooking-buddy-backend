@@ -1,8 +1,10 @@
 from django.db import models
 
+
 from django.contrib.auth import get_user_model
 
 from accounts.models import User
+from django.utils import timezone
 
 # Create your models here.
 
@@ -16,16 +18,11 @@ class Video(models.Model):
     thumbnail = models.URLField(max_length=200)
     ingredient_list = models.JSONField()
     method = models.JSONField()
+    last_fetched = models.DateTimeField(default=timezone.now)
     
     def __str__(self): 
         return self.title
 
-
-class PlayList(models.Model):
-
-    name = models.CharField(max_length=255)
-    videos = models.ManyToManyField(Video, related_name="playlists")
-    user = models.ForeignKey(get_user_model(), on_delete=models.CASCADE)
 
 class WatchHistory(models.Model):
     user = models.OneToOneField(get_user_model(), on_delete=models.CASCADE)

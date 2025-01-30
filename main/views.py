@@ -37,140 +37,140 @@ class HistorySearchView(GenericAPIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
-class RecommendationView(GenericAPIView):
-    serializer_class = RecommendationSerializer
+# class RecommendationView(GenericAPIView):
+    # serializer_class = RecommendationSerializer
     
-    def get(self, request):
-        serializer = self.serializer_class(data = request.query_params, context= {"user": request.user})
+    # def get(self, request):
+    #     serializer = self.serializer_class(data = request.query_params, context= {"user": request.user})
 
-        if serializer.is_valid():
-            return Response(serializer.validated_data, status= status.HTTP_200_OK)
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+    #     if serializer.is_valid():
+    #         return Response(serializer.validated_data, status= status.HTTP_200_OK)
+    #     return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 
 
-class PlayListView(GenericAPIView):
-    """
-    API View for PlayList CRUD operations with comprehensive error handling
-    """
-    serializer_class = PlayListSerializer
-    permission_classes = [IsAuthenticated]  # Ensure only authenticated users can access
+# class PlayListView(GenericAPIView):
+#     """
+#     API View for PlayList CRUD operations with comprehensive error handling
+#     """
+#     serializer_class = PlayListSerializer
+#     permission_classes = [IsAuthenticated]  # Ensure only authenticated users can access
 
-    def get(self, request):
-        """
-        Retrieve all playlists for the current user
-        """
-        queryset = PlayList.objects.filter(user=request.user)
-        serializer = self.serializer_class(queryset, many=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+#     def get(self, request):
+#         """
+#         Retrieve all playlists for the current user
+#         """
+#         queryset = PlayList.objects.filter(user=request.user)
+#         serializer = self.serializer_class(queryset, many=True)
+#         return Response(serializer.data, status=status.HTTP_200_OK)
 
-    def post(self, request):
-        """
-        Create a new playlist for the current user
-        """
-        serializer = self.serializer_class(
-            data=request.data, 
-            context={'user': request.user}
-        )
+#     def post(self, request):
+#         """
+#         Create a new playlist for the current user
+#         """
+#         serializer = self.serializer_class(
+#             data=request.data, 
+#             context={'user': request.user}
+#         )
         
-        if serializer.is_valid():
-            serializer.save()
-            return Response(serializer.data, status=status.HTTP_201_CREATED)
+#         if serializer.is_valid():
+#             serializer.save()
+#             return Response(serializer.data, status=status.HTTP_201_CREATED)
         
-        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+#         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-class PlayListDetailView(GenericAPIView):
-    """
-    API View for individual playlist operations (Retrieve, Update, Delete)
-    """
-    serializer_class = PlayListSerializer
-    permission_classes = [IsAuthenticated]
+# class PlayListDetailView(GenericAPIView):
+#     """
+#     API View for individual playlist operations (Retrieve, Update, Delete)
+#     """
+#     serializer_class = PlayListSerializer
+#     permission_classes = [IsAuthenticated]
 
-    def get_queryset(self):
-        """
-        Ensure users can only access their own playlists
-        """
-        return PlayList.objects.filter(user=self.request.user)
+#     def get_queryset(self):
+#         """
+#         Ensure users can only access their own playlists
+#         """
+#         return PlayList.objects.filter(user=self.request.user)
 
-    def get(self, request, pk):
-        """
-        Retrieve a specific playlist by primary key
-        """
-        try:
-            playlist = self.get_queryset().get(pk=pk)
-            serializer = self.serializer_class(playlist)
-            return Response(serializer.data, status=status.HTTP_200_OK)
-        except PlayList.DoesNotExist:
-            return Response(
-                {"detail": "Playlist not found"}, 
-                status=status.HTTP_404_NOT_FOUND
-            )
+#     def get(self, request, pk):
+#         """
+#         Retrieve a specific playlist by primary key
+#         """
+#         try:
+#             playlist = self.get_queryset().get(pk=pk)
+#             serializer = self.serializer_class(playlist)
+#             return Response(serializer.data, status=status.HTTP_200_OK)
+#         except PlayList.DoesNotExist:
+#             return Response(
+#                 {"detail": "Playlist not found"}, 
+#                 status=status.HTTP_404_NOT_FOUND
+#             )
 
-    def put(self, request, pk):
-        """
-        Fully update a specific playlist
-        """
-        try:
-            playlist = self.get_queryset().get(pk=pk)
-            serializer = self.serializer_class(
-                playlist, 
-                data=request.data, 
-                context={'user': request.user}
-            )
+#     def put(self, request, pk):
+#         """
+#         Fully update a specific playlist
+#         """
+#         try:
+#             playlist = self.get_queryset().get(pk=pk)
+#             serializer = self.serializer_class(
+#                 playlist, 
+#                 data=request.data, 
+#                 context={'user': request.user}
+#             )
             
-            if serializer.is_valid():
-                serializer.save()
-                return Response(serializer.data, status=status.HTTP_200_OK)
+#             if serializer.is_valid():
+#                 serializer.save()
+#                 return Response(serializer.data, status=status.HTTP_200_OK)
             
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+#             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         
-        except PlayList.DoesNotExist:
-            return Response(
-                {"detail": "Playlist not found"}, 
-                status=status.HTTP_404_NOT_FOUND
-            )
+#         except PlayList.DoesNotExist:
+#             return Response(
+#                 {"detail": "Playlist not found"}, 
+#                 status=status.HTTP_404_NOT_FOUND
+#             )
 
-    def patch(self, request, pk):
-        """
-        Partially update a specific playlist
-        """
-        try:
-            playlist = self.get_queryset().get(pk=pk)
-            serializer = self.serializer_class(
-                playlist, 
-                data=request.data, 
-                partial=True,  # Allow partial updates
-                context={'user': request.user}
-            )
+#     def patch(self, request, pk):
+#         """
+#         Partially update a specific playlist
+#         """
+#         try:
+#             playlist = self.get_queryset().get(pk=pk)
+#             serializer = self.serializer_class(
+#                 playlist, 
+#                 data=request.data, 
+#                 partial=True,  # Allow partial updates
+#                 context={'user': request.user}
+#             )
             
-            if serializer.is_valid():
-                serializer.save()
-                return Response(serializer.data, status=status.HTTP_200_OK)
+#             if serializer.is_valid():
+#                 serializer.save()
+#                 return Response(serializer.data, status=status.HTTP_200_OK)
             
-            return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+#             return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
         
-        except PlayList.DoesNotExist:
-            return Response(
-                {"detail": "Playlist not found"}, 
-                status=status.HTTP_404_NOT_FOUND
-            )
+#         except PlayList.DoesNotExist:
+#             return Response(
+#                 {"detail": "Playlist not found"}, 
+#                 status=status.HTTP_404_NOT_FOUND
+#             )
 
-    def delete(self, request, pk):
-        """
-        Delete a specific playlist
-        """
-        try:
-            playlist = self.get_queryset().get(pk=pk)
-            playlist.delete()
-            return Response(
-                {"detail": "Playlist successfully deleted"}, 
-                status=status.HTTP_204_NO_CONTENT
-            )
-        except PlayList.DoesNotExist:
-            return Response(
-                {"detail": "Playlist not found"}, 
-                status=status.HTTP_404_NOT_FOUND
-            )
+#     def delete(self, request, pk):
+#         """
+#         Delete a specific playlist
+#         """
+#         try:
+#             playlist = self.get_queryset().get(pk=pk)
+#             playlist.delete()
+#             return Response(
+#                 {"detail": "Playlist successfully deleted"}, 
+#                 status=status.HTTP_204_NO_CONTENT
+#             )
+#         except PlayList.DoesNotExist:
+#             return Response(
+#                 {"detail": "Playlist not found"}, 
+#                 status=status.HTTP_404_NOT_FOUND
+#             )
 
 
 class UpdateWatchHistoryView(GenericAPIView):

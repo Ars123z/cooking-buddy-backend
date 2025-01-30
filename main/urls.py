@@ -10,8 +10,8 @@ urlpatterns = [
     path('history/', views.HistoryListView.as_view(), name='history'),
     path('recommended/', views.RecommendationView.as_view(), name='trending'),
     path('update-watch-history/', views.UpdateWatchHistoryView.as_view(), name="update_watch_history"),
-    path('playlists/', views.PlayListView.as_view(), name='playlist-list'),
-    path('playlists/<int:pk>/', views.PlayListDetailView.as_view(), name='playlist-detail'),
+    # path('playlists/', views.PlayListView.as_view(), name='playlist-list'),
+    # path('playlists/<int:pk>/', views.PlayListDetailView.as_view(), name='playlist-detail'),
     path('labels/', views.LabelListView.as_view(), name='label-list'), 
     path('labels/<int:pk>/', views.LabelDetailView.as_view(), name="label-detail"),
     
