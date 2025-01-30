@@ -30,11 +30,7 @@ def get_method(id):
         transcript = transcript_list.find_transcript(list(available_transcripts.keys()))
         # print(transcript.language)
         # print(transcript.language_code)
-        # print(transcript.translation_languages)
-        ingredients = []
-        method = []
-        return ingredients , method
-
+        # print(transcript.translation_languages
         if transcript.language_code not in ['en', 'en-GB', 'en-US', 'en-IN']:
             if "en" in transcript.translation_languages:
                 transcript = transcript.translate('en').fetch()
@@ -46,7 +42,6 @@ def get_method(id):
                 transcript = transcript.translate('en-IN').fetch()
             else:
                 transcript = transcript.fetch()
-
         else:
             transcript = transcript.fetch()
             print(transcript)
