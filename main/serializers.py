@@ -7,7 +7,7 @@ from django.conf import settings
 from django.utils import timezone
 
 from main.gemini import get_method, validate_search
-from .models import WatchHistory, PlayList, Labels
+from .models import WatchHistory, Labels
 
 from main.models import Video
 
