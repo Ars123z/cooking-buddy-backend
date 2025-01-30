@@ -8,8 +8,8 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework import status
 
 from main.gemini import get_method
-from .models import PlayList, Video, WatchHistory, Labels
-from main.serializers import HistorySearchSerializer, PlayListSerializer, RecommendationSerializer, SearchSerializer, UpdateWatchHistorySerializer, VideoSerializer, LabelSerializer
+from .models import Video, WatchHistory, Labels
+from main.serializers import HistorySearchSerializer, SearchSerializer, UpdateWatchHistorySerializer, VideoSerializer, LabelSerializer
 
 class SearchView(GenericAPIView):
     serializer_class = SearchSerializer
