@@ -22,7 +22,7 @@ def get_method(id):
         print("============Manually Created Transcripts=================")
         print(print(transcript_list._manually_created_transcripts))
         print("============Available Languages=================")
-        print(type(transcript_list._translation_languages))
+        print(transcript_list._translation_languages)
         starting_list = ['en', 'en-GB', 'en-US', 'en-IN']
         final_list = starting_list + list(transcript_list._manually_created_transcripts.keys()) + list(transcript_list._generated_transcripts.keys())
         print("============Final List=================")
