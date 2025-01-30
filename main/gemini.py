@@ -31,6 +31,9 @@ def get_method(id):
         # print(transcript.language)
         # print(transcript.language_code)
         # print(transcript.translation_languages)
+        ingredients = []
+        method = []
+        return ingredients , method
 
         if transcript.language_code not in ['en', 'en-GB', 'en-US', 'en-IN']:
             if "en" in transcript.translation_languages:
