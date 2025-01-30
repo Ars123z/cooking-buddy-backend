@@ -27,7 +27,7 @@ def get_method(id):
         final_list = starting_list + list(transcript_list._manually_created_transcripts.keys()) + list(transcript_list._generated_transcripts.keys())
         print("============Final List=================")
         print(final_list)
-        transcript = transcript_list.find_transcript(final_list)
+        transcript = transcript_list.find_transcript(list(available_transcripts.keys()))
         # print(transcript.language)
         # print(transcript.language_code)
         # print(transcript.translation_languages
